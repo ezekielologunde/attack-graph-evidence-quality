@@ -1,0 +1,7 @@
+{
+  "status": "artifact preparation; only certifi has complete design; no probes run",
+  "files": {
+    "protocol/public-evidence-v0.5-artifacts.json": "4c71a709a49c4cb165b28b6e0f4fa0ea1d2df624f917d744c894398e884718f1",
+    "protocol/public-evidence-v0.5-probe-addenda.md": "ca395cd8d2610fac3dfb24cfbc5501951e7acfa5a36a44e41ff4cffe7a73124a"
+  }
+}
