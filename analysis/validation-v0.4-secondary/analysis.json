@@ -1,0 +1,4562 @@
+{
+  "status": "post hoc descriptive analysis; no new experimental cases",
+  "aggregate": {
+    "naive_immediate": {
+      "mean_loss": 1.8658333333333332,
+      "mean_spend": 1,
+      "mean_oracle_regret": 0.7678125,
+      "query_count": 0,
+      "conflict_case_count": 0
+    },
+    "naive_voi": {
+      "mean_loss": 1.7014166666666666,
+      "mean_spend": 1.0755208333333333,
+      "mean_oracle_regret": 0.6033958333333334,
+      "query_count": 29,
+      "conflict_case_count": 0
+    },
+    "deduplicated_immediate": {
+      "mean_loss": 1.8658333333333332,
+      "mean_spend": 1,
+      "mean_oracle_regret": 0.7678125,
+      "query_count": 0,
+      "conflict_case_count": 12
+    },
+    "deduplicated_voi": {
+      "mean_loss": 1.7014166666666666,
+      "mean_spend": 1.0729166666666667,
+      "mean_oracle_regret": 0.6033958333333334,
+      "query_count": 28,
+      "conflict_case_count": 12
+    },
+    "lineage_age_immediate": {
+      "mean_loss": 1.8658333333333332,
+      "mean_spend": 1,
+      "mean_oracle_regret": 0.7678125,
+      "query_count": 0,
+      "conflict_case_count": 12
+    },
+    "lineage_age_voi": {
+      "mean_loss": 1.7011666666666665,
+      "mean_spend": 1.0755208333333333,
+      "mean_oracle_regret": 0.6031458333333334,
+      "query_count": 29,
+      "conflict_case_count": 12
+    },
+    "factorized_lineage_age_immediate": {
+      "mean_loss": 1.8658333333333332,
+      "mean_spend": 1,
+      "mean_oracle_regret": 0.7678125,
+      "query_count": 0,
+      "conflict_case_count": 12
+    },
+    "factorized_lineage_age_voi": {
+      "mean_loss": 1.7046666666666666,
+      "mean_spend": 1.078125,
+      "mean_oracle_regret": 0.6066458333333333,
+      "query_count": 30,
+      "conflict_case_count": 12
+    },
+    "privileged_immediate": {
+      "mean_loss": 1.8658333333333332,
+      "mean_spend": 1,
+      "mean_oracle_regret": 0.7678125,
+      "query_count": 0,
+      "conflict_case_count": 0
+    },
+    "privileged_voi": {
+      "mean_loss": 1.7006666666666665,
+      "mean_spend": 1.0755208333333333,
+      "mean_oracle_regret": 0.6026458333333333,
+      "query_count": 29,
+      "conflict_case_count": 0
+    }
+  },
+  "primary_subgroups": {
+    "graph": {
+      "four_gate_bypass_cycle": {
+        "n": 32,
+        "lower": 11,
+        "tie": 21,
+        "higher": 0,
+        "minimum": -0.6500000000000001,
+        "median": 0.0,
+        "maximum": 4.440892098500626e-16
+      },
+      "four_gate_diamond": {
+        "n": 32,
+        "lower": 16,
+        "tie": 16,
+        "higher": 0,
+        "minimum": -1.0,
+        "median": -0.2124999999999999,
+        "maximum": 0.0
+      },
+      "four_gate_shared_bridge": {
+        "n": 32,
+        "lower": 0,
+        "tie": 32,
+        "higher": 0,
+        "minimum": 0.0,
+        "median": 0.0,
+        "maximum": 0.0
+      }
+    },
+    "prior": {
+      "independent_half": {
+        "n": 48,
+        "lower": 16,
+        "tie": 32,
+        "higher": 0,
+        "minimum": -1.0,
+        "median": 0.0,
+        "maximum": 0.0
+      },
+      "shared_cause_mixture": {
+        "n": 48,
+        "lower": 11,
+        "tie": 37,
+        "higher": 0,
+        "minimum": -0.49999999999999956,
+        "median": 0.0,
+        "maximum": 4.440892098500626e-16
+      }
+    },
+    "evidence": {
+      "copies_correct": {
+        "n": 12,
+        "lower": 3,
+        "tie": 9,
+        "higher": 0,
+        "minimum": -0.8500000000000001,
+        "median": 0.0,
+        "maximum": 0.0
+      },
+      "copies_split": {
+        "n": 12,
+        "lower": 3,
+        "tie": 9,
+        "higher": 0,
+        "minimum": -0.8500000000000001,
+        "median": 0.0,
+        "maximum": 0.0
+      },
+      "false_merge_conflict": {
+        "n": 12,
+        "lower": 4,
+        "tie": 8,
+        "higher": 0,
+        "minimum": -1.0,
+        "median": 0.0,
+        "maximum": 0.0
+      },
+      "independent_conflict": {
+        "n": 12,
+        "lower": 4,
+        "tie": 8,
+        "higher": 0,
+        "minimum": -1.0,
+        "median": 0.0,
+        "maximum": 0.0
+      },
+      "single": {
+        "n": 12,
+        "lower": 3,
+        "tie": 9,
+        "higher": 0,
+        "minimum": -0.8500000000000001,
+        "median": 0.0,
+        "maximum": 0.0
+      },
+      "split_and_stale": {
+        "n": 12,
+        "lower": 3,
+        "tie": 9,
+        "higher": 0,
+        "minimum": -0.9700000000000002,
+        "median": 0.0,
+        "maximum": 4.440892098500626e-16
+      },
+      "stale_correct": {
+        "n": 12,
+        "lower": 4,
+        "tie": 8,
+        "higher": 0,
+        "minimum": -0.9700000000000002,
+        "median": 0.0,
+        "maximum": 0.0
+      },
+      "stale_underestimated": {
+        "n": 12,
+        "lower": 3,
+        "tie": 9,
+        "higher": 0,
+        "minimum": -0.9700000000000002,
+        "median": 0.0,
+        "maximum": 0.0
+      }
+    },
+    "query_cost": {
+      "0.25": {
+        "n": 48,
+        "lower": 27,
+        "tie": 21,
+        "higher": 0,
+        "minimum": -1.0,
+        "median": -0.2499999999999999,
+        "maximum": 4.440892098500626e-16
+      },
+      "0.75": {
+        "n": 48,
+        "lower": 0,
+        "tie": 48,
+        "higher": 0,
+        "minimum": 0.0,
+        "median": 0.0,
+        "maximum": 0.0
+      }
+    }
+  },
+  "paired": [
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.8500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.8500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.8500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.8500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.8500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.8500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.8500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.8500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.8500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.8500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.8500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.8500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.8500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.8500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.8500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -1.0,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -1.0,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -1.0,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -1.0,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -1.0,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -1.0,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -1.0,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -1.0,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -1.0,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -1.0,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.9700000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.9700000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.9700000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.9700000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.9700000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.9700000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.9700000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.9700000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.9700000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.9700000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.9700000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.9700000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.9700000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.9700000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.9700000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.4249999999999998,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.4249999999999998,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.4249999999999998,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.4249999999999998,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.4249999999999998,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.4249999999999998,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.4249999999999998,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.4249999999999998,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.4249999999999998,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.4249999999999998,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.4249999999999998,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.4249999999999998,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.4249999999999998,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.4249999999999998,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.4249999999999998,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.49999999999999956,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.49999999999999956,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.49999999999999956,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.49999999999999956,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.49999999999999956,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.49999999999999956,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.49999999999999956,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.49999999999999956,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.49999999999999956,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.49999999999999956,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.4850000000000003,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.4850000000000003,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.4850000000000003,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.4850000000000003,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.4850000000000003,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.4850000000000003,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.4850000000000003,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.4850000000000003,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.4850000000000003,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.4850000000000003,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.4850000000000003,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.4850000000000003,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.4850000000000003,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.4850000000000003,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.4850000000000003,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_diamond",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_shared_bridge",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.43999999999999995,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.43999999999999995,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.43999999999999995,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.43999999999999995,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.43999999999999995,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.43999999999999995,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.43999999999999995,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.43999999999999995,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.43999999999999995,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.43999999999999995,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.43999999999999995,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.43999999999999995,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.43999999999999995,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.43999999999999995,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.43999999999999995,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.6500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.6500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.6500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.6500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.6500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.6500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.6500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.6500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.6500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.6500000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.6080000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.6080000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.6080000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.6080000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.6080000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.6080000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.6080000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.6080000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.6080000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.6080000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.6080000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.6080000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.6080000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.6080000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.6080000000000001,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "independent_half",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.17999999999999972,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.17999999999999972,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_split",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.07499999999999996,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.07499999999999996,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.07499999999999996,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.07499999999999996,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.07499999999999996,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "independent_conflict",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": -0.07499999999999996,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": -0.07499999999999996,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.07499999999999996,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.07499999999999996,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.07499999999999996,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "false_merge_conflict",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": -0.02400000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.02400000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.02400000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_correct",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": -0.02400000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.02400000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "stale_underestimated",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "naive",
+      "difference": 4.440892098500626e-16,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "deduplicated",
+      "difference": 4.440892098500626e-16,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "lineage_age",
+      "difference": 4.440892098500626e-16,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.25,
+      "policy_family": "privileged",
+      "difference": -0.02400000000000002,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "naive",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "deduplicated",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.0,
+      "queried": false
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "split_and_stale",
+      "query_cost": 0.75,
+      "policy_family": "privileged",
+      "difference": 0.0,
+      "queried": false
+    }
+  ],
+  "harmful_verification": [
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "single",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.17999999999999972,
+      "queried": true
+    },
+    {
+      "graph": "four_gate_bypass_cycle",
+      "prior": "shared_cause_mixture",
+      "evidence": "copies_correct",
+      "query_cost": 0.25,
+      "policy_family": "factorized_lineage_age",
+      "difference": 0.17999999999999972,
+      "queried": true
+    }
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "src/analyze_validation.py": "a48d4bec3c2d04340be9069bbefcf7c0b8d03149bbd0ecbb2fe72ab135217911",
+  "analysis/validation-v0.4/cases.jsonl": "1b2b16598bcd38beab193f7365fa89f78c950e6051524799e6960ecac13534c8",
+  "analysis/validation-v0.4/manifest.json": "2d3afa2c44912dd68aad7b7b09f9d8706b978f64e9381fc7d35525de35e90d3b",
+  "analysis/validation-v0.4-secondary/analysis.json": "88f4cf198a3baaded49456def57e8d5c60c97838b2f54e58c8563030288cd6f1",
+  "analysis/validation-v0.4-secondary/policy-table.md": "1d65245309826d3317b95d9c17735e17353e06eaedc60823abd505f8c63a7582"
+}

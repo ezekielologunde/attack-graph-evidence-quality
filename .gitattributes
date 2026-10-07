@@ -27,3 +27,5 @@ hpc/*.sh text eol=lf
 hpc/*.pbs text eol=lf
 hpc/*.py text eol=lf
 analysis/validation-v0.4/** -text
+analysis/validation-v0.4-secondary/** -text
+src/analyze_validation.py -text

@@ -1,5 +1,7 @@
 # Provenance-aware attack-graph decisions
 
+[Validation secondary analysis](analysis/validation-v0.4-secondary/Results.md): all ten policies compared; gains largely reflect verification rather than lineage correction, two dependence-approximation harms identified, and numerical query ties disclosed. Reproduce with `python -B src/analyze_validation.py`.
+
 [Portfolio roadmap and current-project completion checklist](protocol/portfolio-roadmap-2026-10-07.md): finish this attack-graph study before starting the next AI cybersecurity project.
 
 [ASA-X CPU handoff](hpc/README.md): preflight confirmed express queue limits and system Python 3.9.21. CPU smoke job 97283 and frozen validation job 97288 completed on ASA-X. GPU execution remains unverified.
