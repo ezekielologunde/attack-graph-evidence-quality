@@ -5,7 +5,7 @@ ROOT=Path(__file__).resolve().parents[1]
 
 def main():
  p=argparse.ArgumentParser();p.add_argument('--output',required=True);args=p.parse_args()
- if sys.version_info < (3,11):raise RuntimeError('Python 3.11+ required')
+ if sys.version_info < (3,9):raise RuntimeError('Python 3.9+ required for this smoke test')
  git=lambda *a:subprocess.check_output(['git','-C',str(ROOT),*a],text=True).strip()
  if git('status','--porcelain','--untracked-files=no'):raise RuntimeError('Tracked checkout is dirty')
  dest=Path(args.output).resolve()

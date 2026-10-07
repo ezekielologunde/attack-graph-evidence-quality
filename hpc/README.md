@@ -14,11 +14,21 @@ cd attack-graph-evidence-quality
 bash hpc/preflight.sh
 ```
 
-Share the preflight output with this chat. It checks limits, quota, Python, Git and express-queue resource fields. It does not dump environment variables or read SSH keys. Python 3.11 or later and Git are required; the model uses only Python's standard library. Do not install Docker or assume Docker is allowed on compute nodes.
+Share the preflight output with this chat. It checks limits, quota, Python, Git and express-queue resource fields. It does not dump environment variables or read SSH keys. Python 3.9 or later and Git are required for this smoke test; the model uses only Python's standard library. Do not install Docker or assume Docker is allowed on compute nodes.
 
 ## First queued job
 
-The requested smoke-test envelope is one CPU, 4 GB RAM and 15 minutes, subject to current queue rules. `smoke.pbs` deliberately contains no queue or resource directives until ASA-X's resource syntax and Python module are confirmed. Do not submit it using unknown defaults. Submit from the repository directory with the confirmed queue/resources. Avoid qsub -V, which exports the whole login environment.
+Live preflight on 7 October 2026 confirmed express limits of 1-4 CPUs, at most 16 GB, and wall time between one and four hours. The system interpreter is /usr/bin/python3, version 3.9.21. The PBS file now requests one CPU, 4 GB and one hour. One hour is a queue minimum, not an expected runtime.
+
+The unchanged 26-test suite passed locally under Python 3.9 in an isolated Linux container (image digest sha256:2d97f6910b16bd338d3060f261f53f144965f755599aab1acda1e13cf1731b1b). This supports lowering the smoke wrapper's minimum version; frozen research code and input hashes were not changed. Actual ASA-X execution remains to be checked.
+
+From the cloned repository on ASA-X:
+
+```sh
+git pull --ff-only && qsub hpc/smoke.pbs
+```
+
+Save the returned job ID. Do not resubmit merely because a job queues. Use `qstat JOB_ID`; after completion inspect `~/attack-graph-runs/smoke-JOB_ID/run.json` and `tests.stderr.txt`, plus the PBS log in the submission directory. A qstat entry disappearing is not proof of success. Avoid qsub -V, which exports the entire login environment.
 
 Before submission record `git rev-parse HEAD` and keep that checkout unchanged until the job completes. The runner rejects changed tracked files and mismatched frozen hashes. It writes outside the checkout to `$HOME/attack-graph-runs/smoke-PBS_JOBID`, refuses to overwrite that run, and records the actual commit, job ID, Python version, test logs and SHA256 manifest. No random seeds are needed for these deterministic unit checks.
 
@@ -26,4 +36,4 @@ Before submission record `git rev-parse HEAD` and keep that checkout unchanged u
 
 Download only the run directory and scheduler log after the job finishes. Verify its manifest locally, inspect failures, and then commit suitable result summaries and provenance through the existing local GitHub workflow. Do not put GitHub credentials on the cluster just to upload results. Large datasets stay in approved cluster storage; publish acquisition instructions and hashes rather than blindly committing them.
 
-This preparation does not establish SSH access from this chat, successful PBS submission, Python-module availability or cluster execution. ASA's public documentation page states that detailed HPC documentation requires account login: https://asc.edu/service/hpc-documentation . Resource syntax remains pending preflight and site documentation. The earlier sealed validation protocol is unchanged; a separate versioned execution wrapper must be reviewed before that study is run.
+The live terminal confirms SSH login and preflight, but this chat can only read that terminal. Successful PBS submission and compute-node execution remain unverified. ASA's public documentation page states that detailed HPC documentation requires account login: https://asc.edu/service/hpc-documentation . The request uses the PBS ncpus, mem and walltime resources shown by the live queue output; scheduler acceptance must still be checked. The earlier sealed validation protocol is unchanged; a separate versioned execution wrapper must be reviewed before that study is run.

@@ -1,6 +1,6 @@
 # Provenance-aware attack-graph decisions
 
-[ASA-X CPU handoff](hpc/README.md): portable smoke-test runner and PBS body prepared. Queue resources and Python module require site confirmation; no cluster job has been submitted.
+[ASA-X CPU handoff](hpc/README.md): preflight confirmed express queue limits and system Python 3.9.21. A one-CPU smoke job is prepared; no cluster job has been submitted by this chat.
 
 [Actual scanner comparison](analysis/scanner-comparison-v0.1/Results.md): OSV-Scanner and Trivy agree on the focal CVE across two manifest versions and expose a shared GitHub advisory source. Raw output and offline comparison code are preserved; no accuracy or performance ranking is claimed.
 

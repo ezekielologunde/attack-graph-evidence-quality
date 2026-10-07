@@ -1,12 +1,15 @@
 #!/usr/bin/env bash
 #PBS -N evidence-smoke
 #PBS -j oe
-# Site queue/resource requests must be supplied using verified ASA-X syntax.
+#PBS -S /bin/bash
+#PBS -q express
+#PBS -l walltime=01:00:00
+#PBS -l ncpus=1
+#PBS -l mem=4gb
 set -euo pipefail
 : "${PBS_JOBID:?Submit through PBS}"
 : "${PBS_O_WORKDIR:?Missing submission directory}"
 cd "$PBS_O_WORKDIR"
 export OMP_NUM_THREADS=1
 export OPENBLAS_NUM_THREADS=1
-# Load the verified site Python module before submission, or add it here later.
-python3 -B hpc/smoke.py --output "$HOME/attack-graph-runs/smoke-${PBS_JOBID}"
+/usr/bin/python3 -B hpc/smoke.py --output "$HOME/attack-graph-runs/smoke-${PBS_JOBID}"
