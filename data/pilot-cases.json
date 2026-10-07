@@ -1,0 +1,263 @@
+[
+  {
+    "name": "certain",
+    "reports": [
+      {
+        "asset": 0,
+        "value": 1,
+        "source": "a",
+        "true_source": "a",
+        "accuracy": 1,
+        "flip": 0
+      },
+      {
+        "asset": 1,
+        "value": 0,
+        "source": "b",
+        "true_source": "b",
+        "accuracy": 1,
+        "flip": 0
+      }
+    ],
+    "budget": 1.5,
+    "verify_cost": 0.25,
+    "verify_accuracy": 0.9
+  },
+  {
+    "name": "independent_disagreement",
+    "reports": [
+      {
+        "asset": 0,
+        "value": 1,
+        "source": "a1",
+        "true_source": "a1",
+        "accuracy": 0.8,
+        "flip": 0
+      },
+      {
+        "asset": 0,
+        "value": 0,
+        "source": "a2",
+        "true_source": "a2",
+        "accuracy": 0.8,
+        "flip": 0
+      },
+      {
+        "asset": 1,
+        "value": 1,
+        "source": "b",
+        "true_source": "b",
+        "accuracy": 0.6,
+        "flip": 0
+      }
+    ],
+    "budget": 1.5,
+    "verify_cost": 0.25,
+    "verify_accuracy": 0.9
+  },
+  {
+    "name": "duplicates",
+    "reports": [
+      {
+        "asset": 0,
+        "value": 0,
+        "source": "a",
+        "true_source": "a",
+        "accuracy": 0.8,
+        "flip": 0
+      },
+      {
+        "asset": 1,
+        "value": 1,
+        "source": "b",
+        "true_source": "b",
+        "accuracy": 0.8,
+        "flip": 0
+      },
+      {
+        "asset": 0,
+        "value": 1,
+        "source": "c",
+        "true_source": "c",
+        "accuracy": 0.8,
+        "flip": 0
+      },
+      {
+        "asset": 0,
+        "value": 1,
+        "source": "c",
+        "true_source": "c",
+        "accuracy": 0.8,
+        "flip": 0
+      },
+      {
+        "asset": 0,
+        "value": 1,
+        "source": "c",
+        "true_source": "c",
+        "accuracy": 0.8,
+        "flip": 0
+      },
+      {
+        "asset": 0,
+        "value": 1,
+        "source": "c",
+        "true_source": "c",
+        "accuracy": 0.8,
+        "flip": 0
+      },
+      {
+        "asset": 0,
+        "value": 1,
+        "source": "c",
+        "true_source": "c",
+        "accuracy": 0.8,
+        "flip": 0
+      }
+    ],
+    "budget": 1.5,
+    "verify_cost": 0.25,
+    "verify_accuracy": 0.9
+  },
+  {
+    "name": "deduplicated_control",
+    "reports": [
+      {
+        "asset": 0,
+        "value": 0,
+        "source": "a",
+        "true_source": "a",
+        "accuracy": 0.8,
+        "flip": 0
+      },
+      {
+        "asset": 1,
+        "value": 1,
+        "source": "b",
+        "true_source": "b",
+        "accuracy": 0.8,
+        "flip": 0
+      },
+      {
+        "asset": 0,
+        "value": 1,
+        "source": "c",
+        "true_source": "c",
+        "accuracy": 0.8,
+        "flip": 0
+      }
+    ],
+    "budget": 1.5,
+    "verify_cost": 0.25,
+    "verify_accuracy": 0.9
+  },
+  {
+    "name": "stale_observation",
+    "reports": [
+      {
+        "asset": 0,
+        "value": 1,
+        "source": "old",
+        "true_source": "old",
+        "accuracy": 0.9,
+        "flip": 0.8
+      },
+      {
+        "asset": 1,
+        "value": 1,
+        "source": "b",
+        "true_source": "b",
+        "accuracy": 0.6,
+        "flip": 0
+      }
+    ],
+    "budget": 1.5,
+    "verify_cost": 0.25,
+    "verify_accuracy": 0.9
+  },
+  {
+    "name": "incorrect_lineage",
+    "reports": [
+      {
+        "asset": 0,
+        "value": 0,
+        "source": "a",
+        "true_source": "a",
+        "accuracy": 0.8,
+        "flip": 0
+      },
+      {
+        "asset": 1,
+        "value": 1,
+        "source": "b",
+        "true_source": "b",
+        "accuracy": 0.8,
+        "flip": 0
+      },
+      {
+        "asset": 0,
+        "value": 1,
+        "source": "fake0",
+        "true_source": "c",
+        "accuracy": 0.8,
+        "flip": 0
+      },
+      {
+        "asset": 0,
+        "value": 1,
+        "source": "fake1",
+        "true_source": "c",
+        "accuracy": 0.8,
+        "flip": 0
+      },
+      {
+        "asset": 0,
+        "value": 1,
+        "source": "fake2",
+        "true_source": "c",
+        "accuracy": 0.8,
+        "flip": 0
+      },
+      {
+        "asset": 0,
+        "value": 1,
+        "source": "fake3",
+        "true_source": "c",
+        "accuracy": 0.8,
+        "flip": 0
+      },
+      {
+        "asset": 0,
+        "value": 1,
+        "source": "fake4",
+        "true_source": "c",
+        "accuracy": 0.8,
+        "flip": 0
+      }
+    ],
+    "budget": 1.5,
+    "verify_cost": 0.25,
+    "verify_accuracy": 0.9
+  },
+  {
+    "name": "cheap_verification",
+    "reports": [],
+    "budget": 1.5,
+    "verify_cost": 0.25,
+    "verify_accuracy": 0.9
+  },
+  {
+    "name": "expensive_verification",
+    "reports": [],
+    "budget": 1.5,
+    "verify_cost": 0.75,
+    "verify_accuracy": 0.9
+  },
+  {
+    "name": "verification_sacrifices_patch",
+    "reports": [],
+    "budget": 2,
+    "verify_cost": 0.25,
+    "verify_accuracy": 0.9
+  }
+]

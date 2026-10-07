@@ -1,6 +1,6 @@
 # Provenance-aware attack-graph decisions
 
-**Status: scoping review and pilot design.** Three public NASim scenario fixtures are pinned with their license and hashes. No experiments, validated novelty, outcome dataset, or final paper are claimed.
+**Status: exact synthetic feasibility pilot completed.** Three public NASim scenario fixtures are pinned with their license and hashes. Nine designed model cases have been evaluated by exact enumeration. No live experiments, validated novelty, production outcome dataset, or final paper are claimed.
 
 - [Initial novelty audit](protocol/novelty-audit-2026-10-06.md)
 - [Pilot design v0.1](protocol/pilot-design-v0.1.md)
@@ -19,3 +19,16 @@ Keep research questions and hypotheses in `protocol/`; put code in `src/`, tests
 Freeze each experimental plan and code revision before collection. Retain failed and excluded runs with reasons. Publish analysis and result artifacts as work progresses. Keep manuscript drafts in `paper/`, clearly versioned; deposit the author-permitted final paper after journal-policy review. A planned experiment is not a result, and public code is not peer-reviewed acceptance.
 
 Original work is intentionally unlicensed pending an author decision. Preserve applicable third-party notices. No dataset or final paper is claimed to exist merely because its directory is present.
+
+## Synthetic pilot
+
+[Results](analysis/Results.md) | [Implementation and limitations](protocol/pilot-implementation-notes.md) | [Case definitions](data/pilot-cases.json)
+
+Run with Python 3.11 or newer, standard library only:
+
+```sh
+python -m unittest discover -s tests
+python src/pilot.py
+```
+
+The pilot uses a two-path synthetic graph, not the NASim fixtures. Standard VOI improves the constructed cheap-verification case from 4.0 to 2.5 expected modeled loss, but correctly skips verification when expensive. Source-label errors defeat the provenance correction. These are analytical model expectations, not empirical attack frequencies. Original work remains unlicensed.

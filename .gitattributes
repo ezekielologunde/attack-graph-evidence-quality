@@ -1,1 +1,7 @@
 data/raw/** -text
+src/pilot.py -text
+tests/test_pilot.py -text
+data/pilot-cases.json -text
+analysis/pilot-results.json -text
+analysis/Results.md -text
+protocol/pilot-implementation-notes.md -text

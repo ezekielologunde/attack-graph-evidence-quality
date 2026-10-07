@@ -1,0 +1,8 @@
+{
+  "src/pilot.py": "abb625ff2e64dcfec76d6973e6c2a4fd224393d3c4b7919fbca38dccb9ec4010",
+  "tests/test_pilot.py": "ab50ec45d9d81ccf199ea38dd27ba67a5711d46cd34769b91bacd6fa5224e8da",
+  "data/pilot-cases.json": "1dfb9d7b2b17ae72b60005d2b07ebfd36518b92c7d90223c3b7c3df22111815a",
+  "analysis/pilot-results.json": "0b6338664d458534635c177ceb14ef0d0776564f369429083814f1132894cfc8",
+  "analysis/Results.md": "9bb063914fdc3a06abd46e1f18798eabd5711f2f4d15dc5b6da5e1a3a03a98fe",
+  "protocol/pilot-implementation-notes.md": "301ac9f977bf240753cd2feacb279c25be3319d70288d27b12b133fd2f0af573"
+}

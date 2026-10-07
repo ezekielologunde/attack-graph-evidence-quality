@@ -1,0 +1,15 @@
+# Implemented pilot scope
+
+6 October 2026. This is an exploratory measurement feasibility pilot, not a prospectively frozen effectiveness study. The initial design is broader than this implementation.
+
+Two independent entry-to-critical-target paths have latent binary enabled states, with modeled losses 10 and 8. Prior mass is uniform over the four states. A unit-cost patch perfectly disables one path. No deployment or NASim execution is involved. Observations have declared sensor accuracy; source groups represent a single underlying observation copied across collectors. An explicit binary state-flip probability translates a historical observation into a current-state likelihood. This does not model asset reassignment or real observation-age distributions.
+
+The evaluator derives conditional truth weights from the true collection groups; policies receive only reported groups and observation metadata. In the incorrect-lineage case, the evaluator knows that multiple reported groups actually share one observation, while policies do not. Truth weights and the full-state oracle are used only for scoring. Cross-source and cross-path errors are otherwise independent, so the lineage-aware Bayesian baseline is not a general correlation model.
+
+One optional noisy verification has accuracy 0.9. Its result is enumerated exactly and updates the policy belief before choosing patches with the remaining budget. Standard one-step VOI chooses between immediate patching and either verification by modeled terminal loss. Ties favor no verification. Verification cost is budget opportunity cost, not an additional monetary-loss term. Unused capacity is allowed; both modeled loss and expenditure are reported. The full-state oracle minimizes loss under the same budget and breaks ties by lower spend.
+
+Nine designed cases include a duplicate/control pair and cheap/expensive verification contrasts. These are not nine sampled environments or independent replications. Seven deployed-policy baselines plus a diagnostic oracle are calculated; every method uses the same scenario within a case. The supplementary random-query baseline is the exact mean over the two possible query choices, not sampled random runs.
+
+The oracle loss is checked against an independently written graph-reachability routine over all four states and all patch subsets. Other tests cover budget restrictions, duplicate invariance, total probability, explicit state flips and costly-query refusal. They validate this small calculation, not larger graphs or real-world assumptions.
+
+No new algorithm or novelty result is claimed. The useful findings are measurement checks: duplicates can alter naive decisions, ordinary deduplication and VOI can address constructed errors, and wrong lineage labels remove the benefit. Larger dependent-path graphs, unknown source dependence, noisy patch outcomes, NASim adaptation, held-out topology families and uncertainty estimates remain future work. Do not tune those experiments on a test split or treat public fixture acquisition as completed validation.
