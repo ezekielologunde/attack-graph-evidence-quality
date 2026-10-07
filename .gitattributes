@@ -30,3 +30,5 @@ analysis/validation-v0.4/** -text
 analysis/validation-v0.4-secondary/** -text
 src/analyze_validation.py -text
 protocol/public-evidence-v0.5* -text
+analysis/public-evidence-v0.5-selection/** -text
+src/select_public_evidence.py -text

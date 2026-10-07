@@ -1,0 +1,508 @@
+{
+  "status": "selection frozen before new scanner or behavior runs",
+  "acquisition": {
+    "url": "https://storage.googleapis.com/osv-vulnerabilities/PyPI/all.zip",
+    "started_utc": "2026-10-07T15:53:18.449438+00:00",
+    "finished_utc": "2026-10-07T15:53:22.230298+00:00",
+    "headers": {
+      "Content-Type": "application/zip",
+      "X-GUploader-UploadID": "AP6rU80DCNe97F3QbtjnK6u0N62PNrx3qE7OtZoSergyaJ00N1QGkca1jh10B4iFnlLfv9qAbGIsqDM_j4KEag",
+      "Expires": "Wed, 07 Oct 2026 16:53:17 GMT",
+      "Date": "Wed, 07 Oct 2026 15:53:17 GMT",
+      "Cache-Control": "public, max-age=3600",
+      "Last-Modified": "Wed, 07 Oct 2026 15:02:47 GMT",
+      "ETag": "\"a4460abc2723b388dd5394e1981b6ae0\"",
+      "x-goog-generation": "1791385367344901",
+      "x-goog-metageneration": "1",
+      "x-goog-stored-content-encoding": "identity",
+      "x-goog-stored-content-length": "35610149",
+      "x-goog-hash": "crc32c=8GpwtA==",
+      "x-goog-storage-class": "STANDARD",
+      "Accept-Ranges": "bytes",
+      "Content-Length": "35610149",
+      "Server": "UploadServer",
+      "Alt-Svc": "h3=\":443\"; ma=2592000,h3-29=\":443\"; ma=2592000",
+      "Connection": "close"
+    },
+    "bytes": 35610149,
+    "sha256": "d26cf9bf4f8bc878d0cdde1d115503cd78c5fce0629ff9840b9cdf6d9801019b"
+  },
+  "selection_code_commit": "dd892b8a94de4ebe735c0cb037aeeb8273c14160",
+  "selection_code_sha256": "241abea366eb1a8a97f6a5ddc3c325085815a63dd1817a2813ef4810f791c6d1",
+  "protocol_sha256": "8e7f0e46e00defc4cd7d3377c53093c84faaf3e84031d42f2235d385bb3ffce8",
+  "summary": {
+    "record_status_counts": {
+      "excluded": 24583,
+      "eligible": 1521
+    },
+    "exclusion_reason_counts": {
+      "outside_publication_window": 12863,
+      "no_PyPI_package_with_fixed_event": 13735,
+      "withdrawn": 592,
+      "development_advisory": 1,
+      "not_GHSA": 19633
+    },
+    "eligible_unique_pairs": 1600,
+    "selected_pairs": 20,
+    "selected_alias_clusters": 20
+  },
+  "selected": [
+    {
+      "id": "GHSA-227r-w5j2-6243",
+      "package": "invokeai",
+      "original_package_name": "invokeai",
+      "aliases": [
+        "CVE-2024-11042",
+        "PYSEC-2026-358"
+      ],
+      "published": "2025-03-20T12:32:41Z",
+      "members": [
+        {
+          "member": "GHSA-227r-w5j2-6243.json",
+          "sha256": "d62793aed0f54f23407e2425092961329a2639a20dc3f1e176e197e18363276d"
+        }
+      ],
+      "fixed_versions": [
+        "5.3.0rc1"
+      ],
+      "alias_cluster": 1,
+      "selection_rank": 1,
+      "behavioral_feasibility_candidate": true
+    },
+    {
+      "id": "GHSA-22c2-9gwg-mj59",
+      "package": "langroid",
+      "original_package_name": "langroid",
+      "aliases": [
+        "CVE-2025-46725",
+        "PYSEC-2026-1531"
+      ],
+      "published": "2025-05-20T18:01:52Z",
+      "members": [
+        {
+          "member": "GHSA-22c2-9gwg-mj59.json",
+          "sha256": "25d1a97d084b050c8c4d95350086baeb13fd825221865647afc9037f7bd33fdf"
+        }
+      ],
+      "fixed_versions": [
+        "0.53.15"
+      ],
+      "alias_cluster": 2,
+      "selection_rank": 2,
+      "behavioral_feasibility_candidate": true
+    },
+    {
+      "id": "GHSA-23fx-92m6-4f2g",
+      "package": "pretalx",
+      "original_package_name": "pretalx",
+      "aliases": [
+        "CVE-2023-28458",
+        "PYSEC-2023-40"
+      ],
+      "published": "2023-04-20T21:33:27Z",
+      "members": [
+        {
+          "member": "GHSA-23fx-92m6-4f2g.json",
+          "sha256": "6af0f0e14480a0ef0e32ae3ad485b09e2d2b0c7842018772ef16de0453a95531"
+        }
+      ],
+      "fixed_versions": [
+        "2.3.2"
+      ],
+      "alias_cluster": 3,
+      "selection_rank": 3,
+      "behavioral_feasibility_candidate": true
+    },
+    {
+      "id": "GHSA-23j4-mw76-5v7h",
+      "package": "scrapy",
+      "original_package_name": "scrapy",
+      "aliases": [],
+      "published": "2024-05-14T20:14:49Z",
+      "members": [
+        {
+          "member": "GHSA-23j4-mw76-5v7h.json",
+          "sha256": "da24b429229dabfc7215228a3768cb4ccf8a3bebdb6be083bc3d4d04f81cd680"
+        }
+      ],
+      "fixed_versions": [
+        "2.11.2"
+      ],
+      "alias_cluster": 4,
+      "selection_rank": 4,
+      "behavioral_feasibility_candidate": true
+    },
+    {
+      "id": "GHSA-23qq-p4gq-gc2g",
+      "package": "wordops",
+      "original_package_name": "wordops",
+      "aliases": [
+        "CVE-2024-34528",
+        "PYSEC-2024-175"
+      ],
+      "published": "2024-05-06T00:30:52Z",
+      "members": [
+        {
+          "member": "GHSA-23qq-p4gq-gc2g.json",
+          "sha256": "428d1c1f46b5d132f725d01a67d6c10901dab516187a81d49139822bec5cdecc"
+        }
+      ],
+      "fixed_versions": [
+        "3.21.0"
+      ],
+      "alias_cluster": 5,
+      "selection_rank": 5,
+      "behavioral_feasibility_candidate": true
+    },
+    {
+      "id": "GHSA-248v-346w-9cwc",
+      "package": "certifi",
+      "original_package_name": "certifi",
+      "aliases": [
+        "CVE-2024-39689",
+        "PYSEC-2024-230"
+      ],
+      "published": "2024-07-05T20:06:40Z",
+      "members": [
+        {
+          "member": "GHSA-248v-346w-9cwc.json",
+          "sha256": "684cf0f3079a4e62c5147ac9d02c84aa2eb022d3da6027c24f29f23dd5414521"
+        }
+      ],
+      "fixed_versions": [
+        "2024.7.4"
+      ],
+      "alias_cluster": 6,
+      "selection_rank": 6,
+      "behavioral_feasibility_candidate": true
+    },
+    {
+      "id": "GHSA-24hm-wm2h-h8w7",
+      "package": "peppol-py",
+      "original_package_name": "peppol-py",
+      "aliases": [
+        "CVE-2025-66371",
+        "PYSEC-2026-1765"
+      ],
+      "published": "2025-11-28T06:32:06Z",
+      "members": [
+        {
+          "member": "GHSA-24hm-wm2h-h8w7.json",
+          "sha256": "df5d4a4e10dd31160ab391528fff1f510cf379780025e5a177c9e07e53a3429c"
+        }
+      ],
+      "fixed_versions": [
+        "1.1.1"
+      ],
+      "alias_cluster": 7,
+      "selection_rank": 7,
+      "behavioral_feasibility_candidate": false
+    },
+    {
+      "id": "GHSA-24wv-mv5m-xv4h",
+      "package": "redis",
+      "original_package_name": "redis",
+      "aliases": [
+        "CVE-2023-28858",
+        "PYSEC-2023-45"
+      ],
+      "published": "2023-03-26T21:30:23Z",
+      "members": [
+        {
+          "member": "GHSA-24wv-mv5m-xv4h.json",
+          "sha256": "1b2fdb241dc8a6671b204898a6ac7f0535b140bec61139f748a0c25e5567c851"
+        },
+        {
+          "member": "GHSA-24wv-mv5m-xv4h.json",
+          "sha256": "1b2fdb241dc8a6671b204898a6ac7f0535b140bec61139f748a0c25e5567c851"
+        },
+        {
+          "member": "GHSA-24wv-mv5m-xv4h.json",
+          "sha256": "1b2fdb241dc8a6671b204898a6ac7f0535b140bec61139f748a0c25e5567c851"
+        }
+      ],
+      "fixed_versions": [
+        "4.3.6",
+        "4.4.3",
+        "4.5.3"
+      ],
+      "alias_cluster": 8,
+      "selection_rank": 8,
+      "behavioral_feasibility_candidate": false
+    },
+    {
+      "id": "GHSA-2522-mrjc-m688",
+      "package": "apache-airflow",
+      "original_package_name": "apache-airflow",
+      "aliases": [
+        "BIT-airflow-2024-31869",
+        "CVE-2024-31869",
+        "PYSEC-2026-1128"
+      ],
+      "published": "2024-04-18T09:30:44Z",
+      "members": [
+        {
+          "member": "GHSA-2522-mrjc-m688.json",
+          "sha256": "1b594493d8efcf71e092296f69cc3bce1c77911e27477e27c5b607e17c0f79aa"
+        }
+      ],
+      "fixed_versions": [
+        "2.9.0"
+      ],
+      "alias_cluster": 9,
+      "selection_rank": 9,
+      "behavioral_feasibility_candidate": false
+    },
+    {
+      "id": "GHSA-2586-f3p4-hq84",
+      "package": "lightgbm",
+      "original_package_name": "lightgbm",
+      "aliases": [
+        "CVE-2024-43598",
+        "PYSEC-2024-231"
+      ],
+      "published": "2024-11-12T18:30:58Z",
+      "members": [
+        {
+          "member": "GHSA-2586-f3p4-hq84.json",
+          "sha256": "6c87b8ed7453e2fcd4ec26f1e393c6f7fe5ee1693a000b7770fe75cb715b602c"
+        }
+      ],
+      "fixed_versions": [
+        "4.6.0"
+      ],
+      "alias_cluster": 10,
+      "selection_rank": 10,
+      "behavioral_feasibility_candidate": false
+    },
+    {
+      "id": "GHSA-258h-f687-4226",
+      "package": "pheonixappapi",
+      "original_package_name": "pheonixappapi",
+      "aliases": [
+        "CVE-2024-41951",
+        "PYSEC-2026-1779"
+      ],
+      "published": "2024-07-31T21:04:28Z",
+      "members": [
+        {
+          "member": "GHSA-258h-f687-4226.json",
+          "sha256": "732a7629491971dc41c35a58fa4c1515573f84b30a0f831759eb704452fd6fcd"
+        }
+      ],
+      "fixed_versions": [
+        "0.2.5"
+      ],
+      "alias_cluster": 11,
+      "selection_rank": 11,
+      "behavioral_feasibility_candidate": false
+    },
+    {
+      "id": "GHSA-2689-cw26-6cpj",
+      "package": "whoogle-search",
+      "original_package_name": "whoogle-search",
+      "aliases": [
+        "CVE-2024-53305",
+        "PYSEC-2026-2048"
+      ],
+      "published": "2025-04-16T18:31:54Z",
+      "members": [
+        {
+          "member": "GHSA-2689-cw26-6cpj.json",
+          "sha256": "4205108b03ac064701de0e37a0d8db4066b9fb94c16242d87ab40bc32d41156f"
+        }
+      ],
+      "fixed_versions": [
+        "0.9.1"
+      ],
+      "alias_cluster": 12,
+      "selection_rank": 12,
+      "behavioral_feasibility_candidate": false
+    },
+    {
+      "id": "GHSA-269x-pg5c-5xgm",
+      "package": "apache-airflow",
+      "original_package_name": "apache-airflow",
+      "aliases": [
+        "BIT-airflow-2023-39508",
+        "CVE-2023-39508",
+        "PYSEC-2023-134"
+      ],
+      "published": "2023-08-05T09:30:16Z",
+      "members": [
+        {
+          "member": "GHSA-269x-pg5c-5xgm.json",
+          "sha256": "455bc2de106d92c8b8e16216c5dc5b3bb3fdaaa9822fd60d9b7fc857008a97af"
+        }
+      ],
+      "fixed_versions": [
+        "2.6.0b1"
+      ],
+      "alias_cluster": 13,
+      "selection_rank": 13,
+      "behavioral_feasibility_candidate": false
+    },
+    {
+      "id": "GHSA-26c5-ppr8-f33p",
+      "package": "matrix-synapse",
+      "original_package_name": "matrix-synapse",
+      "aliases": [
+        "CVE-2023-32682",
+        "PYSEC-2023-84"
+      ],
+      "published": "2023-06-06T16:40:42Z",
+      "members": [
+        {
+          "member": "GHSA-26c5-ppr8-f33p.json",
+          "sha256": "2947bb00e786d897953ce5c584ecfa2e9996bb548497c20856774a414ecde6a2"
+        }
+      ],
+      "fixed_versions": [
+        "1.85.0"
+      ],
+      "alias_cluster": 14,
+      "selection_rank": 14,
+      "behavioral_feasibility_candidate": false
+    },
+    {
+      "id": "GHSA-26jh-r8g2-6fpr",
+      "package": "gradio",
+      "original_package_name": "gradio",
+      "aliases": [],
+      "published": "2024-10-10T22:11:29Z",
+      "members": [
+        {
+          "member": "GHSA-26jh-r8g2-6fpr.json",
+          "sha256": "ec9774c874f9aa7532d5f7fa5d881f631919648b02e14b09ee0177559507978a"
+        }
+      ],
+      "fixed_versions": [
+        "5.0.0"
+      ],
+      "alias_cluster": 15,
+      "selection_rank": 15,
+      "behavioral_feasibility_candidate": false
+    },
+    {
+      "id": "GHSA-273c-4g26-4jpm",
+      "package": "apache-airflow",
+      "original_package_name": "apache-airflow",
+      "aliases": [
+        "BIT-airflow-2025-62402",
+        "CVE-2025-62402",
+        "PYSEC-2026-1129"
+      ],
+      "published": "2025-10-30T12:31:11Z",
+      "members": [
+        {
+          "member": "GHSA-273c-4g26-4jpm.json",
+          "sha256": "bc1ea1e5fac2a2314dda5c172ae7ff4ff814a61343137ff1cd6e72fd1c8a0429"
+        }
+      ],
+      "fixed_versions": [
+        "3.1.1"
+      ],
+      "alias_cluster": 16,
+      "selection_rank": 16,
+      "behavioral_feasibility_candidate": false
+    },
+    {
+      "id": "GHSA-274c-rx2j-2v3x",
+      "package": "swift",
+      "original_package_name": "swift",
+      "aliases": [
+        "CVE-2022-47950",
+        "PYSEC-2026-927"
+      ],
+      "published": "2023-01-18T18:30:16Z",
+      "members": [
+        {
+          "member": "GHSA-274c-rx2j-2v3x.json",
+          "sha256": "844d042e5f7d07cfe573dc06808bd38628946d44a8d7f6ee56c95daf2ab439f4"
+        },
+        {
+          "member": "GHSA-274c-rx2j-2v3x.json",
+          "sha256": "844d042e5f7d07cfe573dc06808bd38628946d44a8d7f6ee56c95daf2ab439f4"
+        },
+        {
+          "member": "GHSA-274c-rx2j-2v3x.json",
+          "sha256": "844d042e5f7d07cfe573dc06808bd38628946d44a8d7f6ee56c95daf2ab439f4"
+        }
+      ],
+      "fixed_versions": [
+        "2.28.1",
+        "2.29.2",
+        "2.30.1"
+      ],
+      "alias_cluster": 17,
+      "selection_rank": 17,
+      "behavioral_feasibility_candidate": false
+    },
+    {
+      "id": "GHSA-275c-w5mq-v5m2",
+      "package": "paddlepaddle",
+      "original_package_name": "paddlepaddle",
+      "aliases": [
+        "CVE-2023-52313",
+        "PYSEC-2024-145"
+      ],
+      "published": "2024-01-03T09:30:33Z",
+      "members": [
+        {
+          "member": "GHSA-275c-w5mq-v5m2.json",
+          "sha256": "2207ffa55facb1273fab741179e8e710ae694d4668a0a5292d7911dc8d7a7938"
+        }
+      ],
+      "fixed_versions": [
+        "2.6.0"
+      ],
+      "alias_cluster": 18,
+      "selection_rank": 18,
+      "behavioral_feasibility_candidate": false
+    },
+    {
+      "id": "GHSA-279j-x4gx-hfrh",
+      "package": "gradio",
+      "original_package_name": "gradio",
+      "aliases": [
+        "CVE-2024-47871",
+        "PYSEC-2024-219"
+      ],
+      "published": "2024-10-10T22:08:51Z",
+      "members": [
+        {
+          "member": "GHSA-279j-x4gx-hfrh.json",
+          "sha256": "05fe9d9924de27d814aef9c61709a85e8d01d5cd0af442d393a60d4586d03022"
+        }
+      ],
+      "fixed_versions": [
+        "5.0.0"
+      ],
+      "alias_cluster": 19,
+      "selection_rank": 19,
+      "behavioral_feasibility_candidate": false
+    },
+    {
+      "id": "GHSA-27jx-ffw8-xrqv",
+      "package": "pgadmin4",
+      "original_package_name": "pgadmin4",
+      "aliases": [
+        "CVE-2024-3116",
+        "PYSEC-2026-1767"
+      ],
+      "published": "2024-04-04T15:30:34Z",
+      "members": [
+        {
+          "member": "GHSA-27jx-ffw8-xrqv.json",
+          "sha256": "752708ff81d857c890b6a0f2fd0747924752d2dd28c20ae3d14ccccee457213d"
+        }
+      ],
+      "fixed_versions": [
+        "8.5"
+      ],
+      "alias_cluster": 20,
+      "selection_rank": 20,
+      "behavioral_feasibility_candidate": false
+    }
+  ]
+}
