@@ -1,0 +1,16 @@
+{
+  "repository": "https://api.github.com/repos/Jjschwartz/NetworkAttackSimulator",
+  "commit": "4f26de37cfdc3e4553ed8b7484c4db8e2924bdea",
+  "candidate_paths": [
+    "LICENSE.md",
+    "nasim/scenarios/benchmark/medium-multi-site.yaml",
+    "nasim/scenarios/benchmark/medium-single-site.yaml",
+    "nasim/scenarios/benchmark/medium.yaml",
+    "nasim/scenarios/benchmark/small-honeypot.yaml",
+    "nasim/scenarios/benchmark/small-linear.yaml",
+    "nasim/scenarios/benchmark/small.yaml",
+    "nasim/scenarios/benchmark/tiny-hard.yaml",
+    "nasim/scenarios/benchmark/tiny-small.yaml",
+    "nasim/scenarios/benchmark/tiny.yaml"
+  ]
+}

@@ -1,0 +1,42 @@
+[
+  {
+    "path": "data/raw/nasim/LICENSE.md",
+    "url": "https://raw.githubusercontent.com/Jjschwartz/NetworkAttackSimulator/4f26de37cfdc3e4553ed8b7484c4db8e2924bdea/LICENSE.md",
+    "commit": "4f26de37cfdc3e4553ed8b7484c4db8e2924bdea",
+    "sha256": "1d8084ef9ea897ec462ce6c0e538f97967894699aac65c933804062714d3330a",
+    "bytes": 1068,
+    "retrieved_utc": "2026-10-07T04:24:36.337632+00:00",
+    "license": "MIT; accompanying LICENSE.md",
+    "role": "Upstream simulated scenario fixture, not remediation outcome data"
+  },
+  {
+    "path": "data/raw/nasim/tiny.yaml",
+    "url": "https://raw.githubusercontent.com/Jjschwartz/NetworkAttackSimulator/4f26de37cfdc3e4553ed8b7484c4db8e2924bdea/nasim/scenarios/benchmark/tiny.yaml",
+    "commit": "4f26de37cfdc3e4553ed8b7484c4db8e2924bdea",
+    "sha256": "9993dd03b027f4039a98761e94662577ce95010d4a89e9927a1fc7000acc45c5",
+    "bytes": 1464,
+    "retrieved_utc": "2026-10-07T04:24:36.541314+00:00",
+    "license": "MIT; accompanying LICENSE.md",
+    "role": "Upstream simulated scenario fixture, not remediation outcome data"
+  },
+  {
+    "path": "data/raw/nasim/small.yaml",
+    "url": "https://raw.githubusercontent.com/Jjschwartz/NetworkAttackSimulator/4f26de37cfdc3e4553ed8b7484c4db8e2924bdea/nasim/scenarios/benchmark/small.yaml",
+    "commit": "4f26de37cfdc3e4553ed8b7484c4db8e2924bdea",
+    "sha256": "ce49a31e8ab7e6776d84f47586605c88142f61d9b7a9cc70352ef6cc9a7d4466",
+    "bytes": 2145,
+    "retrieved_utc": "2026-10-07T04:24:36.786124+00:00",
+    "license": "MIT; accompanying LICENSE.md",
+    "role": "Upstream simulated scenario fixture, not remediation outcome data"
+  },
+  {
+    "path": "data/raw/nasim/medium.yaml",
+    "url": "https://raw.githubusercontent.com/Jjschwartz/NetworkAttackSimulator/4f26de37cfdc3e4553ed8b7484c4db8e2924bdea/nasim/scenarios/benchmark/medium.yaml",
+    "commit": "4f26de37cfdc3e4553ed8b7484c4db8e2924bdea",
+    "sha256": "9f801fc9cc217662d001134c1cd5479b18a6b57bd0ee97b730073568065b0bf7",
+    "bytes": 2954,
+    "retrieved_utc": "2026-10-07T04:24:36.968740+00:00",
+    "license": "MIT; accompanying LICENSE.md",
+    "role": "Upstream simulated scenario fixture, not remediation outcome data"
+  }
+]

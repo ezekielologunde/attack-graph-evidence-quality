@@ -1,6 +1,10 @@
 # Provenance-aware attack-graph decisions
 
-**Status: Proposed.** Research proposal only; no experiments, validated novelty, dataset, or final paper is asserted for this repository.
+**Status: scoping review and pilot design.** Three public NASim scenario fixtures are pinned with their license and hashes. No experiments, validated novelty, outcome dataset, or final paper are claimed.
+
+- [Initial novelty audit](protocol/novelty-audit-2026-10-06.md)
+- [Pilot design v0.1](protocol/pilot-design-v0.1.md)
+- [Data provenance](data/README.md)
 
 [Research protocol and prior-art leads](protocol/research-plan.md). This plan comes from the October 4, 2026 independent research portfolio. Its literature assessment must be refreshed before implementation and submission.
 
