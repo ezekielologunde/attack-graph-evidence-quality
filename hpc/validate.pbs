@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+#PBS -N evidence-validation
+#PBS -j oe
+#PBS -S /bin/bash
+#PBS -q express
+#PBS -l walltime=01:00:00
+#PBS -l ncpus=1
+#PBS -l mem=1gb
+set -euo pipefail
+: "${PBS_JOBID:?Submit through PBS}"
+: "${PBS_O_WORKDIR:?Missing submission directory}"
+cd "$PBS_O_WORKDIR"
+export OMP_NUM_THREADS=1
+export OPENBLAS_NUM_THREADS=1
+/usr/bin/python3 -B hpc/validate.py --output "$HOME/attack-graph-runs/validation-${PBS_JOBID}"
