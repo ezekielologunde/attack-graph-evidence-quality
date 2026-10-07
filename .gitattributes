@@ -33,3 +33,10 @@ protocol/public-evidence-v0.5* -text
 analysis/public-evidence-v0.5-selection/** -text
 src/select_public_evidence.py -text
 analysis/public-evidence-v0.5-provenance/** -text
+analysis/public-evidence-v0.5-behavior*/** -text
+analysis/public-evidence-v0.5-environments/** -text
+protocol/scrapy-compatible-lock.json -text
+src/public_behavior_probe.py -text
+src/resolve_public_environments.py -text
+src/run_public_behavior*.py -text
+src/verify_public_behavior.py -text

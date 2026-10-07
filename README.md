@@ -32,6 +32,8 @@
 
 ## Research identity and publication route
 
+[Public behavior checks v0.5](analysis/public-evidence-v0.5-behavior/Results.md): Scrapy redirect middleware and certifi trust-bundle checks match their predefined expectations in three repetitions. Twelve Scrapy setup failures are retained alongside corrected results. Three other selected packages remain environment-blocked; one case is excluded by protocol. These narrow checks do not establish operational remediation effectiveness. Verify saved evidence with `python src/verify_public_behavior.py`.
+
 Author: **Ezekiel Ologunde**. Affiliation: **Independent Researcher**, with no institutional affiliation. Corresponding email is pending confirmation. Intended route: a suitable ACM journal, selected after assessing the completed contribution. No journal has accepted this work and no publisher metadata or DOI is assigned.
 
 ## Repository workflow
