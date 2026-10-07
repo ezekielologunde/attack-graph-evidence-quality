@@ -1,0 +1,3 @@
+# Offline tokenizer setup correction
+
+The first uncached Langroid runs failed during import when tiktoken attempted to fetch its cl100k_base data. Preserve the entire original run series. Download the public file separately, verify the SHA-256 expected by the pinned tiktoken wheel, and mount its cache read-only for the new series. The URL, size, hash and UTC are in langroid-tokenizer.json. No network is enabled in the probe containers. The probe, wheel locks, repetitions, expected observations and limits remain unchanged. The corrected runner is committed before execution. Import completion remains uncertain until tested.
