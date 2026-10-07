@@ -1,0 +1,22 @@
+{
+  "status": "prospectively specified finite validation grid; not executed",
+  "budget": 1.5,
+  "query_accuracy": 0.9,
+  "query_costs": [0.25, 0.75],
+  "observation_cases": "All eight cases returned by frozen src/evidence_graph.py observation_cases, unchanged",
+  "policies": "All ten policies returned by frozen src/evidence_graph.py evaluate",
+  "expected_case_count": 96,
+  "graphs": [
+    {"name": "four_gate_diamond", "n": 4, "entry": "s", "edges": [["s","l",0],["s","r",1],["l","t",2],["r","t",3]], "targets": {"t": 10}},
+    {"name": "four_gate_shared_bridge", "n": 4, "entry": "s", "edges": [["s","m",0],["m","a",1],["m","b",2],["a","b",3]], "targets": {"a": 10,"b": 8}},
+    {"name": "four_gate_bypass_cycle", "n": 4, "entry": "s", "edges": [["s","a",0],["a","b",1],["b","a",2],["s","b",3],["b","t",2]], "targets": {"a": 4,"t": 10}}
+  ],
+  "priors": [
+    {"name": "independent_half", "construction": "Each of the sixteen binary states has mass 1/16"},
+    {"name": "shared_cause_mixture", "construction": "0.5 times the independent_half distribution plus mass 0.25 on 0000 and 0.25 on 1111"}
+  ],
+  "primary_endpoint": "lineage_age_voi expected_loss minus lineage_age_immediate expected_loss, paired within each case; negative favors verification",
+  "reporting": "Every case, per-graph min/median/max and counts below/equal/above zero using tolerance 1e-9; no p-values or population confidence intervals",
+  "secondary_endpoints": ["All policy expected losses and spends", "Oracle regret", "Query selection", "Dropped conflicting source groups"],
+  "rules": ["No tuning or replacing cases after inspecting results", "Impossible evidence is a reported failure, not silently excluded", "Preserve zero-benefit universal-cut cases", "Verify sealed hashes before executing", "Any code or specification change requires a versioned amendment before evaluation"]
+}

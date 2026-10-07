@@ -9,3 +9,8 @@ src/shared_paths.py -text
 tests/test_shared_paths.py -text
 data/shared-paths-v0.2.json -text
 analysis/shared-paths-v0.2/** -text
+src/evidence_graph.py -text
+tests/test_evidence_graph.py -text
+analysis/integrated-v0.3/** -text
+protocol/validation-v0.4.json -text
+protocol/validation-v0.4-seal.json -text

@@ -1,5 +1,7 @@
 # Provenance-aware attack-graph decisions
 
+**Latest:** [integrated evidence model v0.3](analysis/integrated-v0.3/Results.md) evaluates 144 designed cases; 26 tests pass. Run `python src/evidence_graph.py`. A [96-case prospective validation grid](protocol/validation-v0.4.json) is specified and sealed but has not been executed. This finite model validation is not the main empirical study.
+
 **Status: exact synthetic feasibility pilot completed.** Three public NASim scenario fixtures are pinned with their license and hashes. Nine designed model cases have been evaluated by exact enumeration. No live experiments, validated novelty, production outcome dataset, or final paper are claimed.
 
 **Dependency extension v0.2:** 18 additional designed calculations cover three shared-path graphs, three joint state distributions and two verification costs. [Results and limitations](analysis/shared-paths-v0.2/Results.md). These are development cases, not held-out validation. All 18 unit tests pass. Run `python src/shared_paths.py` to regenerate the versioned results and hash manifest. The original nine-case pilot remains unchanged.
