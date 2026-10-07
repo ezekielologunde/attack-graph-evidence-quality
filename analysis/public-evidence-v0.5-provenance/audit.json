@@ -1,0 +1,1717 @@
+{
+  "revision_acquisition": {
+    "url": "https://api.github.com/repos/github/advisory-database/commits/main",
+    "retrieved_utc": "2026-10-07T15:56:12.002302+00:00",
+    "sha256": "e303888dbb4e624f28af8c1023a9ba1ed9904c2702f3646ddca4c324cf558cbc",
+    "bytes": 120393,
+    "headers": {
+      "Date": "Wed, 07 Oct 2026 15:56:11 GMT",
+      "Content-Type": "application/json; charset=utf-8",
+      "Cache-Control": "public, max-age=60, s-maxage=60",
+      "Vary": "Accept,Accept-Encoding, Accept, X-Requested-With",
+      "ETag": "W/\"e303888dbb4e624f28af8c1023a9ba1ed9904c2702f3646ddca4c324cf558cbc\"",
+      "Last-Modified": "Wed, 07 Oct 2026 15:37:18 GMT",
+      "X-GitHub-Media-Type": "github.v3; format=json",
+      "x-github-api-version-selected": "2022-11-28",
+      "Access-Control-Expose-Headers": "ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset, Warning",
+      "Access-Control-Allow-Origin": "*",
+      "Strict-Transport-Security": "max-age=31536000; includeSubdomains; preload",
+      "X-Frame-Options": "deny",
+      "X-Content-Type-Options": "nosniff",
+      "X-XSS-Protection": "0",
+      "Referrer-Policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+      "Content-Security-Policy": "default-src 'none'",
+      "Server": "github.com",
+      "Accept-Ranges": "bytes",
+      "X-RateLimit-Limit": "60",
+      "X-RateLimit-Remaining": "59",
+      "X-RateLimit-Used": "1",
+      "X-RateLimit-Resource": "core",
+      "X-RateLimit-Reset": "1791392171",
+      "Transfer-Encoding": "chunked",
+      "X-GitHub-Request-Id": "FCA0:28AA9:809518:1A043E8:6AC66B9B",
+      "x-github-edge-region": "iad",
+      "connection": "close"
+    },
+    "status": "ok"
+  },
+  "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+  "license_acquisition": {
+    "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/LICENSE.md",
+    "retrieved_utc": "2026-10-07T15:56:12.417250+00:00",
+    "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+    "bytes": 18656,
+    "headers": {
+      "Connection": "close",
+      "Content-Length": "18656",
+      "Cache-Control": "max-age=300",
+      "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+      "Content-Type": "text/plain; charset=utf-8",
+      "ETag": "\"d4443773d02161d952f868c8c0ace9b1d7beab0042068031dcbe9b604c9374d9\"",
+      "Strict-Transport-Security": "max-age=31536000",
+      "X-Content-Type-Options": "nosniff",
+      "X-Frame-Options": "deny",
+      "X-XSS-Protection": "1; mode=block",
+      "X-GitHub-Request-Id": "4A92:183F1E:28838:39DAC:6AC66B9B",
+      "x-github-edge-region": "iad",
+      "Accept-Ranges": "bytes",
+      "Date": "Wed, 07 Oct 2026 15:56:11 GMT",
+      "Via": "1.1 varnish",
+      "X-Served-By": "cache-pdk-kpdk2140071-PDK",
+      "X-Cache": "MISS",
+      "X-Cache-Hits": "0",
+      "X-Timer": "S1791388571.496400,VS0,VE121",
+      "Vary": "Authorization,Accept-Encoding",
+      "Access-Control-Allow-Origin": "*",
+      "Cross-Origin-Resource-Policy": "cross-origin",
+      "X-Fastly-Request-ID": "5e305601c7955cfe1033bffabe2e217389828610",
+      "Expires": "Wed, 07 Oct 2026 16:01:11 GMT",
+      "Source-Age": "0"
+    },
+    "status": "ok"
+  },
+  "scope": "Documentary source audit, not independent affectedness validation",
+  "rows": [
+    {
+      "rank": 1,
+      "id": "GHSA-227r-w5j2-6243",
+      "package": "invokeai",
+      "aliases": [
+        "CVE-2024-11042",
+        "PYSEC-2026-358"
+      ],
+      "sources": [
+        "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/03/GHSA-227r-w5j2-6243/GHSA-227r-w5j2-6243.json"
+      ],
+      "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+      "retrievals": [
+        {
+          "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/advisories/github-reviewed/2025/03/GHSA-227r-w5j2-6243/GHSA-227r-w5j2-6243.json",
+          "retrieved_utc": "2026-10-07T15:56:12.785876+00:00",
+          "sha256": "bb2171dcbef8b1343a26996101b40961b55cec89707afa26105bbaecfe197913",
+          "bytes": 1864,
+          "headers": {
+            "Connection": "close",
+            "Content-Length": "1864",
+            "Cache-Control": "max-age=300",
+            "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+            "Content-Type": "text/plain; charset=utf-8",
+            "ETag": "\"83639af1d176c349ccf22df0b3d2d7a410018e93a62e3e3f408e2dc03f393234\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "deny",
+            "X-XSS-Protection": "1; mode=block",
+            "X-GitHub-Request-Id": "5E66:23D65B:A1998:13B234:6AC66B9B",
+            "x-github-edge-region": "iad",
+            "Accept-Ranges": "bytes",
+            "Date": "Wed, 07 Oct 2026 15:56:11 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-pdk-kpdk2140026-PDK",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1791388572.814205,VS0,VE127",
+            "Vary": "Authorization,Accept-Encoding",
+            "Access-Control-Allow-Origin": "*",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "X-Fastly-Request-ID": "71ad2db667af7edbcd45220bfe2f1ac77f8c7f0e",
+            "Expires": "Wed, 07 Oct 2026 16:01:11 GMT",
+            "Source-Age": "0"
+          },
+          "status": "ok"
+        }
+      ],
+      "relationship": "explicit source attribution to GitHub advisory database; retrieved same advisory ID",
+      "range_comparison": "matching structured ranges",
+      "summary": "InvokeAI Arbitrary File Deletion vulnerability",
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-11042"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/invoke-ai/invokeai/commit/5440c037674882b2ab7acd59087e9bb04b49657a"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/invoke-ai/InvokeAI"
+        },
+        {
+          "type": "WEB",
+          "url": "https://huntr.com/bounties/635535a7-c804-4789-ac3a-48d951263987"
+        }
+      ],
+      "source_modified": "2025-03-21T16:32:50Z",
+      "snapshot_modified": "2026-06-29T12:26:10.600431655Z",
+      "temporal_mismatch": true
+    },
+    {
+      "rank": 2,
+      "id": "GHSA-22c2-9gwg-mj59",
+      "package": "langroid",
+      "aliases": [
+        "CVE-2025-46725",
+        "PYSEC-2026-1531"
+      ],
+      "sources": [
+        "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/05/GHSA-22c2-9gwg-mj59/GHSA-22c2-9gwg-mj59.json"
+      ],
+      "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+      "retrievals": [
+        {
+          "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/advisories/github-reviewed/2025/05/GHSA-22c2-9gwg-mj59/GHSA-22c2-9gwg-mj59.json",
+          "retrieved_utc": "2026-10-07T15:56:12.787393+00:00",
+          "sha256": "db62d9af435352d731223247f7bb4ae90ff530f2e3ca3b8970a2127d41a66c72",
+          "bytes": 2233,
+          "headers": {
+            "Connection": "close",
+            "Content-Length": "2233",
+            "Cache-Control": "max-age=300",
+            "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+            "Content-Type": "text/plain; charset=utf-8",
+            "ETag": "\"0d914e2eba7e3a7d4d0a0c43927285e97cb9447dc42aa4040f7369ba15dbe5eb\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "deny",
+            "X-XSS-Protection": "1; mode=block",
+            "X-GitHub-Request-Id": "C10C:2488CE:1004D9:187642:6AC66B8D",
+            "x-github-edge-region": "iad",
+            "Accept-Ranges": "bytes",
+            "Date": "Wed, 07 Oct 2026 15:56:11 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-pdk-kpdk2140037-PDK",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1791388572.812538,VS0,VE112",
+            "Vary": "Authorization,Accept-Encoding",
+            "Access-Control-Allow-Origin": "*",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "X-Fastly-Request-ID": "cf4ec027953063b728e534659373d7aa2b34aa64",
+            "Expires": "Wed, 07 Oct 2026 16:01:11 GMT",
+            "Source-Age": "0"
+          },
+          "status": "ok"
+        }
+      ],
+      "relationship": "explicit source attribution to GitHub advisory database; retrieved same advisory ID",
+      "range_comparison": "matching structured ranges",
+      "summary": "Langroid has a Code Injection vulnerability in LanceDocChatAgent through vector_store",
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://github.com/langroid/langroid/security/advisories/GHSA-22c2-9gwg-mj59"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-46725"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/langroid/langroid/commit/0d9e4a7bb3ae2eef8d38f2e970ff916599a2b2a6"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/langroid/langroid"
+        }
+      ],
+      "source_modified": "2025-05-20T20:56:51Z",
+      "snapshot_modified": "2026-07-07T17:56:12.736797600Z",
+      "temporal_mismatch": true
+    },
+    {
+      "rank": 3,
+      "id": "GHSA-23fx-92m6-4f2g",
+      "package": "pretalx",
+      "aliases": [
+        "CVE-2023-28458",
+        "PYSEC-2023-40"
+      ],
+      "sources": [
+        "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/04/GHSA-23fx-92m6-4f2g/GHSA-23fx-92m6-4f2g.json"
+      ],
+      "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+      "retrievals": [
+        {
+          "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/advisories/github-reviewed/2023/04/GHSA-23fx-92m6-4f2g/GHSA-23fx-92m6-4f2g.json",
+          "retrieved_utc": "2026-10-07T15:56:12.787890+00:00",
+          "sha256": "d9506aca2131b0fe3dca8b03fa745af93e58ab953b7369841442aeb9b6b052bb",
+          "bytes": 2090,
+          "headers": {
+            "Connection": "close",
+            "Content-Length": "2090",
+            "Cache-Control": "max-age=300",
+            "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+            "Content-Type": "text/plain; charset=utf-8",
+            "ETag": "\"269740be3eb688e0e7d5837637cc9c1a304a1f95b53c550e6a4ea818ee117519\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "deny",
+            "X-XSS-Protection": "1; mode=block",
+            "X-GitHub-Request-Id": "9A2C:3BF1BB:11B5B4:1A24D2:6AC66B98",
+            "x-github-edge-region": "iad",
+            "Accept-Ranges": "bytes",
+            "Date": "Wed, 07 Oct 2026 15:56:11 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-pdk-kpdk2140055-PDK",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1791388572.813287,VS0,VE86",
+            "Vary": "Authorization,Accept-Encoding",
+            "Access-Control-Allow-Origin": "*",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "X-Fastly-Request-ID": "7b5aa90fd0340cda9329bbc367c10cfeacb2df43",
+            "Expires": "Wed, 07 Oct 2026 16:01:11 GMT",
+            "Source-Age": "0"
+          },
+          "status": "ok"
+        }
+      ],
+      "relationship": "explicit source attribution to GitHub advisory database; retrieved same advisory ID",
+      "range_comparison": "matching structured ranges",
+      "summary": "pretalx allows path traversal in HTML export",
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-28458"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/pretalx/pretalx/commit/60722c43cf975f319e94102e6bff320723776890"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/pretalx/pretalx"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/pretalx/pretalx/releases/tag/v2.3.2"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/pypa/advisory-database/tree/main/vulns/pretalx/PYSEC-2023-40.yaml"
+        },
+        {
+          "type": "WEB",
+          "url": "https://pretalx.com/p/news/security-release-232"
+        },
+        {
+          "type": "WEB",
+          "url": "https://www.sonarsource.com/blog/pretalx-vulnerabilities-how-to-get-accepted-at-every-conference"
+        }
+      ],
+      "source_modified": "2024-10-21T20:08:40Z",
+      "snapshot_modified": "2024-10-21T20:26:29.526471Z",
+      "temporal_mismatch": true
+    },
+    {
+      "rank": 4,
+      "id": "GHSA-23j4-mw76-5v7h",
+      "package": "scrapy",
+      "aliases": [],
+      "sources": [
+        "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/05/GHSA-23j4-mw76-5v7h/GHSA-23j4-mw76-5v7h.json"
+      ],
+      "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+      "retrievals": [
+        {
+          "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/advisories/github-reviewed/2024/05/GHSA-23j4-mw76-5v7h/GHSA-23j4-mw76-5v7h.json",
+          "retrieved_utc": "2026-10-07T15:56:12.787890+00:00",
+          "sha256": "30e2fd25efc9d93401d681508ad4345567210429d36fca4e5f3a5779bd683b7b",
+          "bytes": 2923,
+          "headers": {
+            "Connection": "close",
+            "Content-Length": "2923",
+            "Cache-Control": "max-age=300",
+            "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+            "Content-Type": "text/plain; charset=utf-8",
+            "ETag": "\"7dd7959a59e1a4459e4da1ecfb41ccd9b3701440a01a6a1135fde216d6427ac5\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "deny",
+            "X-XSS-Protection": "1; mode=block",
+            "X-GitHub-Request-Id": "3D42:1D3C58:109A6C:190964:6AC66B9B",
+            "x-github-edge-region": "iad",
+            "Accept-Ranges": "bytes",
+            "Date": "Wed, 07 Oct 2026 15:56:11 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-pdk-kfty8610041-PDK",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1791388572.811262,VS0,VE104",
+            "Vary": "Authorization,Accept-Encoding",
+            "Access-Control-Allow-Origin": "*",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "X-Fastly-Request-ID": "a7b6880c42fa8c647e616ccfe7e2d0ede7cbada6",
+            "Expires": "Wed, 07 Oct 2026 16:01:11 GMT",
+            "Source-Age": "0"
+          },
+          "status": "ok"
+        }
+      ],
+      "relationship": "explicit source attribution to GitHub advisory database; retrieved same advisory ID",
+      "range_comparison": "matching structured ranges",
+      "summary": "Scrapy allows redirect following in protocols other than HTTP",
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://github.com/scrapy/scrapy/security/advisories/GHSA-23j4-mw76-5v7h"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/scrapy/scrapy/issues/457"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/scrapy/scrapy/commit/36287cb665ab4b0c65fd53181c9a0ef04990ada6"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/scrapy/scrapy"
+        }
+      ],
+      "source_modified": "2024-05-14T20:14:50Z",
+      "snapshot_modified": "2024-11-28T05:42:50.070417Z",
+      "temporal_mismatch": true
+    },
+    {
+      "rank": 5,
+      "id": "GHSA-23qq-p4gq-gc2g",
+      "package": "wordops",
+      "aliases": [
+        "CVE-2024-34528",
+        "PYSEC-2024-175"
+      ],
+      "sources": [
+        "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/05/GHSA-23qq-p4gq-gc2g/GHSA-23qq-p4gq-gc2g.json"
+      ],
+      "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+      "retrievals": [
+        {
+          "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/advisories/github-reviewed/2024/05/GHSA-23qq-p4gq-gc2g/GHSA-23qq-p4gq-gc2g.json",
+          "retrieved_utc": "2026-10-07T15:56:12.949980+00:00",
+          "sha256": "afd58bf9c47497e20291e291ac1bdb9997d825c03264449f05c8be8e019a0088",
+          "bytes": 1983,
+          "headers": {
+            "Connection": "close",
+            "Content-Length": "1983",
+            "Cache-Control": "max-age=300",
+            "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+            "Content-Type": "text/plain; charset=utf-8",
+            "ETag": "\"792c563c9d298410a0f85c6294326ad1d9b57058c0d3798536433222f3bcb05c\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "deny",
+            "X-XSS-Protection": "1; mode=block",
+            "X-GitHub-Request-Id": "8BBA:A434B:262FC:37696:6AC66B9B",
+            "x-github-edge-region": "iad",
+            "Accept-Ranges": "bytes",
+            "Date": "Wed, 07 Oct 2026 15:56:12 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-pdk-kpdk2140054-PDK",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1791388572.974277,VS0,VE176",
+            "Vary": "Authorization,Accept-Encoding",
+            "Access-Control-Allow-Origin": "*",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "X-Fastly-Request-ID": "b9114776d55db920d48decee2e23da11eaec8465",
+            "Expires": "Wed, 07 Oct 2026 16:01:12 GMT",
+            "Source-Age": "0"
+          },
+          "status": "ok"
+        }
+      ],
+      "relationship": "explicit source attribution to GitHub advisory database; retrieved same advisory ID",
+      "range_comparison": "matching structured ranges",
+      "summary": "WordOps has TOCTOU race condition",
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-34528"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/WordOps/WordOps/issues/611"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/WordOps/WordOps/commit/31353f0fef14ad8bc1f61c028971bd30b9e1909b"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/WordOps/WordOps"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/WordOps/WordOps/blob/ecf20192c7853925e2cb3f8c8378cd0d86ca0d62/wo/cli/plugins/stack_pref.py#L77"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/pypa/advisory-database/tree/main/vulns/wordops/PYSEC-2024-175.yaml"
+        }
+      ],
+      "source_modified": "2025-01-21T18:28:26Z",
+      "snapshot_modified": "2025-01-21T18:36:27.337547Z",
+      "temporal_mismatch": true
+    },
+    {
+      "rank": 6,
+      "id": "GHSA-248v-346w-9cwc",
+      "package": "certifi",
+      "aliases": [
+        "CVE-2024-39689",
+        "PYSEC-2024-230"
+      ],
+      "sources": [
+        "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/07/GHSA-248v-346w-9cwc/GHSA-248v-346w-9cwc.json"
+      ],
+      "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+      "retrievals": [
+        {
+          "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/advisories/github-reviewed/2024/07/GHSA-248v-346w-9cwc/GHSA-248v-346w-9cwc.json",
+          "retrieved_utc": "2026-10-07T15:56:12.965829+00:00",
+          "sha256": "c44b72982dd0e9eca7d5af4f6f28b6d879998a4a965f050112fee9be3bfb5fb7",
+          "bytes": 2151,
+          "headers": {
+            "Connection": "close",
+            "Content-Length": "2151",
+            "Cache-Control": "max-age=300",
+            "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+            "Content-Type": "text/plain; charset=utf-8",
+            "ETag": "\"d434ac272c8b2f8f98771cf3846e1e05429d84f2ce6fa0e296e94fa2c773bd6d\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "deny",
+            "X-XSS-Protection": "1; mode=block",
+            "X-GitHub-Request-Id": "1710:5FE44:3AED2:512C8:6AC66B9B",
+            "x-github-edge-region": "iad",
+            "Accept-Ranges": "bytes",
+            "Date": "Wed, 07 Oct 2026 15:56:12 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-pdk-kpdk2140065-PDK",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1791388572.986577,VS0,VE188",
+            "Vary": "Authorization,Accept-Encoding",
+            "Access-Control-Allow-Origin": "*",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "X-Fastly-Request-ID": "ded0dfd90a3d50d7bbe15c95f216ea55963dfb17",
+            "Expires": "Wed, 07 Oct 2026 16:01:12 GMT",
+            "Source-Age": "0"
+          },
+          "status": "ok"
+        }
+      ],
+      "relationship": "explicit source attribution to GitHub advisory database; retrieved same advisory ID",
+      "range_comparison": "matching structured ranges",
+      "summary": "Certifi removes GLOBALTRUST root certificate",
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://github.com/certifi/python-certifi/security/advisories/GHSA-248v-346w-9cwc"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-39689"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/certifi/python-certifi/commit/bd8153872e9c6fc98f4023df9c2deaffea2fa463"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/certifi/python-certifi"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/pypa/advisory-database/tree/main/vulns/certifi/PYSEC-2024-230.yaml"
+        },
+        {
+          "type": "WEB",
+          "url": "https://groups.google.com/a/mozilla.org/g/dev-security-policy/c/XpknYMPO8dI"
+        },
+        {
+          "type": "WEB",
+          "url": "https://security.netapp.com/advisory/ntap-20241206-0001"
+        }
+      ],
+      "source_modified": "2025-02-13T00:44:19Z",
+      "snapshot_modified": "2026-09-10T03:50:15.994602411Z",
+      "temporal_mismatch": true
+    },
+    {
+      "rank": 7,
+      "id": "GHSA-24hm-wm2h-h8w7",
+      "package": "peppol-py",
+      "aliases": [
+        "CVE-2025-66371",
+        "PYSEC-2026-1765"
+      ],
+      "sources": [
+        "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/11/GHSA-24hm-wm2h-h8w7/GHSA-24hm-wm2h-h8w7.json"
+      ],
+      "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+      "retrievals": [
+        {
+          "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/advisories/github-reviewed/2025/11/GHSA-24hm-wm2h-h8w7/GHSA-24hm-wm2h-h8w7.json",
+          "retrieved_utc": "2026-10-07T15:56:12.972952+00:00",
+          "sha256": "c583a6b02f73982c17bdb2b822aee7eb8daa775a7edd14c560b76dbfbee1fdd2",
+          "bytes": 1813,
+          "headers": {
+            "Connection": "close",
+            "Content-Length": "1813",
+            "Cache-Control": "max-age=300",
+            "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+            "Content-Type": "text/plain; charset=utf-8",
+            "ETag": "\"4bec24395bc7e35ff836c81eb8d8f88b60565ecf2523297965250d80ab4b3c41\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "deny",
+            "X-XSS-Protection": "1; mode=block",
+            "X-GitHub-Request-Id": "5E08:3CC63:103861:18A965:6AC66B99",
+            "x-github-edge-region": "iad",
+            "Accept-Ranges": "bytes",
+            "Date": "Wed, 07 Oct 2026 15:56:12 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-pdk-kpdk2140059-PDK",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1791388572.004889,VS0,VE104",
+            "Vary": "Authorization,Accept-Encoding",
+            "Access-Control-Allow-Origin": "*",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "X-Fastly-Request-ID": "360bb5c72914b1533a21413e1b392a5037f291cc",
+            "Expires": "Wed, 07 Oct 2026 16:01:12 GMT",
+            "Source-Age": "0"
+          },
+          "status": "ok"
+        }
+      ],
+      "relationship": "explicit source attribution to GitHub advisory database; retrieved same advisory ID",
+      "range_comparison": "matching structured ranges",
+      "summary": "Peppol-py is vulnerable to XXE attacks due to Saxon configuration",
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-66371"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/iterasdev/peppol-py/pull/16"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/iterasdev/peppol-py/commit/349a4bff8adb6205ea411bac8d7a06da0477abd7"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/iterasdev/peppol-py"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/iterasdev/peppol-py/releases/tag/1.1.1"
+        },
+        {
+          "type": "WEB",
+          "url": "https://invoice.secvuln.info"
+        }
+      ],
+      "source_modified": "2026-01-29T03:30:58Z",
+      "snapshot_modified": "2026-07-07T17:56:34.046326905Z",
+      "temporal_mismatch": true
+    },
+    {
+      "rank": 8,
+      "id": "GHSA-24wv-mv5m-xv4h",
+      "package": "redis",
+      "aliases": [
+        "CVE-2023-28858",
+        "PYSEC-2023-45"
+      ],
+      "sources": [
+        "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/03/GHSA-24wv-mv5m-xv4h/GHSA-24wv-mv5m-xv4h.json"
+      ],
+      "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+      "retrievals": [
+        {
+          "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/advisories/github-reviewed/2023/03/GHSA-24wv-mv5m-xv4h/GHSA-24wv-mv5m-xv4h.json",
+          "retrieved_utc": "2026-10-07T15:56:12.988053+00:00",
+          "sha256": "acd94d37aee3db7b316916c475794734bae4ab8114170a77b9650fdd2a717262",
+          "bytes": 3512,
+          "headers": {
+            "Connection": "close",
+            "Content-Length": "3512",
+            "Cache-Control": "max-age=300",
+            "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+            "Content-Type": "text/plain; charset=utf-8",
+            "ETag": "\"78d2e6a118c8a71985a231267cb23dcfc45251770f69f8128e0dc8354b5977d6\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "deny",
+            "X-XSS-Protection": "1; mode=block",
+            "X-GitHub-Request-Id": "2FAA:371EAE:8AFAF:11743E:6AC66B9C",
+            "x-github-edge-region": "iad",
+            "Accept-Ranges": "bytes",
+            "Date": "Wed, 07 Oct 2026 15:56:12 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-pdk-kfty8610030-PDK",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1791388572.008939,VS0,VE190",
+            "Vary": "Authorization,Accept-Encoding",
+            "Access-Control-Allow-Origin": "*",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "X-Fastly-Request-ID": "0b68990f73a61afbdb32d0747ecc9a0d8fe867ca",
+            "Expires": "Wed, 07 Oct 2026 16:01:12 GMT",
+            "Source-Age": "0"
+          },
+          "status": "ok"
+        }
+      ],
+      "relationship": "explicit source attribution to GitHub advisory database; retrieved same advisory ID",
+      "range_comparison": "matching structured ranges",
+      "summary": "redis-py Race Condition vulnerability",
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-28858"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/redis/redis-py/issues/2624"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/redis/redis-py/pull/2641"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/redis/redis-py/commit/d56baeb683fc1935cfa343fa2eeb0fa9bd955283"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/pypa/advisory-database/tree/main/vulns/redis/PYSEC-2023-45.yaml"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/redis/redis-py"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/redis/redis-py/compare/v4.3.5...v4.3.6"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/redis/redis-py/compare/v4.4.2...v4.4.3"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/redis/redis-py/compare/v4.5.2...v4.5.3"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/redis/redis-py/releases/tag/v4.4.4"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/redis/redis-py/releases/tag/v4.5.4"
+        },
+        {
+          "type": "WEB",
+          "url": "https://openai.com/blog/march-20-chatgpt-outage"
+        }
+      ],
+      "source_modified": "2024-10-25T21:45:26Z",
+      "snapshot_modified": "2024-10-25T21:54:11.332865Z",
+      "temporal_mismatch": true
+    },
+    {
+      "rank": 9,
+      "id": "GHSA-2522-mrjc-m688",
+      "package": "apache-airflow",
+      "aliases": [
+        "BIT-airflow-2024-31869",
+        "CVE-2024-31869",
+        "PYSEC-2026-1128"
+      ],
+      "sources": [
+        "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/04/GHSA-2522-mrjc-m688/GHSA-2522-mrjc-m688.json"
+      ],
+      "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+      "retrievals": [
+        {
+          "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/advisories/github-reviewed/2024/04/GHSA-2522-mrjc-m688/GHSA-2522-mrjc-m688.json",
+          "retrieved_utc": "2026-10-07T15:56:13.158128+00:00",
+          "sha256": "16379f538ea1e6321eef7443aaa4c908d8e7b843fe4c64882452c081cfce3d88",
+          "bytes": 2276,
+          "headers": {
+            "Connection": "close",
+            "Content-Length": "2276",
+            "Cache-Control": "max-age=300",
+            "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+            "Content-Type": "text/plain; charset=utf-8",
+            "ETag": "\"acfe449f68e4f8520b5113644b7ba72baca70b95675f6316c64707349208c77e\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "deny",
+            "X-XSS-Protection": "1; mode=block",
+            "X-GitHub-Request-Id": "CE1E:14B2CD:27241:38589:6AC66B9B",
+            "x-github-edge-region": "iad",
+            "Accept-Ranges": "bytes",
+            "Date": "Wed, 07 Oct 2026 15:56:12 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-pdk-kpdk2140023-PDK",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1791388572.202565,VS0,VE150",
+            "Vary": "Authorization,Accept-Encoding",
+            "Access-Control-Allow-Origin": "*",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "X-Fastly-Request-ID": "13548e79998b9ebb1da22d7da7050cf05e4a4e1a",
+            "Expires": "Wed, 07 Oct 2026 16:01:12 GMT",
+            "Source-Age": "0"
+          },
+          "status": "ok"
+        }
+      ],
+      "relationship": "explicit source attribution to GitHub advisory database; retrieved same advisory ID",
+      "range_comparison": "matching structured ranges",
+      "summary": "Apache Airflow: Sensitive configuration for providers displayed when \"non-sensitive-only\" config used",
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-31869"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/apache/airflow/pull/38795"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/apache/airflow/commit/042c2acaed7c01933d37c2f8434640ce140a4b27"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/apache/airflow"
+        },
+        {
+          "type": "WEB",
+          "url": "https://lists.apache.org/thread/pz6vg7wcjk901rmsgt86h76g6kfcgtk3"
+        },
+        {
+          "type": "WEB",
+          "url": "http://www.openwall.com/lists/oss-security/2024/04/17/10"
+        }
+      ],
+      "source_modified": "2025-02-11T19:03:13Z",
+      "snapshot_modified": "2026-07-07T17:56:47.719774081Z",
+      "temporal_mismatch": true
+    },
+    {
+      "rank": 10,
+      "id": "GHSA-2586-f3p4-hq84",
+      "package": "lightgbm",
+      "aliases": [
+        "CVE-2024-43598",
+        "PYSEC-2024-231"
+      ],
+      "sources": [
+        "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/11/GHSA-2586-f3p4-hq84/GHSA-2586-f3p4-hq84.json"
+      ],
+      "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+      "retrievals": [
+        {
+          "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/advisories/github-reviewed/2024/11/GHSA-2586-f3p4-hq84/GHSA-2586-f3p4-hq84.json",
+          "retrieved_utc": "2026-10-07T15:56:13.199822+00:00",
+          "sha256": "8697570fe98af951bee96495860c4de67bc82e6bd96e6d5e5d2c150061ff7f3a",
+          "bytes": 1477,
+          "headers": {
+            "Connection": "close",
+            "Content-Length": "1477",
+            "Cache-Control": "max-age=300",
+            "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+            "Content-Type": "text/plain; charset=utf-8",
+            "ETag": "\"3b45e1a839a4218295f649802880946aae34de5f9172f288b8542f4bbfd35fd2\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "deny",
+            "X-XSS-Protection": "1; mode=block",
+            "X-GitHub-Request-Id": "B7F6:3E0827:277DC:38D99:6AC66B9A",
+            "x-github-edge-region": "iad",
+            "Accept-Ranges": "bytes",
+            "Date": "Wed, 07 Oct 2026 15:56:12 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-pdk-kpdk2140020-PDK",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1791388572.219080,VS0,VE202",
+            "Vary": "Authorization,Accept-Encoding",
+            "Access-Control-Allow-Origin": "*",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "X-Fastly-Request-ID": "9ac4ffbacbeb9c5db5aa7f597bd16079d974378e",
+            "Expires": "Wed, 07 Oct 2026 16:01:12 GMT",
+            "Source-Age": "0"
+          },
+          "status": "ok"
+        }
+      ],
+      "relationship": "explicit source attribution to GitHub advisory database; retrieved same advisory ID",
+      "range_comparison": "matching structured ranges",
+      "summary": "LightGBM Remote Code Execution Vulnerability",
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-43598"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/microsoft/LightGBM"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/pypa/advisory-database/tree/main/vulns/lightgbm/PYSEC-2024-231.yaml"
+        },
+        {
+          "type": "WEB",
+          "url": "https://msrc.microsoft.com/update-guide/vulnerability/CVE-2024-43598"
+        }
+      ],
+      "source_modified": "2025-02-18T19:25:51Z",
+      "snapshot_modified": "2025-02-18T19:41:59.478178Z",
+      "temporal_mismatch": true
+    },
+    {
+      "rank": 11,
+      "id": "GHSA-258h-f687-4226",
+      "package": "pheonixappapi",
+      "aliases": [
+        "CVE-2024-41951",
+        "PYSEC-2026-1779"
+      ],
+      "sources": [
+        "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/07/GHSA-258h-f687-4226/GHSA-258h-f687-4226.json"
+      ],
+      "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+      "retrievals": [
+        {
+          "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/advisories/github-reviewed/2024/07/GHSA-258h-f687-4226/GHSA-258h-f687-4226.json",
+          "retrieved_utc": "2026-10-07T15:56:13.227412+00:00",
+          "sha256": "ccdd8c2ce58f3cfb19770b366b342e8e3fea2e00c85e6b94411476f83b96732d",
+          "bytes": 2368,
+          "headers": {
+            "Connection": "close",
+            "Content-Length": "2368",
+            "Cache-Control": "max-age=300",
+            "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+            "Content-Type": "text/plain; charset=utf-8",
+            "ETag": "\"a4e91e148314d75e6db53ec7bf8f433a4e79be8551c67148f9e746b77ef2e2eb\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "deny",
+            "X-XSS-Protection": "1; mode=block",
+            "X-GitHub-Request-Id": "7588:6D3AE:27A51:38FFC:6AC66B9A",
+            "x-github-edge-region": "iad",
+            "Accept-Ranges": "bytes",
+            "Date": "Wed, 07 Oct 2026 15:56:12 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-pdk-kpdk2140086-PDK",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1791388572.277952,VS0,VE85",
+            "Vary": "Authorization,Accept-Encoding",
+            "Access-Control-Allow-Origin": "*",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "X-Fastly-Request-ID": "e154670146de9e3b6329623ccb6310d0f64f116c",
+            "Expires": "Wed, 07 Oct 2026 16:01:12 GMT",
+            "Source-Age": "0"
+          },
+          "status": "ok"
+        }
+      ],
+      "relationship": "explicit source attribution to GitHub advisory database; retrieved same advisory ID",
+      "range_comparison": "matching structured ranges",
+      "summary": "PheonixAppAPI has visible Encoding Maps",
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://github.com/AkshuDev/PheonixAppAPI/security/advisories/GHSA-258h-f687-4226"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-41951"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/AkshuDev/PheonixAppAPI/commit/0937419e323f5ea9013d43dc1b82fef9d7e05044"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/AkshuDev/PheonixAppAPI"
+        }
+      ],
+      "source_modified": "2024-11-12T19:39:08Z",
+      "snapshot_modified": "2026-07-07T17:56:45.622758410Z",
+      "temporal_mismatch": true
+    },
+    {
+      "rank": 12,
+      "id": "GHSA-2689-cw26-6cpj",
+      "package": "whoogle-search",
+      "aliases": [
+        "CVE-2024-53305",
+        "PYSEC-2026-2048"
+      ],
+      "sources": [
+        "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/04/GHSA-2689-cw26-6cpj/GHSA-2689-cw26-6cpj.json"
+      ],
+      "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+      "retrievals": [
+        {
+          "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/advisories/github-reviewed/2025/04/GHSA-2689-cw26-6cpj/GHSA-2689-cw26-6cpj.json",
+          "retrieved_utc": "2026-10-07T15:56:13.255233+00:00",
+          "sha256": "207980f80521b53406f32f3d78b79d21a30cf552fdf661c1bf068f3f46ad919d",
+          "bytes": 1731,
+          "headers": {
+            "Connection": "close",
+            "Content-Length": "1731",
+            "Cache-Control": "max-age=300",
+            "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+            "Content-Type": "text/plain; charset=utf-8",
+            "ETag": "\"f4d3681f900b04c1874122b31154d6ff9b7fd371f8aaea1ef73527ca1130b07b\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "deny",
+            "X-XSS-Protection": "1; mode=block",
+            "X-GitHub-Request-Id": "764A:9B4E0:26FC1:3837F:6AC66B9B",
+            "x-github-edge-region": "iad",
+            "Accept-Ranges": "bytes",
+            "Date": "Wed, 07 Oct 2026 15:56:12 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-pdk-kfty8610037-PDK",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1791388572.271864,VS0,VE199",
+            "Vary": "Authorization,Accept-Encoding",
+            "Access-Control-Allow-Origin": "*",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "X-Fastly-Request-ID": "898043f523b7daa16971e9d688ea9895a27f4b04",
+            "Expires": "Wed, 07 Oct 2026 16:01:12 GMT",
+            "Source-Age": "0"
+          },
+          "status": "ok"
+        }
+      ],
+      "relationship": "explicit source attribution to GitHub advisory database; retrieved same advisory ID",
+      "range_comparison": "matching structured ranges",
+      "summary": "Whoogle allows attackers to execute arbitrary code via supplying a crafted search query",
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-53305"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/benbusby/whoogle-search/commit/223f00c3c0533423114f99b30c561278bc0b42ba"
+        },
+        {
+          "type": "WEB",
+          "url": "https://fern89.github.io/posts/whoogle-rce"
+        },
+        {
+          "type": "WEB",
+          "url": "https://gist.github.com/fern89/ca5fe76ad81b4bc363e7341e523a1651"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/benbusby/whoogle-search"
+        }
+      ],
+      "source_modified": "2025-04-16T20:38:00Z",
+      "snapshot_modified": "2026-07-07T17:56:25.343678823Z",
+      "temporal_mismatch": true
+    },
+    {
+      "rank": 13,
+      "id": "GHSA-269x-pg5c-5xgm",
+      "package": "apache-airflow",
+      "aliases": [
+        "BIT-airflow-2023-39508",
+        "CVE-2023-39508",
+        "PYSEC-2023-134"
+      ],
+      "sources": [
+        "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/08/GHSA-269x-pg5c-5xgm/GHSA-269x-pg5c-5xgm.json"
+      ],
+      "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+      "retrievals": [
+        {
+          "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/advisories/github-reviewed/2023/08/GHSA-269x-pg5c-5xgm/GHSA-269x-pg5c-5xgm.json",
+          "retrieved_utc": "2026-10-07T15:56:13.401608+00:00",
+          "sha256": "d1ce7493668ca78d828ce486929b64d2b030253b1be055ecec556761fbf97100",
+          "bytes": 2409,
+          "headers": {
+            "Connection": "close",
+            "Content-Length": "2409",
+            "Cache-Control": "max-age=300",
+            "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+            "Content-Type": "text/plain; charset=utf-8",
+            "ETag": "\"8ca197d0ac97d3defb04f830662a5bd2b0e833591a484aa093687081cc154b56\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "deny",
+            "X-XSS-Protection": "1; mode=block",
+            "X-GitHub-Request-Id": "8AA6:14B2CD:27258:385A7:6AC66B9B",
+            "x-github-edge-region": "iad",
+            "Accept-Ranges": "bytes",
+            "Date": "Wed, 07 Oct 2026 15:56:12 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-pdk-kpdk2140083-PDK",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1791388572.445190,VS0,VE139",
+            "Vary": "Authorization,Accept-Encoding",
+            "Access-Control-Allow-Origin": "*",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "X-Fastly-Request-ID": "1f44847012c10d02a32fd5eb42d37b9da7ea5b69",
+            "Expires": "Wed, 07 Oct 2026 16:01:12 GMT",
+            "Source-Age": "0"
+          },
+          "status": "ok"
+        }
+      ],
+      "relationship": "explicit source attribution to GitHub advisory database; retrieved same advisory ID",
+      "range_comparison": "matching structured ranges",
+      "summary": "Apache Airflow Execution with Unnecessary Privileges",
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-39508"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/apache/airflow/pull/29706"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/apache/airflow/commit/101d59c4b88ab979d305b8d96f612c27c8a44aa8"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/apache/airflow"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/pypa/advisory-database/tree/main/vulns/apache-airflow/PYSEC-2023-134.yaml"
+        },
+        {
+          "type": "WEB",
+          "url": "https://lists.apache.org/thread/j2nkjd0zqvtqk85s6ywpx3c35pvzyx15"
+        },
+        {
+          "type": "WEB",
+          "url": "http://seclists.org/fulldisclosure/2023/Jul/43"
+        }
+      ],
+      "source_modified": "2025-02-13T19:10:13Z",
+      "snapshot_modified": "2025-02-13T19:36:00.885349Z",
+      "temporal_mismatch": true
+    },
+    {
+      "rank": 14,
+      "id": "GHSA-26c5-ppr8-f33p",
+      "package": "matrix-synapse",
+      "aliases": [
+        "CVE-2023-32682",
+        "PYSEC-2023-84"
+      ],
+      "sources": [
+        "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/06/GHSA-26c5-ppr8-f33p/GHSA-26c5-ppr8-f33p.json"
+      ],
+      "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+      "retrievals": [
+        {
+          "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/advisories/github-reviewed/2023/06/GHSA-26c5-ppr8-f33p/GHSA-26c5-ppr8-f33p.json",
+          "retrieved_utc": "2026-10-07T15:56:13.409671+00:00",
+          "sha256": "1e8c3fc5bca6bea5cfa88b7800365080ca236af8be36f91ca1addf2f280bd278",
+          "bytes": 3971,
+          "headers": {
+            "Connection": "close",
+            "Content-Length": "3971",
+            "Cache-Control": "max-age=300",
+            "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+            "Content-Type": "text/plain; charset=utf-8",
+            "ETag": "\"be196427c8a06205e3d68c0d0feb92709fff3c05163efc419f1e5e56775ea163\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "deny",
+            "X-XSS-Protection": "1; mode=block",
+            "X-GitHub-Request-Id": "185C:2488CE:10050D:187686:6AC66B9B",
+            "x-github-edge-region": "iad",
+            "Accept-Ranges": "bytes",
+            "Date": "Wed, 07 Oct 2026 15:56:12 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-pdk-kpdk2140026-PDK",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1791388572.438810,VS0,VE94",
+            "Vary": "Authorization,Accept-Encoding",
+            "Access-Control-Allow-Origin": "*",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "X-Fastly-Request-ID": "e600884c6c0d9a74be6c34f2bd9f4dbe79b7e8a6",
+            "Expires": "Wed, 07 Oct 2026 16:01:12 GMT",
+            "Source-Age": "0"
+          },
+          "status": "ok"
+        }
+      ],
+      "relationship": "explicit source attribution to GitHub advisory database; retrieved same advisory ID",
+      "range_comparison": "matching structured ranges",
+      "summary": "Synapse has improper checks for deactivated users during login",
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://github.com/matrix-org/synapse/security/advisories/GHSA-26c5-ppr8-f33p"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-32682"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/matrix-org/synapse/issues/12274"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/matrix-org/synapse/pull/15624"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/matrix-org/synapse/pull/15634"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/matrix-org/synapse"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/matrix-org/synapse/releases/tag/v1.85.0"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/pypa/advisory-database/tree/main/vulns/matrix-synapse/PYSEC-2023-84.yaml"
+        },
+        {
+          "type": "WEB",
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/X6DH5A5YEB5LRIPP32OUW25FCGZFCZU2"
+        },
+        {
+          "type": "WEB",
+          "url": "https://matrix-org.github.io/synapse/latest/admin_api/user_admin_api.html#create-or-modify-account"
+        },
+        {
+          "type": "WEB",
+          "url": "https://matrix-org.github.io/synapse/latest/jwt.html"
+        },
+        {
+          "type": "WEB",
+          "url": "https://matrix-org.github.io/synapse/latest/usage/configuration/config_documentation.html#password_config"
+        }
+      ],
+      "source_modified": "2024-09-24T17:36:26Z",
+      "snapshot_modified": "2026-09-10T03:50:02.042486864Z",
+      "temporal_mismatch": true
+    },
+    {
+      "rank": 15,
+      "id": "GHSA-26jh-r8g2-6fpr",
+      "package": "gradio",
+      "aliases": [],
+      "sources": [
+        "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/10/GHSA-26jh-r8g2-6fpr/GHSA-26jh-r8g2-6fpr.json"
+      ],
+      "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+      "retrievals": [
+        {
+          "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/advisories/github-reviewed/2024/10/GHSA-26jh-r8g2-6fpr/GHSA-26jh-r8g2-6fpr.json",
+          "retrieved_utc": "2026-10-07T15:56:13.467943+00:00",
+          "sha256": "a84f439aaf47787ee0363eaa19a752de03049eb2bed838d68a527dc75e3d1ef6",
+          "bytes": 2313,
+          "headers": {
+            "Connection": "close",
+            "Content-Length": "2313",
+            "Cache-Control": "max-age=300",
+            "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+            "Content-Type": "text/plain; charset=utf-8",
+            "ETag": "\"57186ccf85d37ccbc484978019602ddc78820adf34a78596ba4ab26a8efc9ff5\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "deny",
+            "X-XSS-Protection": "1; mode=block",
+            "X-GitHub-Request-Id": "3912:362356:8BBC8:1181E9:6AC66B9A",
+            "x-github-edge-region": "iad",
+            "Accept-Ranges": "bytes",
+            "Date": "Wed, 07 Oct 2026 15:56:12 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-pdk-kfty8610058-PDK",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1791388572.485923,VS0,VE76",
+            "Vary": "Authorization,Accept-Encoding",
+            "Access-Control-Allow-Origin": "*",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "X-Fastly-Request-ID": "d293de269c6a826ae6836caa615aca2840672671",
+            "Expires": "Wed, 07 Oct 2026 16:01:12 GMT",
+            "Source-Age": "0"
+          },
+          "status": "ok"
+        }
+      ],
+      "relationship": "explicit source attribution to GitHub advisory database; retrieved same advisory ID",
+      "range_comparison": "matching structured ranges",
+      "summary": "Gradio's dropdown component pre-process step does not limit the values to those in the dropdown list",
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://github.com/gradio-app/gradio/security/advisories/GHSA-26jh-r8g2-6fpr"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/gradio-app/gradio"
+        }
+      ],
+      "source_modified": "2024-10-10T22:11:29Z",
+      "snapshot_modified": "2026-09-10T03:50:19.171244086Z",
+      "temporal_mismatch": true
+    },
+    {
+      "rank": 16,
+      "id": "GHSA-273c-4g26-4jpm",
+      "package": "apache-airflow",
+      "aliases": [
+        "BIT-airflow-2025-62402",
+        "CVE-2025-62402",
+        "PYSEC-2026-1129"
+      ],
+      "sources": [
+        "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2025/10/GHSA-273c-4g26-4jpm/GHSA-273c-4g26-4jpm.json"
+      ],
+      "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+      "retrievals": [
+        {
+          "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/advisories/github-reviewed/2025/10/GHSA-273c-4g26-4jpm/GHSA-273c-4g26-4jpm.json",
+          "retrieved_utc": "2026-10-07T15:56:13.522782+00:00",
+          "sha256": "cd1ead708b71082814019555efc3b64b374a1e7d0473401b9dee314aff1374ef",
+          "bytes": 1815,
+          "headers": {
+            "Connection": "close",
+            "Content-Length": "1815",
+            "Cache-Control": "max-age=300",
+            "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+            "Content-Type": "text/plain; charset=utf-8",
+            "ETag": "\"d8c1f6c26311c8ce6f524854bada2b4ec3b80a848030a92fb2237fa3bade1b6f\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "deny",
+            "X-XSS-Protection": "1; mode=block",
+            "X-GitHub-Request-Id": "C088:2F267F:9C723:1362D7:6AC66B9B",
+            "x-github-edge-region": "iad",
+            "Accept-Ranges": "bytes",
+            "Date": "Wed, 07 Oct 2026 15:56:12 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-pdk-kpdk2140063-PDK",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1791388573.565507,VS0,VE73",
+            "Vary": "Authorization,Accept-Encoding",
+            "Access-Control-Allow-Origin": "*",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "X-Fastly-Request-ID": "88c136f7d407997451404276f6ff0df52a87f686",
+            "Expires": "Wed, 07 Oct 2026 16:01:12 GMT",
+            "Source-Age": "0"
+          },
+          "status": "ok"
+        }
+      ],
+      "relationship": "explicit source attribution to GitHub advisory database; retrieved same advisory ID",
+      "range_comparison": "matching structured ranges",
+      "summary": "Apache Airflow `/api/v2/dagReports` executes DAG Python in API",
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-62402"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/apache/airflow/pull/56609"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/apache/airflow/commit/828aaa0b1d95caf90612a648867c17aec7e87874"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/apache/airflow"
+        },
+        {
+          "type": "WEB",
+          "url": "https://lists.apache.org/thread/vbzxnxn031wb998hsd7vqnvh4z8nx6rs"
+        },
+        {
+          "type": "WEB",
+          "url": "http://www.openwall.com/lists/oss-security/2025/10/29/7"
+        }
+      ],
+      "source_modified": "2025-10-30T17:08:56Z",
+      "snapshot_modified": "2026-07-07T17:56:19.850591798Z",
+      "temporal_mismatch": true
+    },
+    {
+      "rank": 17,
+      "id": "GHSA-274c-rx2j-2v3x",
+      "package": "swift",
+      "aliases": [
+        "CVE-2022-47950",
+        "PYSEC-2026-927"
+      ],
+      "sources": [
+        "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/01/GHSA-274c-rx2j-2v3x/GHSA-274c-rx2j-2v3x.json"
+      ],
+      "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+      "retrievals": [
+        {
+          "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/advisories/github-reviewed/2023/01/GHSA-274c-rx2j-2v3x/GHSA-274c-rx2j-2v3x.json",
+          "retrieved_utc": "2026-10-07T15:56:13.580027+00:00",
+          "sha256": "41c9745aef2ada353fb917914652573772f3c9ae1b4396afc55cc665568d1cee",
+          "bytes": 3775,
+          "headers": {
+            "Connection": "close",
+            "Content-Length": "3775",
+            "Cache-Control": "max-age=300",
+            "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+            "Content-Type": "text/plain; charset=utf-8",
+            "ETag": "\"a758bc7da2079f75d13edb16695b48a1af4c8cf14faa9dc88fcac0983e0afe9a\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "deny",
+            "X-XSS-Protection": "1; mode=block",
+            "X-GitHub-Request-Id": "64B0:2B0B6A:10D321:194284:6AC66B9B",
+            "x-github-edge-region": "iad",
+            "Accept-Ranges": "bytes",
+            "Date": "Wed, 07 Oct 2026 15:56:12 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-pdk-kpdk2140055-PDK",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1791388573.625110,VS0,VE93",
+            "Vary": "Authorization,Accept-Encoding",
+            "Access-Control-Allow-Origin": "*",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "X-Fastly-Request-ID": "4b70845ec2ba251ae967ae0816321e1cc05a49e3",
+            "Expires": "Wed, 07 Oct 2026 16:01:12 GMT",
+            "Source-Age": "0"
+          },
+          "status": "ok"
+        }
+      ],
+      "relationship": "explicit source attribution to GitHub advisory database; retrieved same advisory ID",
+      "range_comparison": "matching structured ranges",
+      "summary": "OpenStack Swift XML external entities (XXE) Injection",
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-47950"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/openstack/swift/commit/12e54391861e7d182d58f89fb88b027e65842640"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/openstack/swift/commit/7d13d1a82e1f5d01205a13184907501b4fcbe2b0"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/openstack/swift/commit/8dd96470a859dc7b189404fb67bd3899ae9c617f"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/openstack/swift/commit/b8467e190f6fc67fd8fb6a8c5e32b2aa6a10fd8e"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/openstack/swift/commit/baa98848451b5c234443a068691e12841a5a8383"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/openstack/swift/commit/c834e7a53d5a33a3fd13ffd954e6f4f4ee953dfc"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/openstack/swift/commit/d8d04ef43c90079d436b2e49617b4425ba39c28e"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/openstack/swift/commit/f10672514217adadfc776d9ea2ffb20a37ce073b"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/openstack/swift"
+        },
+        {
+          "type": "WEB",
+          "url": "https://launchpad.net/bugs/1998625"
+        },
+        {
+          "type": "WEB",
+          "url": "https://lists.debian.org/debian-lts-announce/2023/01/msg00021.html"
+        },
+        {
+          "type": "WEB",
+          "url": "https://security.openstack.org/ossa/OSSA-2023-001.html"
+        },
+        {
+          "type": "WEB",
+          "url": "https://www.debian.org/security/2023/dsa-5327"
+        }
+      ],
+      "source_modified": "2025-04-04T19:35:40Z",
+      "snapshot_modified": "2026-07-07T11:56:33.587479612Z",
+      "temporal_mismatch": true
+    },
+    {
+      "rank": 18,
+      "id": "GHSA-275c-w5mq-v5m2",
+      "package": "paddlepaddle",
+      "aliases": [
+        "CVE-2023-52313",
+        "PYSEC-2024-145"
+      ],
+      "sources": [
+        "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/01/GHSA-275c-w5mq-v5m2/GHSA-275c-w5mq-v5m2.json"
+      ],
+      "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+      "retrievals": [
+        {
+          "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/advisories/github-reviewed/2024/01/GHSA-275c-w5mq-v5m2/GHSA-275c-w5mq-v5m2.json",
+          "retrieved_utc": "2026-10-07T15:56:13.611760+00:00",
+          "sha256": "df3bf4674ed37f42fc6ed149cbcdd899227032764b3a848273c5a07d5637a73e",
+          "bytes": 1748,
+          "headers": {
+            "Connection": "close",
+            "Content-Length": "1748",
+            "Cache-Control": "max-age=300",
+            "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+            "Content-Type": "text/plain; charset=utf-8",
+            "ETag": "\"332a7271ae9170eeacb4ceb0ca7600fd0f9bfece99964f4fab287ee8448d9ca4\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "deny",
+            "X-XSS-Protection": "1; mode=block",
+            "X-GitHub-Request-Id": "DED2:D433F:89F96:116459:6AC66B9C",
+            "x-github-edge-region": "iad",
+            "Accept-Ranges": "bytes",
+            "Date": "Wed, 07 Oct 2026 15:56:12 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-pdk-kfty8610021-PDK",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1791388573.665250,VS0,VE83",
+            "Vary": "Authorization,Accept-Encoding",
+            "Access-Control-Allow-Origin": "*",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "X-Fastly-Request-ID": "ae6dab0b24a7373c2c3a683b288231e783ee7e8c",
+            "Expires": "Wed, 07 Oct 2026 16:01:12 GMT",
+            "Source-Age": "0"
+          },
+          "status": "ok"
+        }
+      ],
+      "relationship": "explicit source attribution to GitHub advisory database; retrieved same advisory ID",
+      "range_comparison": "matching structured ranges",
+      "summary": "PaddlePaddle floating point exception in paddle.argmin and paddle.argmax",
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-52313"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/PaddlePaddle/Paddle/commit/6ef71779197ad6faf51ac295022ab5008d81372f"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/PaddlePaddle/Paddle"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/PaddlePaddle/Paddle/blob/develop/security/advisory/pdsa-2023-022.md"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/pypa/advisory-database/tree/main/vulns/paddlepaddle/PYSEC-2024-145.yaml"
+        }
+      ],
+      "source_modified": "2024-11-22T18:20:23Z",
+      "snapshot_modified": "2026-09-10T03:50:09.137972891Z",
+      "temporal_mismatch": true
+    },
+    {
+      "rank": 19,
+      "id": "GHSA-279j-x4gx-hfrh",
+      "package": "gradio",
+      "aliases": [
+        "CVE-2024-47871",
+        "PYSEC-2024-219"
+      ],
+      "sources": [
+        "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/10/GHSA-279j-x4gx-hfrh/GHSA-279j-x4gx-hfrh.json"
+      ],
+      "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+      "retrievals": [
+        {
+          "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/advisories/github-reviewed/2024/10/GHSA-279j-x4gx-hfrh/GHSA-279j-x4gx-hfrh.json",
+          "retrieved_utc": "2026-10-07T15:56:13.632118+00:00",
+          "sha256": "3fea88dcf220e8eb315a75425f89c99c2c3b52b06670bfdba72b9615d6ec222e",
+          "bytes": 2520,
+          "headers": {
+            "Connection": "close",
+            "Content-Length": "2520",
+            "Cache-Control": "max-age=300",
+            "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+            "Content-Type": "text/plain; charset=utf-8",
+            "ETag": "\"db418923be49b5935cf00697fd2f587f27e73731781d7c9f0360fa82bfdd2319\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "deny",
+            "X-XSS-Protection": "1; mode=block",
+            "X-GitHub-Request-Id": "1710:5FE44:3AEF2:51303:6AC66B9C",
+            "x-github-edge-region": "iad",
+            "Accept-Ranges": "bytes",
+            "Date": "Wed, 07 Oct 2026 15:56:12 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-pdk-kpdk2140076-PDK",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1791388573.671140,VS0,VE214",
+            "Vary": "Authorization,Accept-Encoding",
+            "Access-Control-Allow-Origin": "*",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "X-Fastly-Request-ID": "6dac8872c063dd0c9af693ed127baa4cff85a0d0",
+            "Expires": "Wed, 07 Oct 2026 16:01:12 GMT",
+            "Source-Age": "0"
+          },
+          "status": "ok"
+        }
+      ],
+      "relationship": "explicit source attribution to GitHub advisory database; retrieved same advisory ID",
+      "range_comparison": "matching structured ranges",
+      "summary": "Gradio uses insecure communication between the FRP client and server",
+      "references": [
+        {
+          "type": "WEB",
+          "url": "https://github.com/gradio-app/gradio/security/advisories/GHSA-279j-x4gx-hfrh"
+        },
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-47871"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/gradio-app/gradio"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/pypa/advisory-database/tree/main/vulns/gradio/PYSEC-2024-219.yaml"
+        }
+      ],
+      "source_modified": "2025-01-21T17:18:25Z",
+      "snapshot_modified": "2025-01-21T17:27:58.400272Z",
+      "temporal_mismatch": true
+    },
+    {
+      "rank": 20,
+      "id": "GHSA-27jx-ffw8-xrqv",
+      "package": "pgadmin4",
+      "aliases": [
+        "CVE-2024-3116",
+        "PYSEC-2026-1767"
+      ],
+      "sources": [
+        "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2024/04/GHSA-27jx-ffw8-xrqv/GHSA-27jx-ffw8-xrqv.json"
+      ],
+      "source_revision": "963f4b691a2736e0bb288f5f855915bf7ffd3c3e",
+      "retrievals": [
+        {
+          "url": "https://raw.githubusercontent.com/github/advisory-database/963f4b691a2736e0bb288f5f855915bf7ffd3c3e/advisories/github-reviewed/2024/04/GHSA-27jx-ffw8-xrqv/GHSA-27jx-ffw8-xrqv.json",
+          "retrieved_utc": "2026-10-07T15:56:13.690002+00:00",
+          "sha256": "e8c8f63d29eef5008095e9f882decec6b5d48ea2afce0cdc5460bfbccfb32e06",
+          "bytes": 2157,
+          "headers": {
+            "Connection": "close",
+            "Content-Length": "2157",
+            "Cache-Control": "max-age=300",
+            "Content-Security-Policy": "default-src 'none'; style-src 'unsafe-inline'; sandbox",
+            "Content-Type": "text/plain; charset=utf-8",
+            "ETag": "\"8a54a4d86c005c5462e8a3b5ab4795aa83fb7055b45a00b56c61d6e9ec464af5\"",
+            "Strict-Transport-Security": "max-age=31536000",
+            "X-Content-Type-Options": "nosniff",
+            "X-Frame-Options": "deny",
+            "X-XSS-Protection": "1; mode=block",
+            "X-GitHub-Request-Id": "39F8:E65A3:8CC55:1190F1:6AC66B9B",
+            "x-github-edge-region": "iad",
+            "Accept-Ranges": "bytes",
+            "Date": "Wed, 07 Oct 2026 15:56:12 GMT",
+            "Via": "1.1 varnish",
+            "X-Served-By": "cache-pdk-kfty8610025-PDK",
+            "X-Cache": "MISS",
+            "X-Cache-Hits": "0",
+            "X-Timer": "S1791388573.715198,VS0,VE77",
+            "Vary": "Authorization,Accept-Encoding",
+            "Access-Control-Allow-Origin": "*",
+            "Cross-Origin-Resource-Policy": "cross-origin",
+            "X-Fastly-Request-ID": "2683bffe419e0ef0f59c168f1d71a23c955a0283",
+            "Expires": "Wed, 07 Oct 2026 16:01:12 GMT",
+            "Source-Age": "0"
+          },
+          "status": "ok"
+        }
+      ],
+      "relationship": "explicit source attribution to GitHub advisory database; retrieved same advisory ID",
+      "range_comparison": "matching structured ranges",
+      "summary": "pgAdmin Remote Code Execution (RCE) vulnerability",
+      "references": [
+        {
+          "type": "ADVISORY",
+          "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-3116"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/pgadmin-org/pgadmin4/issues/7326"
+        },
+        {
+          "type": "WEB",
+          "url": "https://github.com/pgadmin-org/pgadmin4/commit/fbbbfe22dd468bcfef1e1f833ec32289a6e56a8b"
+        },
+        {
+          "type": "WEB",
+          "url": "https://gist.github.com/aelmokhtar/689a8be7e3bd535ec01992d8ec7b2b98"
+        },
+        {
+          "type": "PACKAGE",
+          "url": "https://github.com/pgadmin-org/pgadmin4"
+        },
+        {
+          "type": "WEB",
+          "url": "https://lists.fedoraproject.org/archives/list/package-announce@lists.fedoraproject.org/message/GIF5T34JTTYRGIN5YPT366BDFG6452A2"
+        },
+        {
+          "type": "WEB",
+          "url": "https://www.vicarius.io/vsociety/posts/remote-code-execution-vulnerability-in-pgadmin-cve-2024-3116"
+        }
+      ],
+      "source_modified": "2025-02-11T19:03:30Z",
+      "snapshot_modified": "2026-07-07T17:56:44.492713016Z",
+      "temporal_mismatch": true
+    }
+  ]
+}

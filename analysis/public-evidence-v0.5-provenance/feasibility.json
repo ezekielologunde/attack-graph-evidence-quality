@@ -1,0 +1,157 @@
+[
+  {
+    "id": "GHSA-227r-w5j2-6243",
+    "package": "invokeai",
+    "retrievals": [
+      {
+        "url": "https://api.github.com/repos/invoke-ai/invokeai/commits/5440c037674882b2ab7acd59087e9bb04b49657a",
+        "file": "GHSA-227r-w5j2-6243-feasibility-0.json",
+        "sha256": "93af8e2ebb8ea0669aa7a07b3f288269ad5700eba6b8785a8987abe70d5d08b6",
+        "retrieved_utc": "2026-10-07T15:56:43.348209+00:00"
+      },
+      {
+        "url": "https://pypi.org/pypi/invokeai/json",
+        "file": "GHSA-227r-w5j2-6243-feasibility-1.json",
+        "sha256": "99ca4c834a3479e6e33e01ee3f2977b344dc1a96afae1401af8913de83d7e487",
+        "retrieved_utc": "2026-10-07T15:56:43.562986+00:00"
+      },
+      {
+        "url": "https://pypi.org/pypi/invokeai/json",
+        "error": "list index out of range"
+      }
+    ],
+    "changed_files": [
+      "invokeai/app/services/image_files/image_files_disk.py",
+      "tests/app/services/image_files/test_image_files_disk.py"
+    ],
+    "version_selection_status": "not eligible under stable fixed-event rule: only 5.3.0rc1 is specified; do not substitute",
+    "assessment_error_explanation": "The preliminary selector recorded list index out of range after excluding prerelease fixed versions. This was not a retrieval failure and no package was executed."
+  },
+  {
+    "id": "GHSA-22c2-9gwg-mj59",
+    "package": "langroid",
+    "retrievals": [
+      {
+        "url": "https://api.github.com/repos/langroid/langroid/commits/0d9e4a7bb3ae2eef8d38f2e970ff916599a2b2a6",
+        "file": "GHSA-22c2-9gwg-mj59-feasibility-0.json",
+        "sha256": "43236a41220389fea1f43717381bafdb3632ff009b4f06abb8047d6a5314d843",
+        "retrieved_utc": "2026-10-07T15:56:43.822642+00:00"
+      },
+      {
+        "url": "https://pypi.org/pypi/langroid/json",
+        "file": "GHSA-22c2-9gwg-mj59-feasibility-1.json",
+        "sha256": "f61779733b1f946f79037fe870b27ee00d29378028537f4697d2e6cd09b99aa1",
+        "retrieved_utc": "2026-10-07T15:56:44.031831+00:00"
+      }
+    ],
+    "changed_files": [
+      "SECURITY.md",
+      "langroid/agent/special/table_chat_agent.py",
+      "langroid/utils/pandas_utils.py",
+      "langroid/vector_store/base.py",
+      "tests/main/test_pandas_utils.py",
+      "tests/main/test_table_chat_agent.py"
+    ],
+    "lowest_fixed_candidate": "0.53.15",
+    "fixed_artifact_available": true,
+    "previous_stable_candidate": "0.53.14"
+  },
+  {
+    "id": "GHSA-23fx-92m6-4f2g",
+    "package": "pretalx",
+    "retrievals": [
+      {
+        "url": "https://api.github.com/repos/pretalx/pretalx/commits/60722c43cf975f319e94102e6bff320723776890",
+        "file": "GHSA-23fx-92m6-4f2g-feasibility-0.json",
+        "sha256": "48bc8992dbb196036017867cdaa39f50f9e7dc39e372e60767366ec04deec39d",
+        "retrieved_utc": "2026-10-07T15:56:44.243736+00:00"
+      },
+      {
+        "url": "https://pypi.org/pypi/pretalx/json",
+        "file": "GHSA-23fx-92m6-4f2g-feasibility-1.json",
+        "sha256": "ad8b8b191c7a02d15f527f6cbf54544b269cc743fd57242f7e291ca8a1a69591",
+        "retrieved_utc": "2026-10-07T15:56:44.373002+00:00"
+      }
+    ],
+    "changed_files": [
+      "src/pretalx/agenda/management/commands/export_schedule_html.py"
+    ],
+    "lowest_fixed_candidate": "2.3.2",
+    "fixed_artifact_available": true,
+    "previous_stable_candidate": "2.3.1"
+  },
+  {
+    "id": "GHSA-23j4-mw76-5v7h",
+    "package": "scrapy",
+    "retrievals": [
+      {
+        "url": "https://api.github.com/repos/scrapy/scrapy/commits/36287cb665ab4b0c65fd53181c9a0ef04990ada6",
+        "file": "GHSA-23j4-mw76-5v7h-feasibility-0.json",
+        "sha256": "feef3729e46d6b334b9e5ee73f548464640a9c40774ece52e126df8a3ec5cae8",
+        "retrieved_utc": "2026-10-07T15:56:44.769208+00:00"
+      },
+      {
+        "url": "https://pypi.org/pypi/scrapy/json",
+        "file": "GHSA-23j4-mw76-5v7h-feasibility-1.json",
+        "sha256": "b97badee57adaab54d8b1733f2f90afaa4493309683bc74914e5641ab0affce0",
+        "retrieved_utc": "2026-10-07T15:56:44.943292+00:00"
+      }
+    ],
+    "changed_files": [
+      "scrapy/downloadermiddlewares/redirect.py",
+      "tests/test_downloadermiddleware_redirect.py"
+    ],
+    "lowest_fixed_candidate": "2.11.2",
+    "fixed_artifact_available": true,
+    "previous_stable_candidate": "2.11.1"
+  },
+  {
+    "id": "GHSA-23qq-p4gq-gc2g",
+    "package": "wordops",
+    "retrievals": [
+      {
+        "url": "https://api.github.com/repos/WordOps/WordOps/commits/31353f0fef14ad8bc1f61c028971bd30b9e1909b",
+        "file": "GHSA-23qq-p4gq-gc2g-feasibility-0.json",
+        "sha256": "0b94713905ef35ae4900eeeb456e9e17bc713a1805ceef0758cd25868531d55b",
+        "retrieved_utc": "2026-10-07T15:56:45.955870+00:00"
+      },
+      {
+        "url": "https://pypi.org/pypi/wordops/json",
+        "file": "GHSA-23qq-p4gq-gc2g-feasibility-1.json",
+        "sha256": "df2565b594d1974753c8c5dfb5d3b34b1cbef7c9c0303499577aa30d2d44e3b6",
+        "retrieved_utc": "2026-10-07T15:56:46.099535+00:00"
+      }
+    ],
+    "changed_files": [
+      "wo/cli/plugins/stack_pref.py"
+    ],
+    "lowest_fixed_candidate": "3.21.0",
+    "fixed_artifact_available": true,
+    "previous_stable_candidate": "3.20.0"
+  },
+  {
+    "id": "GHSA-248v-346w-9cwc",
+    "package": "certifi",
+    "retrievals": [
+      {
+        "url": "https://api.github.com/repos/certifi/python-certifi/commits/bd8153872e9c6fc98f4023df9c2deaffea2fa463",
+        "file": "GHSA-248v-346w-9cwc-feasibility-0.json",
+        "sha256": "6401f037bd2efdd53cc89e78eb674f4dc9d268d2a7345629b5430e72cc8d0c74",
+        "retrieved_utc": "2026-10-07T15:56:46.385820+00:00"
+      },
+      {
+        "url": "https://pypi.org/pypi/certifi/json",
+        "file": "GHSA-248v-346w-9cwc-feasibility-1.json",
+        "sha256": "3b94efeb879dddf7172a6ab03cd53b68e76f046c11893249d6c17e99a0293a3c",
+        "retrieved_utc": "2026-10-07T15:56:46.515801+00:00"
+      }
+    ],
+    "changed_files": [
+      "certifi/__init__.py",
+      "certifi/cacert.pem"
+    ],
+    "lowest_fixed_candidate": "2024.7.4",
+    "fixed_artifact_available": true,
+    "previous_stable_candidate": "2024.6.2"
+  }
+]
