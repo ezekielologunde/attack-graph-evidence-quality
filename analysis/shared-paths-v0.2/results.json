@@ -1,0 +1,956 @@
+{
+  "kind": "exact synthetic development calculations",
+  "held_out": false,
+  "cases": [
+    {
+      "graph": "shared_gateway",
+      "prior": "independent",
+      "verify_cost": 0.25,
+      "oracle_loss": 0.0,
+      "policies": [
+        {
+          "policy": "joint_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              0
+            ]
+          }
+        },
+        {
+          "policy": "factorized_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              0
+            ]
+          }
+        },
+        {
+          "policy": "joint_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              0
+            ]
+          }
+        },
+        {
+          "policy": "factorized_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "graph": "shared_gateway",
+      "prior": "independent",
+      "verify_cost": 0.75,
+      "oracle_loss": 0.0,
+      "policies": [
+        {
+          "policy": "joint_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              0
+            ]
+          }
+        },
+        {
+          "policy": "factorized_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              0
+            ]
+          }
+        },
+        {
+          "policy": "joint_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              0
+            ]
+          }
+        },
+        {
+          "policy": "factorized_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "graph": "shared_gateway",
+      "prior": "common_cause",
+      "verify_cost": 0.25,
+      "oracle_loss": 0.0,
+      "policies": [
+        {
+          "policy": "joint_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              0
+            ]
+          }
+        },
+        {
+          "policy": "factorized_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              0
+            ]
+          }
+        },
+        {
+          "policy": "joint_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              0
+            ]
+          }
+        },
+        {
+          "policy": "factorized_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "graph": "shared_gateway",
+      "prior": "common_cause",
+      "verify_cost": 0.75,
+      "oracle_loss": 0.0,
+      "policies": [
+        {
+          "policy": "joint_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              0
+            ]
+          }
+        },
+        {
+          "policy": "factorized_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              0
+            ]
+          }
+        },
+        {
+          "policy": "joint_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              0
+            ]
+          }
+        },
+        {
+          "policy": "factorized_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "graph": "shared_gateway",
+      "prior": "exclusive_enabling",
+      "verify_cost": 0.25,
+      "oracle_loss": 0.0,
+      "policies": [
+        {
+          "policy": "joint_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 0,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": []
+          }
+        },
+        {
+          "policy": "factorized_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              0
+            ]
+          }
+        },
+        {
+          "policy": "joint_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 0,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": []
+          }
+        },
+        {
+          "policy": "factorized_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "graph": "shared_gateway",
+      "prior": "exclusive_enabling",
+      "verify_cost": 0.75,
+      "oracle_loss": 0.0,
+      "policies": [
+        {
+          "policy": "joint_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 0,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": []
+          }
+        },
+        {
+          "policy": "factorized_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              0
+            ]
+          }
+        },
+        {
+          "policy": "joint_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 0,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": []
+          }
+        },
+        {
+          "policy": "factorized_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              0
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "graph": "parallel_routes",
+      "prior": "independent",
+      "verify_cost": 0.25,
+      "oracle_loss": 0.0,
+      "policies": [
+        {
+          "policy": "joint_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "factorized_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "joint_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "factorized_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "graph": "parallel_routes",
+      "prior": "independent",
+      "verify_cost": 0.75,
+      "oracle_loss": 0.0,
+      "policies": [
+        {
+          "policy": "joint_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "factorized_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "joint_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "factorized_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "graph": "parallel_routes",
+      "prior": "common_cause",
+      "verify_cost": 0.25,
+      "oracle_loss": 0.0,
+      "policies": [
+        {
+          "policy": "joint_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "factorized_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "joint_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "factorized_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "graph": "parallel_routes",
+      "prior": "common_cause",
+      "verify_cost": 0.75,
+      "oracle_loss": 0.0,
+      "policies": [
+        {
+          "policy": "joint_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "factorized_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "joint_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "factorized_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "graph": "parallel_routes",
+      "prior": "exclusive_enabling",
+      "verify_cost": 0.25,
+      "oracle_loss": 0.0,
+      "policies": [
+        {
+          "policy": "joint_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 0,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": []
+          }
+        },
+        {
+          "policy": "factorized_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "joint_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 0,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": []
+          }
+        },
+        {
+          "policy": "factorized_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "graph": "parallel_routes",
+      "prior": "exclusive_enabling",
+      "verify_cost": 0.75,
+      "oracle_loss": 0.0,
+      "policies": [
+        {
+          "policy": "joint_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 0,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": []
+          }
+        },
+        {
+          "policy": "factorized_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "joint_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 0,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": []
+          }
+        },
+        {
+          "policy": "factorized_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "graph": "shared_gate_with_bypass",
+      "prior": "independent",
+      "verify_cost": 0.25,
+      "oracle_loss": 1.25,
+      "policies": [
+        {
+          "policy": "joint_immediate",
+          "expected_loss": 2.5,
+          "expected_spend": 1,
+          "oracle_regret": 1.25,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "factorized_immediate",
+          "expected_loss": 2.5,
+          "expected_spend": 1,
+          "oracle_regret": 1.25,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "joint_voi",
+          "expected_loss": 1.75,
+          "expected_spend": 1.25,
+          "oracle_regret": 0.5,
+          "decision": {
+            "query": 2,
+            "patches_after": {
+              "0": [
+                0
+              ],
+              "1": [
+                2
+              ]
+            }
+          }
+        },
+        {
+          "policy": "factorized_voi",
+          "expected_loss": 1.75,
+          "expected_spend": 1.25,
+          "oracle_regret": 0.5,
+          "decision": {
+            "query": 2,
+            "patches_after": {
+              "0": [
+                0
+              ],
+              "1": [
+                2
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "graph": "shared_gate_with_bypass",
+      "prior": "independent",
+      "verify_cost": 0.75,
+      "oracle_loss": 1.25,
+      "policies": [
+        {
+          "policy": "joint_immediate",
+          "expected_loss": 2.5,
+          "expected_spend": 1,
+          "oracle_regret": 1.25,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "factorized_immediate",
+          "expected_loss": 2.5,
+          "expected_spend": 1,
+          "oracle_regret": 1.25,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "joint_voi",
+          "expected_loss": 2.5,
+          "expected_spend": 1,
+          "oracle_regret": 1.25,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "factorized_voi",
+          "expected_loss": 2.5,
+          "expected_spend": 1,
+          "oracle_regret": 1.25,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "graph": "shared_gate_with_bypass",
+      "prior": "common_cause",
+      "verify_cost": 0.25,
+      "oracle_loss": 4.0,
+      "policies": [
+        {
+          "policy": "joint_immediate",
+          "expected_loss": 4.25,
+          "expected_spend": 1,
+          "oracle_regret": 0.25,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "factorized_immediate",
+          "expected_loss": 4.25,
+          "expected_spend": 1,
+          "oracle_regret": 0.25,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "joint_voi",
+          "expected_loss": 4.125,
+          "expected_spend": 1.25,
+          "oracle_regret": 0.125,
+          "decision": {
+            "query": 2,
+            "patches_after": {
+              "0": [
+                0
+              ],
+              "1": [
+                2
+              ]
+            }
+          }
+        },
+        {
+          "policy": "factorized_voi",
+          "expected_loss": 4.125,
+          "expected_spend": 1.25,
+          "oracle_regret": 0.125,
+          "decision": {
+            "query": 2,
+            "patches_after": {
+              "0": [
+                0
+              ],
+              "1": [
+                2
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "graph": "shared_gate_with_bypass",
+      "prior": "common_cause",
+      "verify_cost": 0.75,
+      "oracle_loss": 4.0,
+      "policies": [
+        {
+          "policy": "joint_immediate",
+          "expected_loss": 4.25,
+          "expected_spend": 1,
+          "oracle_regret": 0.25,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "factorized_immediate",
+          "expected_loss": 4.25,
+          "expected_spend": 1,
+          "oracle_regret": 0.25,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "joint_voi",
+          "expected_loss": 4.25,
+          "expected_spend": 1,
+          "oracle_regret": 0.25,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "factorized_voi",
+          "expected_loss": 4.25,
+          "expected_spend": 1,
+          "oracle_regret": 0.25,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "graph": "shared_gate_with_bypass",
+      "prior": "exclusive_enabling",
+      "verify_cost": 0.25,
+      "oracle_loss": 0.0,
+      "policies": [
+        {
+          "policy": "joint_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "factorized_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "joint_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "factorized_voi",
+          "expected_loss": 0.29999999999999993,
+          "expected_spend": 1.25,
+          "oracle_regret": 0.29999999999999993,
+          "decision": {
+            "query": 2,
+            "patches_after": {
+              "0": [
+                0
+              ],
+              "1": [
+                2
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "graph": "shared_gate_with_bypass",
+      "prior": "exclusive_enabling",
+      "verify_cost": 0.75,
+      "oracle_loss": 0.0,
+      "policies": [
+        {
+          "policy": "joint_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "factorized_immediate",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "joint_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        },
+        {
+          "policy": "factorized_voi",
+          "expected_loss": 0.0,
+          "expected_spend": 1,
+          "oracle_regret": 0.0,
+          "decision": {
+            "patches": [
+              2
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

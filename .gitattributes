@@ -5,3 +5,7 @@ data/pilot-cases.json -text
 analysis/pilot-results.json -text
 analysis/Results.md -text
 protocol/pilot-implementation-notes.md -text
+src/shared_paths.py -text
+tests/test_shared_paths.py -text
+data/shared-paths-v0.2.json -text
+analysis/shared-paths-v0.2/** -text

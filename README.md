@@ -2,6 +2,8 @@
 
 **Status: exact synthetic feasibility pilot completed.** Three public NASim scenario fixtures are pinned with their license and hashes. Nine designed model cases have been evaluated by exact enumeration. No live experiments, validated novelty, production outcome dataset, or final paper are claimed.
 
+**Dependency extension v0.2:** 18 additional designed calculations cover three shared-path graphs, three joint state distributions and two verification costs. [Results and limitations](analysis/shared-paths-v0.2/Results.md). These are development cases, not held-out validation. All 18 unit tests pass. Run `python src/shared_paths.py` to regenerate the versioned results and hash manifest. The original nine-case pilot remains unchanged.
+
 - [Initial novelty audit](protocol/novelty-audit-2026-10-06.md)
 - [Pilot design v0.1](protocol/pilot-design-v0.1.md)
 - [Data provenance](data/README.md)

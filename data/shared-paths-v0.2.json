@@ -1,0 +1,15 @@
+{
+  "budget": 1.5,
+  "verification_accuracy": 0.9,
+  "verification_costs": [0.25, 0.75],
+  "graphs": [
+    {"name": "shared_gateway", "n": 3, "entry": "entry", "edges": [["entry", "gateway", 0], ["gateway", "a", 1], ["gateway", "b", 2]], "targets": {"a": 10, "b": 8}},
+    {"name": "parallel_routes", "n": 3, "entry": "entry", "edges": [["entry", "left", 0], ["entry", "right", 1], ["left", "target", 2], ["right", "target", 2]], "targets": {"target": 10}},
+    {"name": "shared_gate_with_bypass", "n": 3, "entry": "entry", "edges": [["entry", "middle", 0], ["middle", "a", 1], ["entry", "a", 2], ["middle", "b", 2]], "targets": {"a": 10, "b": 8}}
+  ],
+  "priors": [
+    {"name": "independent", "weights": [0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125, 0.125]},
+    {"name": "common_cause", "weights": [0.4, 0.025, 0.025, 0.05, 0.05, 0.025, 0.025, 0.4]},
+    {"name": "exclusive_enabling", "weights": [0.1, 0.3, 0.3, 0, 0.3, 0, 0, 0]}
+  ]
+}
