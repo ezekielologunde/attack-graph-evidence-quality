@@ -1,0 +1,20 @@
+{
+  "commit": "1fb5c20aebfdb95ba0bf6b7c2377c34d2282de79",
+  "python": "3.9.21 (main, Aug 19 2025, 00:00:00) \n[GCC 11.5.0 20240719 (Red Hat 11.5.0-5)]",
+  "platform": "Linux-5.14.0-570.58.1.el9_6.x86_64-x86_64-with-glibc2.34",
+  "job_id": "97288.asax-pbs1",
+  "started_utc": "2026-10-07T14:53:18.216388+00:00",
+  "sealed_hashes": {
+    "protocol/validation-v0.4.json": "760d0e94fe196f9c7f6a95199ca071656d1a0ba1f141145ece52f82149781a90",
+    "src/evidence_graph.py": "3a9c8749a1877c60a145d7ff71183968153c5d7aaa4ebcfd8d3f962a0d34f7cd",
+    "src/shared_paths.py": "97de5738f587c86d5a02b86d65188caa3ce707f3477da11ab7213d5d441daffc",
+    "tests/test_evidence_graph.py": "d85eb71d8476a5c4c232cea2ea75f0f50076edfd7b88e8eb1140adf39077623c",
+    "tests/test_shared_paths.py": "00459a316530979ab7339d0451f45cea481705a7028990141fa62788cdb98e67",
+    "data/shared-paths-v0.2.json": "3cc364b919bfdf58c56ff17dfa2b17725d4776cc77cb88acc212ab5a84c70aca"
+  },
+  "kind": "exact finite synthetic validation; no population inference",
+  "case_count": 96,
+  "failed": 0,
+  "exit_code": 0,
+  "finished_utc": "2026-10-07T14:53:19.733266+00:00"
+}

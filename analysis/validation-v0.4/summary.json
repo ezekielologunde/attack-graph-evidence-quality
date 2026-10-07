@@ -1,0 +1,32 @@
+{
+  "four_gate_diamond": {
+    "total": 32,
+    "failed": 0,
+    "minimum": -1.0,
+    "median": -0.2124999999999999,
+    "maximum": 0.0,
+    "negative": 16,
+    "zero": 16,
+    "positive": 0
+  },
+  "four_gate_shared_bridge": {
+    "total": 32,
+    "failed": 0,
+    "minimum": 0.0,
+    "median": 0.0,
+    "maximum": 0.0,
+    "negative": 0,
+    "zero": 32,
+    "positive": 0
+  },
+  "four_gate_bypass_cycle": {
+    "total": 32,
+    "failed": 0,
+    "minimum": -0.6500000000000001,
+    "median": 0.0,
+    "maximum": 4.440892098500626e-16,
+    "negative": 11,
+    "zero": 21,
+    "positive": 0
+  }
+}
