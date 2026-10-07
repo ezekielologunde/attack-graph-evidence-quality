@@ -1,0 +1,11 @@
+# Langroid behavior addendum
+
+Preparation note: independently built halo and wget wheels had different ZIP hashes but identical member bytes. Both comparison environments use the old build's artifact for every shared filename, recorded in langroid-build-normalization.json; original build outputs are preserved. Initial lock creation aborted on this hash mismatch before any behavioral run. The subsequent runner invocation also aborted for a missing lock before creating an output directory or container.
+
+7 October 2026, frozen before behavior execution. Exact top-level versions 0.53.14 and 0.53.15 and all 188 wheels per environment are pinned in langroid-lock.json. Shared dependency filenames and hashes will be compared before execution; source-built wheels are retained outside Git. Original probes are newly authored, not adapted upstream tests. Upstream patch 0d9e4a7bb3ae2eef8d38f2e970ff916599a2b2a6 informed the distinction.
+
+Call the installed VectorStore.compute_from_docs method with two real Document instances, using None as the unused self argument. This method does not access self. Do not construct an embedding model or vector database. Benign expression df['content'].count() must return 2 in both versions. The harmless builtin expression len(df) should return 2 in 0.53.14 and an Error encountered in pandas eval response in 0.53.15. Malformed expression ( must yield an error in both. This checks expression acceptance through the real method, not agent integration, arbitrary-code exploitation, or complete sanitizer security. No shell, filesystem or network payloads.
+
+Three fresh containers per version. Network disabled, read-only root and inputs, non-root user, no capabilities, no-new-privileges, one CPU, 2 GiB memory and tmpfs, 128 processes, external 180-second setup-plus-probe timeout. pip check and freeze retained; only pinned offline wheels permitted. Record stdout/stderr, version, observations, elapsed time, probe time, process RSS/CPU and UTC.
+
+Confirmed narrow distinction requires all controls and expected distinctions in all repetitions. Valid contrary results are contradicted; mixed valid observations are inconclusive; import/install/timeout/parse failures are environment failures, never negative vulnerability labels. No model or API credentials. No changes to synthetic inputs or previous results.

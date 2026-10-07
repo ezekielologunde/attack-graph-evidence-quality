@@ -1,0 +1,13 @@
+{
+  "differences": [
+    {
+      "wheel": "halo-0.0.31-py3-none-any.whl",
+      "member_bytes_identical": true
+    },
+    {
+      "wheel": "wget-3.2-py3-none-any.whl",
+      "member_bytes_identical": true
+    }
+  ],
+  "rule": "Use old-environment wheel for every shared filename; preserve source-built originals"
+}
