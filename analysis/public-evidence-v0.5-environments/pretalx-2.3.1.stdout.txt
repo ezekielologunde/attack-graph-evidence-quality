@@ -1,0 +1,9 @@
+Collecting pretalx==2.3.1
+  Downloading pretalx-2.3.1-py3-none-any.whl.metadata (3.7 kB)
+Collecting beautifulsoup4~=4.10.0 (from pretalx==2.3.1)
+  Downloading beautifulsoup4-4.10.0-py3-none-any.whl.metadata (3.5 kB)
+Collecting bleach~=4.1.0 (from pretalx==2.3.1)
+  Downloading bleach-4.1.0-py2.py3-none-any.whl.metadata (24 kB)
+Collecting celery~=4.4.0 (from pretalx==2.3.1)
+  Downloading celery-4.4.7-py2.py3-none-any.whl.metadata (19 kB)
+INFO: pip is looking at multiple versions of pretalx to determine which version is compatible with other requirements. This could take a while.

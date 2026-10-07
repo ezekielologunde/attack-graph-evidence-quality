@@ -1,0 +1,5 @@
+ERROR: Could not find a version that satisfies the requirement halo<1.0.0,>=0.0.31 (from langroid) (from versions: 0.0.24, 0.0.25, 0.0.26, 0.0.27, 0.0.28, 0.0.29, 0.0.30)
+ERROR: No matching distribution found for halo<1.0.0,>=0.0.31
+
+[notice] A new release of pip is available: 24.0 -> 26.2.1
+[notice] To update, run: pip install --upgrade pip
