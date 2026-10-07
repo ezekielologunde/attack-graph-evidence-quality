@@ -16,3 +16,6 @@ protocol/validation-v0.4.json -text
 protocol/validation-v0.4-seal.json -text
 data/public-artifact-audit-v0.1/** -text
 analysis/public-artifact-audit-v0.1/** -text
+src/requests_behavior_check.py -text
+src/run_requests_behavior.py -text
+analysis/requests-behavior-v0.1/** -text

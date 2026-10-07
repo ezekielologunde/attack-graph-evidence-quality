@@ -1,5 +1,7 @@
 # Provenance-aware attack-graph decisions
 
+[Offline behavior feasibility check](analysis/requests-behavior-v0.1/Results.md): 16 API-level cases distinguish Requests 2.30.0 and 2.31.0 header handling without sending requests. This is a narrow behavioral oracle, not an end-to-end exploit or scanner benchmark.
+
 [Public-artifact feasibility audit](analysis/public-artifact-audit-v0.1/Results.md): one shared advisory lineage and two Requests wheel identities verified. Independent affectedness labels, scanner comparisons and operational costs remain unmeasured.
 
 [Alternative directions and selection, 7 October 2026](protocol/alternative-directions-2026-10-07.md): six candidate pivots compared. Preferred next step is a public-artifact feasibility audit of shared advisory provenance and decision-relevant verification; novelty remains provisional.
