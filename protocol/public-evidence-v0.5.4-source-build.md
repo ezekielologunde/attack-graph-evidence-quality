@@ -1,0 +1,5 @@
+# Isolated source-build preparation amendment
+
+7 October 2026. Before further package behavior collection, permit source builds in disposable Docker containers to resolve the three wheel-only blockers. Each version has a 300-second preparation timeout, two CPUs, 3 GiB memory, 128 processes and 2 GiB temporary filesystem. Only its new wheel-output directory is mounted writable. No credentials, host system directories or Docker socket are mounted. Network is enabled for public dependency acquisition, then disabled for any later probe. All capabilities are dropped; root filesystem is read-only. Build hooks execute only within this container.
+
+Record commands, full stdout/stderr, exit codes, elapsed time and wheel hashes. A successful build is environment preparation, not a behavior result. Failed preparation remains failed, with no replacement cases. Build outputs must be frozen before behavior runs, which still require a completed case-specific probe addendum. This timeout is separate from the two-hour engineering cap; reaching the timeout does not exhaust that cap.
