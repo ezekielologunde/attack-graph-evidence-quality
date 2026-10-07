@@ -1,0 +1,35 @@
+[
+  {
+    "version": "2.30.0",
+    "osv_focal_present": true,
+    "trivy_focal_present": true,
+    "osv_records": [
+      {
+        "id": "PYSEC-2023-74",
+        "sources": [
+          "https://github.com/pypa/advisory-database/blob/main/vulns/requests/PYSEC-2023-74.yaml"
+        ]
+      },
+      {
+        "id": "GHSA-j8r2-6x86-q33q",
+        "sources": [
+          "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/05/GHSA-j8r2-6x86-q33q/GHSA-j8r2-6x86-q33q.json"
+        ]
+      }
+    ],
+    "trivy_sources": [
+      {
+        "ID": "ghsa",
+        "Name": "GitHub Security Advisory pip",
+        "URL": "https://github.com/advisories?query=type%3Areviewed+ecosystem%3Apip"
+      }
+    ]
+  },
+  {
+    "version": "2.31.0",
+    "osv_focal_present": false,
+    "trivy_focal_present": false,
+    "osv_records": [],
+    "trivy_sources": []
+  }
+]

@@ -19,3 +19,7 @@ analysis/public-artifact-audit-v0.1/** -text
 src/requests_behavior_check.py -text
 src/run_requests_behavior.py -text
 analysis/requests-behavior-v0.1/** -text
+analysis/scanner-comparison-v0.1/** -text
+data/scanner-inputs-v0.1/** -text
+src/run_scanner_comparison.py -text
+src/analyze_scanner_comparison.py -text

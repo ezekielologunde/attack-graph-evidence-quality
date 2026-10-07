@@ -1,0 +1,96 @@
+[
+  {
+    "scanner": "osv",
+    "version": "2.30.0",
+    "command": [
+      "docker",
+      "run",
+      "--rm",
+      "--mount",
+      "type=bind,source=C:\\Users\\WT8\\Projects\\attack-graph-evidence-quality\\data\\scanner-inputs-v0.1\\2.30.0,target=/input,readonly",
+      "ghcr.io/google/osv-scanner@sha256:afd838850ac1a0fcc15ff4a041dc9ba11123c3f0d2666217a5f0fcf9222b55fa",
+      "scan",
+      "source",
+      "--no-resolve",
+      "--format",
+      "json",
+      "--all-packages",
+      "--lockfile",
+      "/input/requirements.txt"
+    ],
+    "started_utc": "2026-10-07T13:55:18.009917+00:00",
+    "seconds": 1.594927700003609,
+    "exit_code": 1
+  },
+  {
+    "scanner": "osv",
+    "version": "2.31.0",
+    "command": [
+      "docker",
+      "run",
+      "--rm",
+      "--mount",
+      "type=bind,source=C:\\Users\\WT8\\Projects\\attack-graph-evidence-quality\\data\\scanner-inputs-v0.1\\2.31.0,target=/input,readonly",
+      "ghcr.io/google/osv-scanner@sha256:afd838850ac1a0fcc15ff4a041dc9ba11123c3f0d2666217a5f0fcf9222b55fa",
+      "scan",
+      "source",
+      "--no-resolve",
+      "--format",
+      "json",
+      "--all-packages",
+      "--lockfile",
+      "/input/requirements.txt"
+    ],
+    "started_utc": "2026-10-07T13:55:19.608038+00:00",
+    "seconds": 1.5382034999784082,
+    "exit_code": 1
+  },
+  {
+    "scanner": "trivy",
+    "version": "2.30.0",
+    "command": [
+      "docker",
+      "run",
+      "--rm",
+      "--mount",
+      "type=bind,source=C:\\Users\\WT8\\Projects\\attack-graph-evidence-quality\\data\\scanner-inputs-v0.1\\2.30.0,target=/input,readonly",
+      "--mount",
+      "type=bind,source=C:\\Users\\WT8\\AppData\\Local\\Temp\\scanner-cache-0qoj1m1m,target=/root/.cache/trivy",
+      "aquasec/trivy@sha256:af6acf9a6b85dfe389a1941505c0ce9efef52a4719635e1a962f022a3d855daa",
+      "fs",
+      "--scanners",
+      "vuln",
+      "--format",
+      "json",
+      "--skip-version-check",
+      "/input"
+    ],
+    "started_utc": "2026-10-07T13:55:22.303471+00:00",
+    "seconds": 27.076495300017996,
+    "exit_code": 0
+  },
+  {
+    "scanner": "trivy",
+    "version": "2.31.0",
+    "command": [
+      "docker",
+      "run",
+      "--rm",
+      "--mount",
+      "type=bind,source=C:\\Users\\WT8\\Projects\\attack-graph-evidence-quality\\data\\scanner-inputs-v0.1\\2.31.0,target=/input,readonly",
+      "--mount",
+      "type=bind,source=C:\\Users\\WT8\\AppData\\Local\\Temp\\scanner-cache-0qoj1m1m,target=/root/.cache/trivy",
+      "aquasec/trivy@sha256:af6acf9a6b85dfe389a1941505c0ce9efef52a4719635e1a962f022a3d855daa",
+      "fs",
+      "--scanners",
+      "vuln",
+      "--format",
+      "json",
+      "--skip-version-check",
+      "/input"
+    ],
+    "started_utc": "2026-10-07T13:55:49.383171+00:00",
+    "seconds": 1.122035300009884,
+    "exit_code": 0
+  }
+]

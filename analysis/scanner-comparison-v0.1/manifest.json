@@ -1,0 +1,21 @@
+{
+  "analysis/scanner-comparison-v0.1/comparison.json": "5df666f822d4a01049179a3d4d4089ec2da8109675f6c3073365463d30cb3925",
+  "analysis/scanner-comparison-v0.1/osv-2.30.0.json": "2117cca453ec081a2b8dfd8bb1458382c92449e22f53925eb89d9abf8482bd4d",
+  "analysis/scanner-comparison-v0.1/osv-2.30.0.stderr.txt": "4428eb25e0bfda52454411f40308fde48a145dc5135acec5509a3133d2ad2a87",
+  "analysis/scanner-comparison-v0.1/osv-2.31.0.json": "acb12952488870c29d144287b384d0202cf445e5dfc7936f8ff8c0719e2b65b8",
+  "analysis/scanner-comparison-v0.1/osv-2.31.0.stderr.txt": "e89521e0e646792831e73a77d2eaf182799ecdd8744bdeeda672217ebdd78aca",
+  "analysis/scanner-comparison-v0.1/osv-version.txt": "e0bc7fa9d9b902f5179238abc870bc238c6f119e8c4c0b58b63fd26289fc5ea7",
+  "analysis/scanner-comparison-v0.1/Results.md": "7144b9cd692d8e4c4c6efa7a31cd51f9c54ccd28894124068b1a6778ed4e447c",
+  "analysis/scanner-comparison-v0.1/runs.json": "33dc57b5c9a372df95d4f9c6fcfc63eeea11917175e4429e05ef4f4b38cf3e4e",
+  "analysis/scanner-comparison-v0.1/trivy-2.30.0.json": "1b247176e1d6aac72d8fc993f7a0088f5ad758e043839f852b9f4885602598bf",
+  "analysis/scanner-comparison-v0.1/trivy-2.30.0.stderr.txt": "55664606a85f305a68d3520761726b5ac9ad8f21f356e2eeebc27b7e9f4c4163",
+  "analysis/scanner-comparison-v0.1/trivy-2.31.0.json": "caec183c797fdc238e11c7b6419a160a0dc844cc427d7ae7ea1c5a0fd03778d1",
+  "analysis/scanner-comparison-v0.1/trivy-2.31.0.stderr.txt": "a51aca710b75f1410faeb3dbb8b1dd96b7be5a7e7f0744b2bef09a5a6866a4b4",
+  "analysis/scanner-comparison-v0.1/trivy-db-metadata.json": "a31b98add13d54fb87e81d5584d7c2b4caebacd70e0d865a6b9d3008a261d0a6",
+  "analysis/scanner-comparison-v0.1/trivy-db-sha256.txt": "a68cb91c0802752fddf1b6aa8a0a06a621423a6a7bfd2e9b11eba99400d4a109",
+  "analysis/scanner-comparison-v0.1/trivy-version.txt": "141056fa91d6968e53bac422b21180f34119f028567db866405061be440ee688",
+  "data/scanner-inputs-v0.1/2.30.0/requirements.txt": "6bce6f3f680c1c9a807a35d882c0b6a13356a1e91d9adeb224288bfd1c22e496",
+  "data/scanner-inputs-v0.1/2.31.0/requirements.txt": "2a2b5fe308b4fa1b9213123a10292d7d719c1676baf2612778a21db4499b5d88",
+  "src/analyze_scanner_comparison.py": "0f7fac9565785632849156f9090b380c0b6ac2955d3f4a2de328536d513cffab",
+  "src/run_scanner_comparison.py": "33a85899d8d870490368b5ab684a951cf3ffd31606a4fbc52ac4124b036e3fbf"
+}
