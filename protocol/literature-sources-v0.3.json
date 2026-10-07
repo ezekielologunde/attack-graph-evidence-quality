@@ -1,0 +1,35 @@
+{
+  "review_date": "2026-10-06",
+  "retrieval": "Direct HTTPS via PowerShell Invoke-WebRequest; text extracted with pypdf",
+  "redistributed_full_text": false,
+  "sources": [
+    {
+      "id": "nguyen2017uncertainty",
+      "authors": ["Hoang Hai Nguyen", "Kartik Palani", "David M. Nicol"],
+      "title": "An Approach to Incorporating Uncertainty in Network Security Analysis",
+      "venue": "HoTSoS 2017",
+      "doi": "10.1145/3055305.3055308",
+      "url": "https://publish.illinois.edu/science-of-security-lablet/files/2014/05/An-Approach-to-Incorporating-Uncertainty-in-Network-Security-Analysis-1.pdf",
+      "bytes": 1287394,
+      "sha256": "2feea3752368bdb4f9194d6b61ec7256dc6dfb2a101804f39fd717cd00ea1b4f",
+      "pdf_pages": 11,
+      "comparison_sections": ["3", "4 Remark 2", "5.2", "6.3", "8"],
+      "rights": "Author copyright; publication rights licensed to ACM. Full text not committed."
+    },
+    {
+      "id": "issa2026capgv2",
+      "authors": ["Noufal Issa", "Damas Gruska", "Loubna Ali"],
+      "title": "CAPG-v2: Impact-Weighted, Multi-Path Vulnerability Prioritization over CVE-Centric Attack-Position Graphs",
+      "venue": "SECRYPT 2026, volume 2",
+      "pages": "1089-1096",
+      "doi": "10.5220/0015064100004103",
+      "url": "https://www.scitepress.org/Papers/2026/150641/150641.pdf",
+      "bytes": 962806,
+      "sha256": "8093269afee2f4d9304bbc7588223f9f681780145ba914708dc9a37e62315b62",
+      "pdf_pages": 8,
+      "comparison_sections": ["3", "4", "5", "6", "7", "8"],
+      "rights": "PDF states CC BY-NC-ND 4.0; full text not committed.",
+      "artifact_status": "Reference evaluator announced; URL not located in this pass. No reproduction performed."
+    }
+  ]
+}

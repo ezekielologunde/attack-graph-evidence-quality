@@ -2,6 +2,8 @@
 
 Review date: 6 October 2026. Author: Ezekiel Ologunde, Independent Researcher.
 
+Update: [v0.3 full-text supplement](full-text-comparison-v0.3.md) resolves the Nguyen and CAPG-v2 PDF access failures recorded below and distinguishes structural reachability from attacker-policy loss. This historical access record is retained; evaluator availability and broader novelty clearance remain open.
+
 **Decision: retain this as a candidate benchmark study, not a novel algorithm.** The pilots establish calculational feasibility. They do not establish a literature gap. Correlated uncertain graphs, dependency-aware patch ranking, budgeted information gathering and defense under partial observability all have prior work. A larger confirmatory study is not yet frozen.
 
 ## Comparison register

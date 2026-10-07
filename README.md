@@ -5,7 +5,8 @@
 **Dependency extension v0.2:** 18 additional designed calculations cover three shared-path graphs, three joint state distributions and two verification costs. [Results and limitations](analysis/shared-paths-v0.2/Results.md). These are development cases, not held-out validation. All 18 unit tests pass. Run `python src/shared_paths.py` to regenerate the versioned results and hash manifest. The original nine-case pilot remains unchanged.
 
 - [Initial novelty audit](protocol/novelty-audit-2026-10-06.md)
-- [Closest-paper comparison and study gates](protocol/closest-paper-review-v0.2.md): broad novelty claims rejected; a narrower evidence-lineage benchmark remains provisional, with full-text comparisons still open.
+- [Closest-paper comparison and study gates](protocol/closest-paper-review-v0.2.md): broad novelty claims rejected; a narrower evidence-lineage benchmark remains provisional.
+- [Full-text supplement](protocol/full-text-comparison-v0.3.md): Nguyen and CAPG-v2 methods inspected; structural reachability and finite-horizon attacker loss require separate evaluation. Broader novelty clearance and CAPG evaluator access remain open.
 - [Pilot design v0.1](protocol/pilot-design-v0.1.md)
 - [Data provenance](data/README.md)
 
