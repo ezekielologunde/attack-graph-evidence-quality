@@ -1,0 +1,18 @@
+{
+  "same_advisory_id": true,
+  "normalized_package_ranges_equal": true,
+  "osv_added_aliases": [
+    "PYSEC-2023-74"
+  ],
+  "github_package": {
+    "ecosystem": "PyPI",
+    "name": "requests"
+  },
+  "osv_package": {
+    "name": "requests",
+    "ecosystem": "PyPI",
+    "purl": "pkg:pypi/requests"
+  },
+  "interpretation": "OSV explicitly identifies GitHub as upstream; range agreement is not independent corroboration.",
+  "independent_fact": "Wheel METADATA confirms package name and version; no independent affectedness label was measured."
+}

@@ -1,0 +1,93 @@
+{
+  "kind": "two-artifact feasibility audit, not scanner benchmark",
+  "github_commit": "161aa622af11e0b687366ff64cf068f7cca59a50",
+  "osv_declared_upstream": "https://github.com/github/advisory-database/blob/main/advisories/github-reviewed/2023/05/GHSA-j8r2-6x86-q33q/GHSA-j8r2-6x86-q33q.json",
+  "advisory_projection_equal": false,
+  "artifacts": [
+    {
+      "name": "requests",
+      "version": "2.30.0",
+      "filename": "requests-2.30.0-py3-none-any.whl",
+      "wheel_sha256": "10e94cc4f3121ee6da529d358cdaeaff2f1c409cd377dbc72b825852f2f7e294",
+      "metadata_entry": "requests-2.30.0.dist-info/METADATA",
+      "metadata_sha256": "29fc68a0cae090c8a5643d4031ee48fb1db8ebc1d24f6c7b68198c59b44c7467",
+      "listed_affected_by_osv": true
+    },
+    {
+      "name": "requests",
+      "version": "2.31.0",
+      "filename": "requests-2.31.0-py3-none-any.whl",
+      "wheel_sha256": "58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f",
+      "metadata_entry": "requests-2.31.0.dist-info/METADATA",
+      "metadata_sha256": "7823e890e9db6f415138badf9744791290ef76e7ec6fd09a3789e8247fffe782",
+      "listed_affected_by_osv": false
+    }
+  ],
+  "receipts": [
+    {
+      "url": "https://api.github.com/repos/github/advisory-database/commits/main",
+      "retrieved_utc": "2026-10-07T05:26:52.174735+00:00",
+      "sha256": "05eadcd932e8a0985d940e0554bd2c4e9e6d6633f89db301308401358a902831",
+      "bytes": 76753,
+      "retrieval_seconds": 0.43364290001045447
+    },
+    {
+      "url": "https://raw.githubusercontent.com/github/advisory-database/161aa622af11e0b687366ff64cf068f7cca59a50/advisories/github-reviewed/2023/05/GHSA-j8r2-6x86-q33q/GHSA-j8r2-6x86-q33q.json",
+      "retrieved_utc": "2026-10-07T05:26:52.424717+00:00",
+      "sha256": "2ec79fe91b41e6b681da97c1edc7db44a6a47a77e81e6d5386109c4743bf0c66",
+      "bytes": 5346,
+      "retrieval_seconds": 0.24935100000584498,
+      "saved_as": "github-advisory.json"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/github/advisory-database/161aa622af11e0b687366ff64cf068f7cca59a50/LICENSE.md",
+      "retrieved_utc": "2026-10-07T05:26:52.586671+00:00",
+      "sha256": "9e5f1b3c610b9c2da5c313bf81d577a7d1acec686bdb0384edefa6df0f90cd94",
+      "bytes": 18656,
+      "retrieval_seconds": 0.16072370001347736,
+      "saved_as": "UPSTREAM-LICENSE.md"
+    },
+    {
+      "url": "https://api.osv.dev/v1/vulns/GHSA-j8r2-6x86-q33q",
+      "retrieved_utc": "2026-10-07T05:26:52.843750+00:00",
+      "sha256": "c25e95e884d6c3fc36c430e216da2d78faba494be84f1b25c114a6627b470e7c",
+      "bytes": 5565,
+      "retrieval_seconds": 0.2564411000057589,
+      "saved_as": "osv-advisory.json"
+    },
+    {
+      "url": "https://pypi.org/pypi/requests/2.30.0/json",
+      "retrieved_utc": "2026-10-07T05:26:52.999745+00:00",
+      "sha256": "2208fd4ce34ed89a0b5b4896719c9a05fb71ef8b0fb6eed2952870f54e6339c4",
+      "bytes": 16287,
+      "retrieval_seconds": 0.15417369999340735
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/96/80/034ffeca15c0f4e01b7b9c6ad0fb704b44e190cde4e757edbd60be404c41/requests-2.30.0-py3-none-any.whl",
+      "retrieved_utc": "2026-10-07T05:26:53.143742+00:00",
+      "sha256": "10e94cc4f3121ee6da529d358cdaeaff2f1c409cd377dbc72b825852f2f7e294",
+      "bytes": 62486,
+      "retrieval_seconds": 0.14365709999401588
+    },
+    {
+      "url": "https://pypi.org/pypi/requests/2.31.0/json",
+      "retrieved_utc": "2026-10-07T05:26:53.251291+00:00",
+      "sha256": "d9f9143e87ae832bb1ac5273596fa7167c24328845813797d633f9c3284b5a73",
+      "bytes": 11926,
+      "retrieval_seconds": 0.10356590000446886
+    },
+    {
+      "url": "https://files.pythonhosted.org/packages/70/8e/0e2d847013cb52cd35b38c009bb167a1a26b2ce6cd6965bf26b47bc0bf44/requests-2.31.0-py3-none-any.whl",
+      "retrieved_utc": "2026-10-07T05:26:53.394807+00:00",
+      "sha256": "58cd2187c01e70e6e26505bca751777aa9f2ee0b7f4300988b709f44e013003f",
+      "bytes": 62574,
+      "retrieval_seconds": 0.14332809999177698
+    }
+  ],
+  "limitations": [
+    "Version identity is independent of advisory lookup; affectedness labels still come from the advisory.",
+    "No scanner execution, installed-environment inspection, exploitability test or patch-benefit measurement.",
+    "One retrieval per endpoint; wall time is acquisition latency, not verification-policy cost.",
+    "No wheels redistributed or package code executed. OSV record may change on rerun."
+  ]
+}

@@ -1,5 +1,7 @@
 # Provenance-aware attack-graph decisions
 
+[Public-artifact feasibility audit](analysis/public-artifact-audit-v0.1/Results.md): one shared advisory lineage and two Requests wheel identities verified. Independent affectedness labels, scanner comparisons and operational costs remain unmeasured.
+
 [Alternative directions and selection, 7 October 2026](protocol/alternative-directions-2026-10-07.md): six candidate pivots compared. Preferred next step is a public-artifact feasibility audit of shared advisory provenance and decision-relevant verification; novelty remains provisional.
 
 **Latest:** [integrated evidence model v0.3](analysis/integrated-v0.3/Results.md) evaluates 144 designed cases; 26 tests pass. Run `python src/evidence_graph.py`. A [96-case prospective validation grid](protocol/validation-v0.4.json) is specified and sealed but has not been executed. This finite model validation is not the main empirical study.

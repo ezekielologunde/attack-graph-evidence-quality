@@ -14,3 +14,5 @@ tests/test_evidence_graph.py -text
 analysis/integrated-v0.3/** -text
 protocol/validation-v0.4.json -text
 protocol/validation-v0.4-seal.json -text
+data/public-artifact-audit-v0.1/** -text
+analysis/public-artifact-audit-v0.1/** -text
