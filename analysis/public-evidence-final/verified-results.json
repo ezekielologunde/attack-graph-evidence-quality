@@ -1,0 +1,992 @@
+{
+  "scope": "Fixed first-six feasibility subset; no replacements",
+  "confirmed_narrow_cases": 4,
+  "excluded_stable_release": 1,
+  "unsupported_fixture": 1,
+  "probe_series_setup_failures": 24,
+  "pretalx_json_banner_parse_corrections": 6,
+  "summary": [
+    {
+      "package": "langroid",
+      "successful_runs": 6,
+      "probe_seconds_min": 2.4468727720013703,
+      "probe_seconds_median": 2.793017065996537,
+      "probe_seconds_max": 8.03646223499527,
+      "peak_process_rss_kib_max": 213064,
+      "elapsed_seconds_median": 87.50800000000163
+    },
+    {
+      "package": "pretalx",
+      "successful_runs": 6,
+      "probe_seconds_min": 1.406680359999882,
+      "probe_seconds_median": 1.8553875044999586,
+      "probe_seconds_max": 4.699025630005053,
+      "peak_process_rss_kib_max": 69616,
+      "elapsed_seconds_median": 36.64800000000105
+    },
+    {
+      "package": "scrapy",
+      "successful_runs": 6,
+      "probe_seconds_min": 0.5650087299945881,
+      "probe_seconds_median": 0.6167887084993708,
+      "probe_seconds_max": 0.7065805140009616,
+      "peak_process_rss_kib_max": 57744,
+      "elapsed_seconds_median": 17.32050000000163
+    },
+    {
+      "package": "certifi",
+      "successful_runs": 3,
+      "probe_seconds_min": 0.04020161699736491,
+      "probe_seconds_median": 0.04146455999580212,
+      "probe_seconds_max": 0.052597130998037755,
+      "peak_process_rss_kib_max": 23140,
+      "elapsed_seconds_median": 1.1089999999967404
+    }
+  ],
+  "langroid": [
+    {
+      "version": "0.53.14",
+      "repeat": 1,
+      "exit_code": 0,
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--name",
+        "langroid-v2-0.53.14-1",
+        "--network",
+        "none",
+        "--read-only",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--cpus",
+        "1",
+        "--memory",
+        "2g",
+        "--pids-limit",
+        "128",
+        "--user",
+        "65534:65534",
+        "--tmpfs",
+        "/tmp:rw,exec,size=2147483648",
+        "--env",
+        "TIKTOKEN_CACHE_DIR=/tokenizer",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Documents\\ChatGPT\\Research\\public-evidence-snapshots\\v0.5\\tokenizer-cache,target=/tokenizer,readonly",
+        "--env",
+        "HOME=/tmp",
+        "--env",
+        "PIP_NO_CACHE_DIR=1",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Documents\\ChatGPT\\Research\\public-evidence-snapshots\\v0.5\\locked-environments\\langroid-0.53.14,target=/wheels,readonly",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Projects\\attack-graph-evidence-quality\\src\\probe_langroid_v2.py,target=/probe.py,readonly",
+        "python@sha256:0dd364ba7e10242f07755449e3a3d0e35f9efd987952737b90def6709ab0c5ce",
+        "sh",
+        "-c",
+        "python -m venv /tmp/env && /tmp/env/bin/pip install --no-index --find-links /wheels langroid==0.53.14 >&2 && /tmp/env/bin/pip check >&2 && /tmp/env/bin/pip freeze >&2 && /tmp/env/bin/python -B /probe.py"
+      ],
+      "utc": "2026-10-07T16:53:20.095006+00:00",
+      "elapsed_seconds": 115.07800000000861,
+      "observed": {
+        "version": "0.53.14",
+        "observations": [
+          {
+            "label": "benign",
+            "expression": "df['content'].count()",
+            "result": "2"
+          },
+          {
+            "label": "restricted_builtin",
+            "expression": "len(df)",
+            "result": "2"
+          },
+          {
+            "label": "invalid_control",
+            "expression": "(",
+            "result": "Error encountered in pandas eval: '(' was never closed (<string>, line 1)"
+          }
+        ],
+        "probe_seconds": 8.03646223499527,
+        "peak_process_rss_kib": 213064,
+        "cpu_seconds": 8.530683
+      },
+      "verified_observed": {
+        "version": "0.53.14",
+        "observations": [
+          {
+            "label": "benign",
+            "expression": "df['content'].count()",
+            "result": "2"
+          },
+          {
+            "label": "restricted_builtin",
+            "expression": "len(df)",
+            "result": "2"
+          },
+          {
+            "label": "invalid_control",
+            "expression": "(",
+            "result": "Error encountered in pandas eval: '(' was never closed (<string>, line 1)"
+          }
+        ],
+        "probe_seconds": 8.03646223499527,
+        "peak_process_rss_kib": 213064,
+        "cpu_seconds": 8.530683
+      }
+    },
+    {
+      "version": "0.53.14",
+      "repeat": 2,
+      "exit_code": 0,
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--name",
+        "langroid-v2-0.53.14-2",
+        "--network",
+        "none",
+        "--read-only",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--cpus",
+        "1",
+        "--memory",
+        "2g",
+        "--pids-limit",
+        "128",
+        "--user",
+        "65534:65534",
+        "--tmpfs",
+        "/tmp:rw,exec,size=2147483648",
+        "--env",
+        "TIKTOKEN_CACHE_DIR=/tokenizer",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Documents\\ChatGPT\\Research\\public-evidence-snapshots\\v0.5\\tokenizer-cache,target=/tokenizer,readonly",
+        "--env",
+        "HOME=/tmp",
+        "--env",
+        "PIP_NO_CACHE_DIR=1",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Documents\\ChatGPT\\Research\\public-evidence-snapshots\\v0.5\\locked-environments\\langroid-0.53.14,target=/wheels,readonly",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Projects\\attack-graph-evidence-quality\\src\\probe_langroid_v2.py,target=/probe.py,readonly",
+        "python@sha256:0dd364ba7e10242f07755449e3a3d0e35f9efd987952737b90def6709ab0c5ce",
+        "sh",
+        "-c",
+        "python -m venv /tmp/env && /tmp/env/bin/pip install --no-index --find-links /wheels langroid==0.53.14 >&2 && /tmp/env/bin/pip check >&2 && /tmp/env/bin/pip freeze >&2 && /tmp/env/bin/python -B /probe.py"
+      ],
+      "utc": "2026-10-07T16:55:10.965839+00:00",
+      "elapsed_seconds": 110.875,
+      "observed": {
+        "version": "0.53.14",
+        "observations": [
+          {
+            "label": "benign",
+            "expression": "df['content'].count()",
+            "result": "2"
+          },
+          {
+            "label": "restricted_builtin",
+            "expression": "len(df)",
+            "result": "2"
+          },
+          {
+            "label": "invalid_control",
+            "expression": "(",
+            "result": "Error encountered in pandas eval: '(' was never closed (<string>, line 1)"
+          }
+        ],
+        "probe_seconds": 2.630513060998055,
+        "peak_process_rss_kib": 212796,
+        "cpu_seconds": 2.835196
+      },
+      "verified_observed": {
+        "version": "0.53.14",
+        "observations": [
+          {
+            "label": "benign",
+            "expression": "df['content'].count()",
+            "result": "2"
+          },
+          {
+            "label": "restricted_builtin",
+            "expression": "len(df)",
+            "result": "2"
+          },
+          {
+            "label": "invalid_control",
+            "expression": "(",
+            "result": "Error encountered in pandas eval: '(' was never closed (<string>, line 1)"
+          }
+        ],
+        "probe_seconds": 2.630513060998055,
+        "peak_process_rss_kib": 212796,
+        "cpu_seconds": 2.835196
+      }
+    },
+    {
+      "version": "0.53.14",
+      "repeat": 3,
+      "exit_code": 0,
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--name",
+        "langroid-v2-0.53.14-3",
+        "--network",
+        "none",
+        "--read-only",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--cpus",
+        "1",
+        "--memory",
+        "2g",
+        "--pids-limit",
+        "128",
+        "--user",
+        "65534:65534",
+        "--tmpfs",
+        "/tmp:rw,exec,size=2147483648",
+        "--env",
+        "TIKTOKEN_CACHE_DIR=/tokenizer",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Documents\\ChatGPT\\Research\\public-evidence-snapshots\\v0.5\\tokenizer-cache,target=/tokenizer,readonly",
+        "--env",
+        "HOME=/tmp",
+        "--env",
+        "PIP_NO_CACHE_DIR=1",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Documents\\ChatGPT\\Research\\public-evidence-snapshots\\v0.5\\locked-environments\\langroid-0.53.14,target=/wheels,readonly",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Projects\\attack-graph-evidence-quality\\src\\probe_langroid_v2.py,target=/probe.py,readonly",
+        "python@sha256:0dd364ba7e10242f07755449e3a3d0e35f9efd987952737b90def6709ab0c5ce",
+        "sh",
+        "-c",
+        "python -m venv /tmp/env && /tmp/env/bin/pip install --no-index --find-links /wheels langroid==0.53.14 >&2 && /tmp/env/bin/pip check >&2 && /tmp/env/bin/pip freeze >&2 && /tmp/env/bin/python -B /probe.py"
+      ],
+      "utc": "2026-10-07T16:56:42.990273+00:00",
+      "elapsed_seconds": 92.01600000000326,
+      "observed": {
+        "version": "0.53.14",
+        "observations": [
+          {
+            "label": "benign",
+            "expression": "df['content'].count()",
+            "result": "2"
+          },
+          {
+            "label": "restricted_builtin",
+            "expression": "len(df)",
+            "result": "2"
+          },
+          {
+            "label": "invalid_control",
+            "expression": "(",
+            "result": "Error encountered in pandas eval: '(' was never closed (<string>, line 1)"
+          }
+        ],
+        "probe_seconds": 2.6080170330023975,
+        "peak_process_rss_kib": 212616,
+        "cpu_seconds": 2.8420119999999995
+      },
+      "verified_observed": {
+        "version": "0.53.14",
+        "observations": [
+          {
+            "label": "benign",
+            "expression": "df['content'].count()",
+            "result": "2"
+          },
+          {
+            "label": "restricted_builtin",
+            "expression": "len(df)",
+            "result": "2"
+          },
+          {
+            "label": "invalid_control",
+            "expression": "(",
+            "result": "Error encountered in pandas eval: '(' was never closed (<string>, line 1)"
+          }
+        ],
+        "probe_seconds": 2.6080170330023975,
+        "peak_process_rss_kib": 212616,
+        "cpu_seconds": 2.8420119999999995
+      }
+    },
+    {
+      "version": "0.53.15",
+      "repeat": 1,
+      "exit_code": 0,
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--name",
+        "langroid-v2-0.53.15-1",
+        "--network",
+        "none",
+        "--read-only",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--cpus",
+        "1",
+        "--memory",
+        "2g",
+        "--pids-limit",
+        "128",
+        "--user",
+        "65534:65534",
+        "--tmpfs",
+        "/tmp:rw,exec,size=2147483648",
+        "--env",
+        "TIKTOKEN_CACHE_DIR=/tokenizer",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Documents\\ChatGPT\\Research\\public-evidence-snapshots\\v0.5\\tokenizer-cache,target=/tokenizer,readonly",
+        "--env",
+        "HOME=/tmp",
+        "--env",
+        "PIP_NO_CACHE_DIR=1",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Documents\\ChatGPT\\Research\\public-evidence-snapshots\\v0.5\\locked-environments\\langroid-0.53.15,target=/wheels,readonly",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Projects\\attack-graph-evidence-quality\\src\\probe_langroid_v2.py,target=/probe.py,readonly",
+        "python@sha256:0dd364ba7e10242f07755449e3a3d0e35f9efd987952737b90def6709ab0c5ce",
+        "sh",
+        "-c",
+        "python -m venv /tmp/env && /tmp/env/bin/pip install --no-index --find-links /wheels langroid==0.53.15 >&2 && /tmp/env/bin/pip check >&2 && /tmp/env/bin/pip freeze >&2 && /tmp/env/bin/python -B /probe.py"
+      ],
+      "utc": "2026-10-07T16:57:58.789355+00:00",
+      "elapsed_seconds": 75.2039999999979,
+      "observed": {
+        "version": "0.53.15",
+        "observations": [
+          {
+            "label": "benign",
+            "expression": "df['content'].count()",
+            "result": "2"
+          },
+          {
+            "label": "restricted_builtin",
+            "expression": "len(df)",
+            "result": "Error encountered in pandas eval: only DataFrame method calls allowed"
+          },
+          {
+            "label": "invalid_control",
+            "expression": "(",
+            "result": "Error encountered in pandas eval: '(' was never closed (<unknown>, line 1)"
+          }
+        ],
+        "probe_seconds": 2.4468727720013703,
+        "peak_process_rss_kib": 212712,
+        "cpu_seconds": 2.701693
+      },
+      "verified_observed": {
+        "version": "0.53.15",
+        "observations": [
+          {
+            "label": "benign",
+            "expression": "df['content'].count()",
+            "result": "2"
+          },
+          {
+            "label": "restricted_builtin",
+            "expression": "len(df)",
+            "result": "Error encountered in pandas eval: only DataFrame method calls allowed"
+          },
+          {
+            "label": "invalid_control",
+            "expression": "(",
+            "result": "Error encountered in pandas eval: '(' was never closed (<unknown>, line 1)"
+          }
+        ],
+        "probe_seconds": 2.4468727720013703,
+        "peak_process_rss_kib": 212712,
+        "cpu_seconds": 2.701693
+      }
+    },
+    {
+      "version": "0.53.15",
+      "repeat": 2,
+      "exit_code": 0,
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--name",
+        "langroid-v2-0.53.15-2",
+        "--network",
+        "none",
+        "--read-only",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--cpus",
+        "1",
+        "--memory",
+        "2g",
+        "--pids-limit",
+        "128",
+        "--user",
+        "65534:65534",
+        "--tmpfs",
+        "/tmp:rw,exec,size=2147483648",
+        "--env",
+        "TIKTOKEN_CACHE_DIR=/tokenizer",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Documents\\ChatGPT\\Research\\public-evidence-snapshots\\v0.5\\tokenizer-cache,target=/tokenizer,readonly",
+        "--env",
+        "HOME=/tmp",
+        "--env",
+        "PIP_NO_CACHE_DIR=1",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Documents\\ChatGPT\\Research\\public-evidence-snapshots\\v0.5\\locked-environments\\langroid-0.53.15,target=/wheels,readonly",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Projects\\attack-graph-evidence-quality\\src\\probe_langroid_v2.py,target=/probe.py,readonly",
+        "python@sha256:0dd364ba7e10242f07755449e3a3d0e35f9efd987952737b90def6709ab0c5ce",
+        "sh",
+        "-c",
+        "python -m venv /tmp/env && /tmp/env/bin/pip install --no-index --find-links /wheels langroid==0.53.15 >&2 && /tmp/env/bin/pip check >&2 && /tmp/env/bin/pip freeze >&2 && /tmp/env/bin/python -B /probe.py"
+      ],
+      "utc": "2026-10-07T16:59:17.387232+00:00",
+      "elapsed_seconds": 78.59299999999348,
+      "observed": {
+        "version": "0.53.15",
+        "observations": [
+          {
+            "label": "benign",
+            "expression": "df['content'].count()",
+            "result": "2"
+          },
+          {
+            "label": "restricted_builtin",
+            "expression": "len(df)",
+            "result": "Error encountered in pandas eval: only DataFrame method calls allowed"
+          },
+          {
+            "label": "invalid_control",
+            "expression": "(",
+            "result": "Error encountered in pandas eval: '(' was never closed (<unknown>, line 1)"
+          }
+        ],
+        "probe_seconds": 2.955521070995019,
+        "peak_process_rss_kib": 212360,
+        "cpu_seconds": 3.483274
+      },
+      "verified_observed": {
+        "version": "0.53.15",
+        "observations": [
+          {
+            "label": "benign",
+            "expression": "df['content'].count()",
+            "result": "2"
+          },
+          {
+            "label": "restricted_builtin",
+            "expression": "len(df)",
+            "result": "Error encountered in pandas eval: only DataFrame method calls allowed"
+          },
+          {
+            "label": "invalid_control",
+            "expression": "(",
+            "result": "Error encountered in pandas eval: '(' was never closed (<unknown>, line 1)"
+          }
+        ],
+        "probe_seconds": 2.955521070995019,
+        "peak_process_rss_kib": 212360,
+        "cpu_seconds": 3.483274
+      }
+    },
+    {
+      "version": "0.53.15",
+      "repeat": 3,
+      "exit_code": 0,
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--name",
+        "langroid-v2-0.53.15-3",
+        "--network",
+        "none",
+        "--read-only",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--cpus",
+        "1",
+        "--memory",
+        "2g",
+        "--pids-limit",
+        "128",
+        "--user",
+        "65534:65534",
+        "--tmpfs",
+        "/tmp:rw,exec,size=2147483648",
+        "--env",
+        "TIKTOKEN_CACHE_DIR=/tokenizer",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Documents\\ChatGPT\\Research\\public-evidence-snapshots\\v0.5\\tokenizer-cache,target=/tokenizer,readonly",
+        "--env",
+        "HOME=/tmp",
+        "--env",
+        "PIP_NO_CACHE_DIR=1",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Documents\\ChatGPT\\Research\\public-evidence-snapshots\\v0.5\\locked-environments\\langroid-0.53.15,target=/wheels,readonly",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Projects\\attack-graph-evidence-quality\\src\\probe_langroid_v2.py,target=/probe.py,readonly",
+        "python@sha256:0dd364ba7e10242f07755449e3a3d0e35f9efd987952737b90def6709ab0c5ce",
+        "sh",
+        "-c",
+        "python -m venv /tmp/env && /tmp/env/bin/pip install --no-index --find-links /wheels langroid==0.53.15 >&2 && /tmp/env/bin/pip check >&2 && /tmp/env/bin/pip freeze >&2 && /tmp/env/bin/python -B /probe.py"
+      ],
+      "utc": "2026-10-07T17:00:40.399539+00:00",
+      "elapsed_seconds": 83.0,
+      "observed": {
+        "version": "0.53.15",
+        "observations": [
+          {
+            "label": "benign",
+            "expression": "df['content'].count()",
+            "result": "2"
+          },
+          {
+            "label": "restricted_builtin",
+            "expression": "len(df)",
+            "result": "Error encountered in pandas eval: only DataFrame method calls allowed"
+          },
+          {
+            "label": "invalid_control",
+            "expression": "(",
+            "result": "Error encountered in pandas eval: '(' was never closed (<unknown>, line 1)"
+          }
+        ],
+        "probe_seconds": 4.432718330994248,
+        "peak_process_rss_kib": 212256,
+        "cpu_seconds": 4.660328
+      },
+      "verified_observed": {
+        "version": "0.53.15",
+        "observations": [
+          {
+            "label": "benign",
+            "expression": "df['content'].count()",
+            "result": "2"
+          },
+          {
+            "label": "restricted_builtin",
+            "expression": "len(df)",
+            "result": "Error encountered in pandas eval: only DataFrame method calls allowed"
+          },
+          {
+            "label": "invalid_control",
+            "expression": "(",
+            "result": "Error encountered in pandas eval: '(' was never closed (<unknown>, line 1)"
+          }
+        ],
+        "probe_seconds": 4.432718330994248,
+        "peak_process_rss_kib": 212256,
+        "cpu_seconds": 4.660328
+      }
+    }
+  ],
+  "pretalx": [
+    {
+      "version": "2.3.1",
+      "repeat": 1,
+      "exit_code": 0,
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--name",
+        "pretalx-2.3.1-1",
+        "--network",
+        "none",
+        "--read-only",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--cpus",
+        "1",
+        "--memory",
+        "2g",
+        "--pids-limit",
+        "128",
+        "--user",
+        "65534:65534",
+        "--tmpfs",
+        "/tmp:rw,exec,size=2147483648",
+        "--env",
+        "HOME=/tmp",
+        "--env",
+        "PIP_NO_CACHE_DIR=1",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Documents\\ChatGPT\\Research\\public-evidence-snapshots\\v0.5\\locked-environments\\pretalx-2.3.1,target=/wheels,readonly",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Projects\\attack-graph-evidence-quality\\src\\probe_pretalx.py,target=/probe.py,readonly",
+        "python@sha256:2d97f6910b16bd338d3060f261f53f144965f755599aab1acda1e13cf1731b1b",
+        "sh",
+        "-c",
+        "python -m venv /tmp/env && /tmp/env/bin/pip install --no-index --find-links /wheels pretalx==2.3.1 >&2 && /tmp/env/bin/pip check >&2 && /tmp/env/bin/pip freeze >&2 && /tmp/env/bin/python -B /probe.py"
+      ],
+      "utc": "2026-10-07T16:50:36.537107+00:00",
+      "elapsed_seconds": 29.60999999998603,
+      "parse_error": true,
+      "verified_observed": {
+        "version": "2.3.1",
+        "observations": [
+          {
+            "label": "benign",
+            "error": null,
+            "file_exists": true,
+            "expected_content": true
+          },
+          {
+            "label": "traversal",
+            "error": null,
+            "file_exists": true,
+            "expected_content": true
+          }
+        ],
+        "probe_seconds": 1.9516002329983166,
+        "peak_process_rss_kib": 69068,
+        "cpu_seconds": 2.252747
+      }
+    },
+    {
+      "version": "2.3.1",
+      "repeat": 2,
+      "exit_code": 0,
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--name",
+        "pretalx-2.3.1-2",
+        "--network",
+        "none",
+        "--read-only",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--cpus",
+        "1",
+        "--memory",
+        "2g",
+        "--pids-limit",
+        "128",
+        "--user",
+        "65534:65534",
+        "--tmpfs",
+        "/tmp:rw,exec,size=2147483648",
+        "--env",
+        "HOME=/tmp",
+        "--env",
+        "PIP_NO_CACHE_DIR=1",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Documents\\ChatGPT\\Research\\public-evidence-snapshots\\v0.5\\locked-environments\\pretalx-2.3.1,target=/wheels,readonly",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Projects\\attack-graph-evidence-quality\\src\\probe_pretalx.py,target=/probe.py,readonly",
+        "python@sha256:2d97f6910b16bd338d3060f261f53f144965f755599aab1acda1e13cf1731b1b",
+        "sh",
+        "-c",
+        "python -m venv /tmp/env && /tmp/env/bin/pip install --no-index --find-links /wheels pretalx==2.3.1 >&2 && /tmp/env/bin/pip check >&2 && /tmp/env/bin/pip freeze >&2 && /tmp/env/bin/python -B /probe.py"
+      ],
+      "utc": "2026-10-07T16:51:12.710807+00:00",
+      "elapsed_seconds": 36.171000000002095,
+      "parse_error": true,
+      "verified_observed": {
+        "version": "2.3.1",
+        "observations": [
+          {
+            "label": "benign",
+            "error": null,
+            "file_exists": true,
+            "expected_content": true
+          },
+          {
+            "label": "traversal",
+            "error": null,
+            "file_exists": true,
+            "expected_content": true
+          }
+        ],
+        "probe_seconds": 1.7591747760016005,
+        "peak_process_rss_kib": 69360,
+        "cpu_seconds": 2.256598
+      }
+    },
+    {
+      "version": "2.3.1",
+      "repeat": 3,
+      "exit_code": 0,
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--name",
+        "pretalx-2.3.1-3",
+        "--network",
+        "none",
+        "--read-only",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--cpus",
+        "1",
+        "--memory",
+        "2g",
+        "--pids-limit",
+        "128",
+        "--user",
+        "65534:65534",
+        "--tmpfs",
+        "/tmp:rw,exec,size=2147483648",
+        "--env",
+        "HOME=/tmp",
+        "--env",
+        "PIP_NO_CACHE_DIR=1",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Documents\\ChatGPT\\Research\\public-evidence-snapshots\\v0.5\\locked-environments\\pretalx-2.3.1,target=/wheels,readonly",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Projects\\attack-graph-evidence-quality\\src\\probe_pretalx.py,target=/probe.py,readonly",
+        "python@sha256:2d97f6910b16bd338d3060f261f53f144965f755599aab1acda1e13cf1731b1b",
+        "sh",
+        "-c",
+        "python -m venv /tmp/env && /tmp/env/bin/pip install --no-index --find-links /wheels pretalx==2.3.1 >&2 && /tmp/env/bin/pip check >&2 && /tmp/env/bin/pip freeze >&2 && /tmp/env/bin/python -B /probe.py"
+      ],
+      "utc": "2026-10-07T16:51:44.517675+00:00",
+      "elapsed_seconds": 31.812999999994645,
+      "parse_error": true,
+      "verified_observed": {
+        "version": "2.3.1",
+        "observations": [
+          {
+            "label": "benign",
+            "error": null,
+            "file_exists": true,
+            "expected_content": true
+          },
+          {
+            "label": "traversal",
+            "error": null,
+            "file_exists": true,
+            "expected_content": true
+          }
+        ],
+        "probe_seconds": 1.406680359999882,
+        "peak_process_rss_kib": 69548,
+        "cpu_seconds": 1.6414259999999998
+      }
+    },
+    {
+      "version": "2.3.2",
+      "repeat": 1,
+      "exit_code": 0,
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--name",
+        "pretalx-2.3.2-1",
+        "--network",
+        "none",
+        "--read-only",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--cpus",
+        "1",
+        "--memory",
+        "2g",
+        "--pids-limit",
+        "128",
+        "--user",
+        "65534:65534",
+        "--tmpfs",
+        "/tmp:rw,exec,size=2147483648",
+        "--env",
+        "HOME=/tmp",
+        "--env",
+        "PIP_NO_CACHE_DIR=1",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Documents\\ChatGPT\\Research\\public-evidence-snapshots\\v0.5\\locked-environments\\pretalx-2.3.2,target=/wheels,readonly",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Projects\\attack-graph-evidence-quality\\src\\probe_pretalx.py,target=/probe.py,readonly",
+        "python@sha256:2d97f6910b16bd338d3060f261f53f144965f755599aab1acda1e13cf1731b1b",
+        "sh",
+        "-c",
+        "python -m venv /tmp/env && /tmp/env/bin/pip install --no-index --find-links /wheels pretalx==2.3.2 >&2 && /tmp/env/bin/pip check >&2 && /tmp/env/bin/pip freeze >&2 && /tmp/env/bin/python -B /probe.py"
+      ],
+      "utc": "2026-10-07T16:52:21.763582+00:00",
+      "elapsed_seconds": 37.125,
+      "parse_error": true,
+      "verified_observed": {
+        "version": "2.3.2",
+        "observations": [
+          {
+            "label": "benign",
+            "error": null,
+            "file_exists": true,
+            "expected_content": true
+          },
+          {
+            "label": "traversal",
+            "error": "Path traversal detected, aborting.",
+            "file_exists": false,
+            "expected_content": false
+          }
+        ],
+        "probe_seconds": 1.5784962219986483,
+        "peak_process_rss_kib": 69408,
+        "cpu_seconds": 1.843161
+      }
+    },
+    {
+      "version": "2.3.2",
+      "repeat": 2,
+      "exit_code": 0,
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--name",
+        "pretalx-2.3.2-2",
+        "--network",
+        "none",
+        "--read-only",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--cpus",
+        "1",
+        "--memory",
+        "2g",
+        "--pids-limit",
+        "128",
+        "--user",
+        "65534:65534",
+        "--tmpfs",
+        "/tmp:rw,exec,size=2147483648",
+        "--env",
+        "HOME=/tmp",
+        "--env",
+        "PIP_NO_CACHE_DIR=1",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Documents\\ChatGPT\\Research\\public-evidence-snapshots\\v0.5\\locked-environments\\pretalx-2.3.2,target=/wheels,readonly",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Projects\\attack-graph-evidence-quality\\src\\probe_pretalx.py,target=/probe.py,readonly",
+        "python@sha256:2d97f6910b16bd338d3060f261f53f144965f755599aab1acda1e13cf1731b1b",
+        "sh",
+        "-c",
+        "python -m venv /tmp/env && /tmp/env/bin/pip install --no-index --find-links /wheels pretalx==2.3.2 >&2 && /tmp/env/bin/pip check >&2 && /tmp/env/bin/pip freeze >&2 && /tmp/env/bin/python -B /probe.py"
+      ],
+      "utc": "2026-10-07T16:53:11.110416+00:00",
+      "elapsed_seconds": 49.344000000011874,
+      "parse_error": true,
+      "verified_observed": {
+        "version": "2.3.2",
+        "observations": [
+          {
+            "label": "benign",
+            "error": null,
+            "file_exists": true,
+            "expected_content": true
+          },
+          {
+            "label": "traversal",
+            "error": "Path traversal detected, aborting.",
+            "file_exists": false,
+            "expected_content": false
+          }
+        ],
+        "probe_seconds": 4.699025630005053,
+        "peak_process_rss_kib": 69616,
+        "cpu_seconds": 5.300839
+      }
+    },
+    {
+      "version": "2.3.2",
+      "repeat": 3,
+      "exit_code": 0,
+      "command": [
+        "docker",
+        "run",
+        "--rm",
+        "--name",
+        "pretalx-2.3.2-3",
+        "--network",
+        "none",
+        "--read-only",
+        "--cap-drop",
+        "ALL",
+        "--security-opt",
+        "no-new-privileges",
+        "--cpus",
+        "1",
+        "--memory",
+        "2g",
+        "--pids-limit",
+        "128",
+        "--user",
+        "65534:65534",
+        "--tmpfs",
+        "/tmp:rw,exec,size=2147483648",
+        "--env",
+        "HOME=/tmp",
+        "--env",
+        "PIP_NO_CACHE_DIR=1",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Documents\\ChatGPT\\Research\\public-evidence-snapshots\\v0.5\\locked-environments\\pretalx-2.3.2,target=/wheels,readonly",
+        "--mount",
+        "type=bind,source=C:\\Users\\WT8\\Projects\\attack-graph-evidence-quality\\src\\probe_pretalx.py,target=/probe.py,readonly",
+        "python@sha256:2d97f6910b16bd338d3060f261f53f144965f755599aab1acda1e13cf1731b1b",
+        "sh",
+        "-c",
+        "python -m venv /tmp/env && /tmp/env/bin/pip install --no-index --find-links /wheels pretalx==2.3.2 >&2 && /tmp/env/bin/pip check >&2 && /tmp/env/bin/pip freeze >&2 && /tmp/env/bin/python -B /probe.py"
+      ],
+      "utc": "2026-10-07T16:54:07.540587+00:00",
+      "elapsed_seconds": 56.421999999991385,
+      "parse_error": true,
+      "verified_observed": {
+        "version": "2.3.2",
+        "observations": [
+          {
+            "label": "benign",
+            "error": null,
+            "file_exists": true,
+            "expected_content": true
+          },
+          {
+            "label": "traversal",
+            "error": "Path traversal detected, aborting.",
+            "file_exists": false,
+            "expected_content": false
+          }
+        ],
+        "probe_seconds": 3.1941881849998026,
+        "peak_process_rss_kib": 69352,
+        "cpu_seconds": 3.6081960000000004
+      }
+    }
+  ]
+}

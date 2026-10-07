@@ -1,5 +1,7 @@
 # Research portfolio and execution order
 
+Completion update, 7 October 2026: the attack-graph study now has a complete 12-page ACM-class manuscript with two diagrams and six tables, verified synthetic and public results, a compiled PDF, and an Overleaf package. See `../paper/README.md`. The scoped first-six audit closes with four narrow checks, one exclusion and one unsupported fixture. The earlier checklist below is retained as planning history. Author review and actual journal submission remain distinct; the next proposed project is the intrusion-detection novelty/dataset audit.
+
 Decision recorded 7 October 2026: finish the current attack-graph evidence-quality project before starting the next project. This document is a plan, not a claim of novelty or completed experiments.
 
 ## Sequence
@@ -71,7 +73,7 @@ No large training jobs, model downloads or new project launches are authorized b
 
 Each active project has a repository with protocol, source, tests, analysis, data provenance, HPC scripts, and manuscript directories. Keep planned versus executed status explicit. Commit versioned protocols before evaluation. Store large/restricted data and checkpoints outside Git, with acquisition scripts, licenses and hashes in Git. Do not publish credentials or private participant data.
 
-Author: Ezekiel Ologunde. Affiliation: Independent Researcher. Corresponding email remains pending confirmation. Original work remains unlicensed by choice; third-party terms remain in force. ACM is the intended publication family, not a claimed publisher relationship, accepted venue or assigned DOI.
+Author: Ezekiel Ologunde. Affiliation: Independent Researcher. Author email: ologunde@bu.edu. No corresponding-author designation, as requested. Original work remains unlicensed by choice; third-party terms remain in force. ACM is the intended publication family, not a claimed publisher relationship, accepted venue or assigned DOI.
 
 ## Literature leads and verified documentation
 

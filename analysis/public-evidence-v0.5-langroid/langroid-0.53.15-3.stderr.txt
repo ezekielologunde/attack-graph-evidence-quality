@@ -1,0 +1,561 @@
+Looking in links: /wheels
+Processing /wheels/langroid-0.53.15-py3-none-any.whl
+Processing /wheels/adb_cloud_connector-1.0.2-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/aiohttp-3.14.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (from langroid==0.53.15)
+Processing /wheels/async_generator-1.10-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/bs4-0.0.2-py2.py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/cerebras_cloud_sdk-1.91.0-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/colorlog-6.12.0-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/docstring_parser-0.18.0-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/duckduckgo_search-6.4.2-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/exa_py-2.25.0-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/Faker-18.13.0-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/fakeredis-2.39.0-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/fastmcp-4.0.11-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/fire-0.7.1-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/gitpython-3.2.0-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/google_api_python_client-2.201.0-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/google_genai-2.28.0-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/groq-0.37.1-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/grpcio-1.84.0-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (from langroid==0.53.15)
+Processing /wheels/halo-0.0.31-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/jinja2-3.1.6-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/json_repair-0.63.5-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/lxml-5.4.0-cp311-cp311-manylinux_2_28_x86_64.whl (from langroid==0.53.15)
+Processing /wheels/markdownify-1.2.3-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/nest_asyncio-1.6.0-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/nltk-3.10.3-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/onnxruntime-1.30.0-cp311-cp311-manylinux_2_28_x86_64.whl (from langroid==0.53.15)
+Processing /wheels/openai-1.109.1-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/pandas-2.3.3-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (from langroid==0.53.15)
+Processing /wheels/prettytable-3.18.0-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/pydantic-2.13.5-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/PyGithub-1.59.1-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/pygments-2.21.0-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/pymupdf4llm-0.0.27-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/pyparsing-3.3.3-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/pytest_rerunfailures-15.1-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/python_dotenv-1.2.4-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/python_magic-0.4.27-py2.py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/pyyaml-6.0.3-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (from langroid==0.53.15)
+Processing /wheels/qdrant_client-1.19.1-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/rank_bm25-0.2.2-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/redis-5.3.1-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/requests_oauthlib-1.3.1-py2.py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/requests-2.34.2-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/rich-13.9.4-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/thefuzz-0.22.1-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/tiktoken-0.14.0-cp311-cp311-manylinux_2_28_x86_64.whl (from langroid==0.53.15)
+Processing /wheels/trafilatura-1.12.2-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/typer-0.27.3-py3-none-any.whl (from langroid==0.53.15)
+Processing /wheels/wget-3.2-py3-none-any.whl (from langroid==0.53.15)
+Requirement already satisfied: setuptools>=42 in /tmp/env/lib/python3.11/site-packages (from adb-cloud-connector<2.0.0,>=1.0.2->langroid==0.53.15) (79.0.1)
+Processing /wheels/setuptools_scm-10.3.4-py3-none-any.whl (from setuptools-scm[toml]>=3.4->adb-cloud-connector<2.0.0,>=1.0.2->langroid==0.53.15)
+Processing /wheels/aiohappyeyeballs-2.7.1-py3-none-any.whl (from aiohttp<4.0.0,>=3.9.1->langroid==0.53.15)
+Processing /wheels/aiosignal-1.4.0-py3-none-any.whl (from aiohttp<4.0.0,>=3.9.1->langroid==0.53.15)
+Processing /wheels/attrs-26.1.0-py3-none-any.whl (from aiohttp<4.0.0,>=3.9.1->langroid==0.53.15)
+Processing /wheels/frozenlist-1.8.0-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (from aiohttp<4.0.0,>=3.9.1->langroid==0.53.15)
+Processing /wheels/multidict-6.9.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (from aiohttp<4.0.0,>=3.9.1->langroid==0.53.15)
+Processing /wheels/propcache-0.5.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (from aiohttp<4.0.0,>=3.9.1->langroid==0.53.15)
+Processing /wheels/typing_extensions-4.16.0-py3-none-any.whl (from aiohttp<4.0.0,>=3.9.1->langroid==0.53.15)
+Processing /wheels/yarl-1.25.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (from aiohttp<4.0.0,>=3.9.1->langroid==0.53.15)
+Processing /wheels/beautifulsoup4-4.15.0-py3-none-any.whl (from bs4<1.0.0,>=0.0.1->langroid==0.53.15)
+Processing /wheels/anyio-4.15.1-py3-none-any.whl (from cerebras-cloud-sdk<2.0.0,>=1.1.0->langroid==0.53.15)
+Processing /wheels/distro-1.9.0-py3-none-any.whl (from cerebras-cloud-sdk<2.0.0,>=1.1.0->langroid==0.53.15)
+Processing /wheels/httpx-0.28.1-py3-none-any.whl (from httpx[http2]<1,>=0.23.0->cerebras-cloud-sdk<2.0.0,>=1.1.0->langroid==0.53.15)
+Processing /wheels/sniffio-1.3.1-py3-none-any.whl (from cerebras-cloud-sdk<2.0.0,>=1.1.0->langroid==0.53.15)
+Processing /wheels/click-8.5.0-py3-none-any.whl (from duckduckgo-search<7.0.0,>=6.0.0->langroid==0.53.15)
+Processing /wheels/primp-2.0.1-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (from duckduckgo-search<7.0.0,>=6.0.0->langroid==0.53.15)
+Processing /wheels/httpcore-1.0.9-py3-none-any.whl (from exa-py>=1.8.7->langroid==0.53.15)
+Processing /wheels/python_dateutil-2.9.0.post0-py2.py3-none-any.whl (from faker<19.0.0,>=18.9.0->langroid==0.53.15)
+Processing /wheels/sortedcontainers-2.4.0-py2.py3-none-any.whl (from fakeredis<3.0.0,>=2.12.1->langroid==0.53.15)
+Processing /wheels/fastmcp_slim-4.0.11-py3-none-any.whl (from fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/mcp_types-2.3.0-py3-none-any.whl (from fastmcp-slim==4.0.11->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/platformdirs-4.12.3-py3-none-any.whl (from fastmcp-slim==4.0.11->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/pydantic_settings-2.15.0-py3-none-any.whl (from fastmcp-slim==4.0.11->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/authlib-1.8.0-py2.py3-none-any.whl (from fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/exceptiongroup-1.3.1-py3-none-any.whl (from fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/httpx2-2.13.1-py3-none-any.whl (from fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/mcp-2.3.0-py3-none-any.whl (from fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/opentelemetry_api-1.45.1-py3-none-any.whl (from fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/py_key_value_aio-0.4.6-py3-none-any.whl (from py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/starlette-1.7.0-py3-none-any.whl (from fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/cyclopts-5.2.0-py3-none-any.whl (from fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/griffelib-2.3.2-py3-none-any.whl (from fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/joserfc-1.7.5-py3-none-any.whl (from fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/jsonref-1.1.0-py3-none-any.whl (from fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/jsonschema_path-0.5.0-py3-none-any.whl (from fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/openapi_pydantic-0.6.0-py3-none-any.whl (from fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/packaging-26.3-py3-none-any.whl (from fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/pyperclip-1.11.0-py3-none-any.whl (from fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/python_multipart-0.0.32-py3-none-any.whl (from fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/uncalled_for-0.4.0-py3-none-any.whl (from fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/uvicorn-0.54.0-py3-none-any.whl (from fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/watchfiles-1.3.0-cp310-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (from fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/websockets-16.1.1-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (from fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/termcolor-3.3.0-py3-none-any.whl (from fire<1.0.0,>=0.5.0->langroid==0.53.15)
+Processing /wheels/gitdb-4.0.12-py3-none-any.whl (from gitpython<4.0.0,>=3.1.43->langroid==0.53.15)
+Processing /wheels/httplib2-0.32.0-py3-none-any.whl (from google-api-python-client<3.0.0,>=2.95.0->langroid==0.53.15)
+Processing /wheels/google_auth-2.60.0-py3-none-any.whl (from google-api-python-client<3.0.0,>=2.95.0->langroid==0.53.15)
+Processing /wheels/google_auth_httplib2-0.4.4-py3-none-any.whl (from google-api-python-client<3.0.0,>=2.95.0->langroid==0.53.15)
+Processing /wheels/google_api_core-2.41.0-py3-none-any.whl (from google-api-python-client<3.0.0,>=2.95.0->langroid==0.53.15)
+Processing /wheels/uritemplate-4.2.0-py3-none-any.whl (from google-api-python-client<3.0.0,>=2.95.0->langroid==0.53.15)
+Processing /wheels/tenacity-9.1.4-py3-none-any.whl (from google-genai>=1.0.0->langroid==0.53.15)
+Processing /wheels/log_symbols-0.0.14-py3-none-any.whl (from halo<1.0.0,>=0.0.31->langroid==0.53.15)
+Processing /wheels/spinners-0.0.24-py3-none-any.whl (from halo<1.0.0,>=0.0.31->langroid==0.53.15)
+Processing /wheels/colorama-0.4.6-py2.py3-none-any.whl (from halo<1.0.0,>=0.0.31->langroid==0.53.15)
+Processing /wheels/six-1.17.0-py2.py3-none-any.whl (from halo<1.0.0,>=0.0.31->langroid==0.53.15)
+Processing /wheels/markupsafe-3.0.4-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (from jinja2<4.0.0,>=3.1.2->langroid==0.53.15)
+Processing /wheels/defusedxml-0.7.1-py2.py3-none-any.whl (from nltk<4.0.0,>=3.8.2->langroid==0.53.15)
+Processing /wheels/joblib-1.6.0-py3-none-any.whl (from nltk<4.0.0,>=3.8.2->langroid==0.53.15)
+Processing /wheels/regex-2026.9.29-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (from nltk<4.0.0,>=3.8.2->langroid==0.53.15)
+Processing /wheels/tqdm-4.70.1-py3-none-any.whl (from nltk<4.0.0,>=3.8.2->langroid==0.53.15)
+Processing /wheels/flatbuffers-25.12.19-py2.py3-none-any.whl (from onnxruntime<2.0.0,>=1.16.1->langroid==0.53.15)
+Processing /wheels/numpy-2.4.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (from onnxruntime<2.0.0,>=1.16.1->langroid==0.53.15)
+Processing /wheels/protobuf-7.36.2-cp310-abi3-manylinux2014_x86_64.whl (from onnxruntime<2.0.0,>=1.16.1->langroid==0.53.15)
+Processing /wheels/jiter-0.17.0-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (from openai<2.0.0,>=1.61.1->langroid==0.53.15)
+Processing /wheels/pytz-2026.5-py2.py3-none-any.whl (from pandas<3.0.0,>=2.0.3->langroid==0.53.15)
+Processing /wheels/tzdata-2026.5-py2.py3-none-any.whl (from pandas<3.0.0,>=2.0.3->langroid==0.53.15)
+Processing /wheels/wcwidth-0.9.2-cp310-abi3-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (from prettytable<4.0.0,>=3.8.0->langroid==0.53.15)
+Processing /wheels/annotated_types-0.8.0-py3-none-any.whl (from pydantic<3.0.0,>=1->langroid==0.53.15)
+Processing /wheels/pydantic_core-2.46.5-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (from pydantic<3.0.0,>=1->langroid==0.53.15)
+Processing /wheels/typing_inspection-0.4.4-py3-none-any.whl (from pydantic<3.0.0,>=1->langroid==0.53.15)
+Processing /wheels/deprecated-1.3.1-py2.py3-none-any.whl (from pygithub<2.0.0,>=1.58.1->langroid==0.53.15)
+Processing /wheels/pyjwt-2.15.1-py3-none-any.whl (from pyjwt[crypto]>=2.4.0->pygithub<2.0.0,>=1.58.1->langroid==0.53.15)
+Processing /wheels/pynacl-1.6.2-cp38-abi3-manylinux_2_34_x86_64.whl (from pygithub<2.0.0,>=1.58.1->langroid==0.53.15)
+Processing /wheels/pymupdf-1.28.2-cp310-abi3-manylinux_2_28_x86_64.whl (from pymupdf4llm<0.1.0,>=0.0.17->langroid==0.53.15)
+Processing /wheels/pytest-9.1.1-py3-none-any.whl (from pytest-rerunfailures<16.0,>=15.0->langroid==0.53.15)
+Processing /wheels/portalocker-3.2.0-py3-none-any.whl (from qdrant-client<2.0.0,>=1.8.0->langroid==0.53.15)
+Processing /wheels/urllib3-2.8.0-py3-none-any.whl (from qdrant-client<2.0.0,>=1.8.0->langroid==0.53.15)
+Processing /wheels/charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (from requests<3.0.0,>=2.31.0->langroid==0.53.15)
+Processing /wheels/idna-3.20-py3-none-any.whl (from requests<3.0.0,>=2.31.0->langroid==0.53.15)
+Processing /wheels/certifi-2026.7.22-py3-none-any.whl (from requests<3.0.0,>=2.31.0->langroid==0.53.15)
+Processing /wheels/oauthlib-4.0.0-py3-none-any.whl (from requests-oauthlib<2.0.0,>=1.3.1->langroid==0.53.15)
+Processing /wheels/markdown_it_py-4.2.0-py3-none-any.whl (from rich<14.0.0,>=13.3.4->langroid==0.53.15)
+Processing /wheels/rapidfuzz-3.14.6-cp311-cp311-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl (from thefuzz<1.0.0,>=0.20.0->langroid==0.53.15)
+Processing /wheels/courlan-1.4.0-py3-none-any.whl (from trafilatura<2.0.0,>=1.5.0->langroid==0.53.15)
+Processing /wheels/htmldate-1.10.0-py3-none-any.whl (from trafilatura<2.0.0,>=1.5.0->langroid==0.53.15)
+Processing /wheels/justext-3.0.2-py2.py3-none-any.whl (from trafilatura<2.0.0,>=1.5.0->langroid==0.53.15)
+Processing /wheels/shellingham-1.5.4-py2.py3-none-any.whl (from typer<1.0.0,>=0.9.0->langroid==0.53.15)
+Processing /wheels/annotated_doc-0.0.5-py3-none-any.whl (from typer<1.0.0,>=0.9.0->langroid==0.53.15)
+Processing /wheels/soupsieve-2.10-py3-none-any.whl (from beautifulsoup4->bs4<1.0.0,>=0.0.1->langroid==0.53.15)
+Processing /wheels/babel-2.18.0-py3-none-any.whl (from courlan>=1.2.0->trafilatura<2.0.0,>=1.5.0->langroid==0.53.15)
+Processing /wheels/tld-0.13.2-py2.py3-none-any.whl (from courlan>=1.2.0->trafilatura<2.0.0,>=1.5.0->langroid==0.53.15)
+Processing /wheels/smmap-5.0.3-py3-none-any.whl (from gitdb<5,>=4.0.1->gitpython<4.0.0,>=3.1.43->langroid==0.53.15)
+Processing /wheels/googleapis_common_protos-1.75.5-py3-none-any.whl (from google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0,>=1.31.5->google-api-python-client<3.0.0,>=2.95.0->langroid==0.53.15)
+Processing /wheels/proto_plus-1.29.0-py3-none-any.whl (from google-api-core!=2.0.*,!=2.1.*,!=2.2.*,!=2.3.0,<3.0.0,>=1.31.5->google-api-python-client<3.0.0,>=2.95.0->langroid==0.53.15)
+Processing /wheels/pyasn1_modules-0.4.2-py3-none-any.whl (from google-auth!=2.24.0,!=2.25.0,<3.0.0,>=1.32.0->google-api-python-client<3.0.0,>=2.95.0->langroid==0.53.15)
+Processing /wheels/cryptography-50.0.2-cp311-abi3-manylinux_2_34_x86_64.whl (from google-auth!=2.24.0,!=2.25.0,<3.0.0,>=1.32.0->google-api-python-client<3.0.0,>=2.95.0->langroid==0.53.15)
+Processing /wheels/dateparser-1.4.3-py3-none-any.whl (from htmldate>=1.8.1->trafilatura<2.0.0,>=1.5.0->langroid==0.53.15)
+Processing /wheels/h11-0.16.0-py3-none-any.whl (from httpcore>=1.0.9->exa-py>=1.8.7->langroid==0.53.15)
+Processing /wheels/h2-4.4.1-py3-none-any.whl (from httpx[http2]<1,>=0.23.0->cerebras-cloud-sdk<2.0.0,>=1.1.0->langroid==0.53.15)
+Processing /wheels/mdurl-0.1.2-py3-none-any.whl (from markdown-it-py>=2.2.0->rich<14.0.0,>=13.3.4->langroid==0.53.15)
+Processing /wheels/cffi-2.1.1-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (from pynacl>=1.4.0->pygithub<2.0.0,>=1.58.1->langroid==0.53.15)
+Processing /wheels/iniconfig-2.3.1-py3-none-any.whl (from pytest!=8.2.2,>=7.4->pytest-rerunfailures<16.0,>=15.0->langroid==0.53.15)
+Processing /wheels/pluggy-1.6.0-py3-none-any.whl (from pytest!=8.2.2,>=7.4->pytest-rerunfailures<16.0,>=15.0->langroid==0.53.15)
+Processing /wheels/vcs_versioning-2.6.0-py3-none-any.whl (from setuptools-scm>=3.4->setuptools-scm[toml]>=3.4->adb-cloud-connector<2.0.0,>=1.0.2->langroid==0.53.15)
+Processing /wheels/wrapt-2.5.0-cp311-cp311-manylinux1_x86_64.manylinux_2_28_x86_64.manylinux_2_5_x86_64.whl (from deprecated->pygithub<2.0.0,>=1.58.1->langroid==0.53.15)
+Processing /wheels/cloudpickle-3.1.2-py3-none-any.whl (from joblib->nltk<4.0.0,>=3.8.2->langroid==0.53.15)
+Processing /wheels/pycparser-3.0-py3-none-any.whl (from cffi>=2.0.0->pynacl>=1.4.0->pygithub<2.0.0,>=1.58.1->langroid==0.53.15)
+Processing /wheels/rich_rst-2.2.0-py3-none-any.whl (from cyclopts>=4.0.0->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/tzlocal-5.4.4-py3-none-any.whl (from dateparser>=1.1.2->htmldate>=1.8.1->trafilatura<2.0.0,>=1.5.0->langroid==0.53.15)
+Processing /wheels/hyperframe-6.1.0-py3-none-any.whl (from h2<5,>=3->httpx[http2]<1,>=0.23.0->cerebras-cloud-sdk<2.0.0,>=1.1.0->langroid==0.53.15)
+Processing /wheels/hpack-4.2.0-py3-none-any.whl (from h2<5,>=3->httpx[http2]<1,>=0.23.0->cerebras-cloud-sdk<2.0.0,>=1.1.0->langroid==0.53.15)
+Processing /wheels/httpcore2-2.13.1-py3-none-any.whl (from httpx2>=2.5.0->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/truststore-0.10.4-py3-none-any.whl (from httpx2>=2.5.0->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/pathable-0.6.0-py3-none-any.whl (from jsonschema-path>=0.3.4->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/referencing-0.37.0-py3-none-any.whl (from jsonschema-path>=0.3.4->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/lxml_html_clean-0.4.4-py3-none-any.whl (from lxml[html_clean]>=4.4.2->justext>=3.0.1->trafilatura<2.0.0,>=1.5.0->langroid==0.53.15)
+Processing /wheels/jsonschema-4.26.0-py3-none-any.whl (from mcp<3.0.0,>=2.0.0->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/sse_starlette-3.5.0-py3-none-any.whl (from mcp<3.0.0,>=2.0.0->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/beartype-0.22.9-py3-none-any.whl (from py-key-value-aio<0.5.0,>=0.4.4->py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/aiofile-3.12.3-py3-none-any.whl (from py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/keyring-25.7.0-py3-none-any.whl (from py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/cachetools-7.2.1-py3-none-any.whl (from py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/pyasn1-0.6.4-py3-none-any.whl (from pyasn1-modules>=0.2.1->google-auth!=2.24.0,!=2.25.0,<3.0.0,>=1.32.0->google-api-python-client<3.0.0,>=2.95.0->langroid==0.53.15)
+Processing /wheels/email_validator-2.3.0-py3-none-any.whl (from pydantic[email]>=2.12.0->fastmcp-slim==4.0.11->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/caio-0.12.9-cp311-cp311-manylinux_2_34_x86_64.whl (from aiofile>=3.12.3->py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/dnspython-2.8.0-py3-none-any.whl (from email-validator>=2.0.0->pydantic[email]>=2.12.0->fastmcp-slim==4.0.11->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/jsonschema_specifications-2025.9.1-py3-none-any.whl (from jsonschema>=4.20.0->mcp<3.0.0,>=2.0.0->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/rpds_py-2026.9.1-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (from jsonschema>=4.20.0->mcp<3.0.0,>=2.0.0->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/secretstorage-3.5.0-py3-none-any.whl (from keyring>=25.6.0->py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/jeepney-0.9.0-py3-none-any.whl (from keyring>=25.6.0->py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/importlib_metadata-9.0.1-py3-none-any.whl (from keyring>=25.6.0->py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/jaraco.classes-3.4.0-py3-none-any.whl (from keyring>=25.6.0->py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/jaraco_functools-4.6.0-py3-none-any.whl (from keyring>=25.6.0->py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/jaraco_context-6.1.2-py3-none-any.whl (from keyring>=25.6.0->py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/zipp-4.1.1-py3-none-any.whl (from importlib_metadata>=4.11.4->keyring>=25.6.0->py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/more_itertools-11.1.0-py3-none-any.whl (from jaraco.classes->keyring>=25.6.0->py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Processing /wheels/backports.tarfile-1.2.0-py3-none-any.whl (from jaraco.context->keyring>=25.6.0->py-key-value-aio[filetree,keyring,memory]<0.5.0,>=0.4.4; extra == "client"->fastmcp-slim[client,server]==4.0.11->fastmcp>=2.2.5->langroid==0.53.15)
+Installing collected packages: wget, spinners, sortedcontainers, pytz, pyperclip, flatbuffers, zipp, wrapt, websockets, wcwidth, urllib3, uritemplate, uncalled-for, tzlocal, tzdata, typing_extensions, truststore, tqdm, tld, termcolor, tenacity, soupsieve, sniffio, smmap, six, shellingham, rpds-py, regex, rapidfuzz, pyyaml, python-multipart, python-magic, python-dotenv, pyparsing, pymupdf, pyjwt, pygments, pycparser, pyasn1, protobuf, propcache, primp, portalocker, pluggy, platformdirs, pathable, packaging, oauthlib, numpy, nest-asyncio, multidict, more-itertools, mdurl, MarkupSafe, lxml, jsonref, json-repair, jiter, jeepney, iniconfig, idna, hyperframe, hpack, h11, griffelib, frozenlist, docstring-parser, dnspython, distro, defusedxml, colorlog, colorama, cloudpickle, click, charset_normalizer, certifi, caio, cachetools, beartype, backports.tarfile, babel, attrs, async-generator, annotated-types, annotated-doc, aiohappyeyeballs, yarl, vcs-versioning, uvicorn, typing-inspection, thefuzz, requests, referencing, redis, rank-bm25, python-dateutil, pytest, pymupdf4llm, pydantic-core, pyasn1-modules, py-key-value-aio, proto-plus, prettytable, opentelemetry-api, onnxruntime, markdown-it-py, lxml_html_clean, log_symbols, joblib, jinja2, jaraco.functools, jaraco.context, jaraco.classes, importlib_metadata, httplib2, httpcore2, httpcore, h2, grpcio, googleapis-common-protos, gitdb, fire, exceptiongroup, email-validator, duckduckgo-search, deprecated, courlan, cffi, beautifulsoup4, anyio, aiosignal, aiofile, watchfiles, tiktoken, starlette, setuptools-scm, rich, requests-oauthlib, pytest-rerunfailures, pynacl, pydantic, pandas, nltk, markdownify, jsonschema-specifications, jsonschema-path, httpx2, httpx, halo, gitpython, fakeredis, faker, dateparser, cryptography, bs4, aiohttp, typer, sse-starlette, SecretStorage, rich-rst, pydantic-settings, openapi-pydantic, openai, mcp-types, justext, jsonschema, joserfc, htmldate, groq, google-auth, trafilatura, qdrant-client, pygithub, mcp, keyring, google-auth-httplib2, google-api-core, fastmcp-slim, exa-py, cyclopts, cerebras-cloud-sdk, authlib, adb-cloud-connector, google-genai, google-api-python-client, fastmcp, langroid
+Successfully installed MarkupSafe-3.0.4 SecretStorage-3.5.0 adb-cloud-connector-1.0.2 aiofile-3.12.3 aiohappyeyeballs-2.7.1 aiohttp-3.14.4 aiosignal-1.4.0 annotated-doc-0.0.5 annotated-types-0.8.0 anyio-4.15.1 async-generator-1.10 attrs-26.1.0 authlib-1.8.0 babel-2.18.0 backports.tarfile-1.2.0 beartype-0.22.9 beautifulsoup4-4.15.0 bs4-0.0.2 cachetools-7.2.1 caio-0.12.9 cerebras-cloud-sdk-1.91.0 certifi-2026.7.22 cffi-2.1.1 charset_normalizer-3.5.2 click-8.5.0 cloudpickle-3.1.2 colorama-0.4.6 colorlog-6.12.0 courlan-1.4.0 cryptography-50.0.2 cyclopts-5.2.0 dateparser-1.4.3 defusedxml-0.7.1 deprecated-1.3.1 distro-1.9.0 dnspython-2.8.0 docstring-parser-0.18.0 duckduckgo-search-6.4.2 email-validator-2.3.0 exa-py-2.25.0 exceptiongroup-1.3.1 faker-18.13.0 fakeredis-2.39.0 fastmcp-4.0.11 fastmcp-slim-4.0.11 fire-0.7.1 flatbuffers-25.12.19 frozenlist-1.8.0 gitdb-4.0.12 gitpython-3.2.0 google-api-core-2.41.0 google-api-python-client-2.201.0 google-auth-2.60.0 google-auth-httplib2-0.4.4 google-genai-2.28.0 googleapis-common-protos-1.75.5 griffelib-2.3.2 groq-0.37.1 grpcio-1.84.0 h11-0.16.0 h2-4.4.1 halo-0.0.31 hpack-4.2.0 htmldate-1.10.0 httpcore-1.0.9 httpcore2-2.13.1 httplib2-0.32.0 httpx-0.28.1 httpx2-2.13.1 hyperframe-6.1.0 idna-3.20 importlib_metadata-9.0.1 iniconfig-2.3.1 jaraco.classes-3.4.0 jaraco.context-6.1.2 jaraco.functools-4.6.0 jeepney-0.9.0 jinja2-3.1.6 jiter-0.17.0 joblib-1.6.0 joserfc-1.7.5 json-repair-0.63.5 jsonref-1.1.0 jsonschema-4.26.0 jsonschema-path-0.5.0 jsonschema-specifications-2025.9.1 justext-3.0.2 keyring-25.7.0 langroid-0.53.15 log_symbols-0.0.14 lxml-5.4.0 lxml_html_clean-0.4.4 markdown-it-py-4.2.0 markdownify-1.2.3 mcp-2.3.0 mcp-types-2.3.0 mdurl-0.1.2 more-itertools-11.1.0 multidict-6.9.1 nest-asyncio-1.6.0 nltk-3.10.3 numpy-2.4.6 oauthlib-4.0.0 onnxruntime-1.30.0 openai-1.109.1 openapi-pydantic-0.6.0 opentelemetry-api-1.45.1 packaging-26.3 pandas-2.3.3 pathable-0.6.0 platformdirs-4.12.3 pluggy-1.6.0 portalocker-3.2.0 prettytable-3.18.0 primp-2.0.1 propcache-0.5.4 proto-plus-1.29.0 protobuf-7.36.2 py-key-value-aio-0.4.6 pyasn1-0.6.4 pyasn1-modules-0.4.2 pycparser-3.0 pydantic-2.13.5 pydantic-core-2.46.5 pydantic-settings-2.15.0 pygithub-1.59.1 pygments-2.21.0 pyjwt-2.15.1 pymupdf-1.28.2 pymupdf4llm-0.0.27 pynacl-1.6.2 pyparsing-3.3.3 pyperclip-1.11.0 pytest-9.1.1 pytest-rerunfailures-15.1 python-dateutil-2.9.0.post0 python-dotenv-1.2.4 python-magic-0.4.27 python-multipart-0.0.32 pytz-2026.5 pyyaml-6.0.3 qdrant-client-1.19.1 rank-bm25-0.2.2 rapidfuzz-3.14.6 redis-5.3.1 referencing-0.37.0 regex-2026.9.29 requests-2.34.2 requests-oauthlib-1.3.1 rich-13.9.4 rich-rst-2.2.0 rpds-py-2026.9.1 setuptools-scm-10.3.4 shellingham-1.5.4 six-1.17.0 smmap-5.0.3 sniffio-1.3.1 sortedcontainers-2.4.0 soupsieve-2.10 spinners-0.0.24 sse-starlette-3.5.0 starlette-1.7.0 tenacity-9.1.4 termcolor-3.3.0 thefuzz-0.22.1 tiktoken-0.14.0 tld-0.13.2 tqdm-4.70.1 trafilatura-1.12.2 truststore-0.10.4 typer-0.27.3 typing-inspection-0.4.4 typing_extensions-4.16.0 tzdata-2026.5 tzlocal-5.4.4 uncalled-for-0.4.0 uritemplate-4.2.0 urllib3-2.8.0 uvicorn-0.54.0 vcs-versioning-2.6.0 watchfiles-1.3.0 wcwidth-0.9.2 websockets-16.1.1 wget-3.2 wrapt-2.5.0 yarl-1.25.1 zipp-4.1.1
+No broken requirements found.
+adb-cloud-connector==1.0.2
+aiofile==3.12.3
+aiohappyeyeballs==2.7.1
+aiohttp==3.14.4
+aiosignal==1.4.0
+annotated-doc==0.0.5
+annotated-types==0.8.0
+anyio==4.15.1
+async-generator==1.10
+attrs==26.1.0
+Authlib==1.8.0
+babel==2.18.0
+backports.tarfile==1.2.0
+beartype==0.22.9
+beautifulsoup4==4.15.0
+bs4==0.0.2
+cachetools==7.2.1
+caio==0.12.9
+cerebras_cloud_sdk==1.91.0
+certifi==2026.7.22
+cffi==2.1.1
+charset-normalizer==3.5.2
+click==8.5.0
+cloudpickle==3.1.2
+colorama==0.4.6
+colorlog==6.12.0
+courlan==1.4.0
+cryptography==50.0.2
+cyclopts==5.2.0
+dateparser==1.4.3
+defusedxml==0.7.1
+Deprecated==1.3.1
+distro==1.9.0
+dnspython==2.8.0
+docstring_parser==0.18.0
+duckduckgo_search==6.4.2
+email-validator==2.3.0
+exa-py==2.25.0
+exceptiongroup==1.3.1
+Faker==18.13.0
+fakeredis==2.39.0
+fastmcp==4.0.11
+fastmcp-slim==4.0.11
+fire==0.7.1
+flatbuffers==25.12.19
+frozenlist==1.8.0
+gitdb==4.0.12
+GitPython==3.2.0
+google-api-core==2.41.0
+google-api-python-client==2.201.0
+google-auth==2.60.0
+google-auth-httplib2==0.4.4
+google-genai==2.28.0
+googleapis-common-protos==1.75.5
+griffelib==2.3.2
+groq==0.37.1
+grpcio==1.84.0
+h11==0.16.0
+h2==4.4.1
+halo==0.0.31
+hpack==4.2.0
+htmldate==1.10.0
+httpcore==1.0.9
+httpcore2==2.13.1
+httplib2==0.32.0
+httpx==0.28.1
+httpx2==2.13.1
+hyperframe==6.1.0
+idna==3.20
+importlib_metadata==9.0.1
+iniconfig==2.3.1
+jaraco.classes==3.4.0
+jaraco.context==6.1.2
+jaraco.functools==4.6.0
+jeepney==0.9.0
+Jinja2==3.1.6
+jiter==0.17.0
+joblib==1.6.0
+joserfc==1.7.5
+json_repair==0.63.5
+jsonref==1.1.0
+jsonschema==4.26.0
+jsonschema-path==0.5.0
+jsonschema-specifications==2025.9.1
+jusText==3.0.2
+keyring==25.7.0
+langroid==0.53.15
+log-symbols==0.0.14
+lxml==5.4.0
+lxml_html_clean==0.4.4
+markdown-it-py==4.2.0
+markdownify==1.2.3
+MarkupSafe==3.0.4
+mcp==2.3.0
+mcp-types==2.3.0
+mdurl==0.1.2
+more-itertools==11.1.0
+multidict==6.9.1
+nest-asyncio==1.6.0
+nltk==3.10.3
+numpy==2.4.6
+oauthlib==4.0.0
+onnxruntime==1.30.0
+openai==1.109.1
+openapi-pydantic==0.6.0
+opentelemetry-api==1.45.1
+packaging==26.3
+pandas==2.3.3
+pathable==0.6.0
+platformdirs==4.12.3
+pluggy==1.6.0
+portalocker==3.2.0
+prettytable==3.18.0
+primp==2.0.1
+propcache==0.5.4
+proto-plus==1.29.0
+protobuf==7.36.2
+py-key-value-aio==0.4.6
+pyasn1==0.6.4
+pyasn1_modules==0.4.2
+pycparser==3.0
+pydantic==2.13.5
+pydantic-settings==2.15.0
+pydantic_core==2.46.5
+PyGithub==1.59.1
+Pygments==2.21.0
+PyJWT==2.15.1
+pymupdf==1.28.2
+pymupdf4llm==0.0.27
+PyNaCl==1.6.2
+pyparsing==3.3.3
+pyperclip==1.11.0
+pytest==9.1.1
+pytest-rerunfailures==15.1
+python-dateutil==2.9.0.post0
+python-dotenv==1.2.4
+python-magic==0.4.27
+python-multipart==0.0.32
+pytz==2026.5
+PyYAML==6.0.3
+qdrant-client==1.19.1
+rank-bm25==0.2.2
+RapidFuzz==3.14.6
+redis==5.3.1
+referencing==0.37.0
+regex==2026.9.29
+requests==2.34.2
+requests-oauthlib==1.3.1
+rich==13.9.4
+rich-rst==2.2.0
+rpds-py==2026.9.1
+SecretStorage==3.5.0
+setuptools-scm==10.3.4
+shellingham==1.5.4
+six==1.17.0
+smmap==5.0.3
+sniffio==1.3.1
+sortedcontainers==2.4.0
+soupsieve==2.10
+spinners==0.0.24
+sse-starlette==3.5.0
+starlette==1.7.0
+tenacity==9.1.4
+termcolor==3.3.0
+thefuzz==0.22.1
+tiktoken==0.14.0
+tld==0.13.2
+tqdm==4.70.1
+trafilatura==1.12.2
+truststore==0.10.4
+typer==0.27.3
+typing-inspection==0.4.4
+typing_extensions==4.16.0
+tzdata==2026.5
+tzlocal==5.4.4
+uncalled-for==0.4.0
+uritemplate==4.2.0
+urllib3==2.8.0
+uvicorn==0.54.0
+vcs-versioning==2.6.0
+watchfiles==1.3.0
+wcwidth==0.9.2
+websockets==16.1.1
+wget==3.2
+wrapt==2.5.0
+yarl==1.25.1
+zipp==4.1.1
+Traceback (most recent call last):
+  File "/tmp/env/lib/python3.11/site-packages/urllib3/connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/env/lib/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/tmp/env/lib/python3.11/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/tmp/env/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/tmp/env/lib/python3.11/site-packages/urllib3/connection.py", line 827, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/urllib3/connection.py", line 246, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='openaipublic.blob.core.windows.net', port=443): Failed to resolve 'openaipublic.blob.core.windows.net' ([Errno -3] Temporary failure in name resolution)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/env/lib/python3.11/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/urllib3/util/retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='openaipublic.blob.core.windows.net', port=443): Max retries exceeded with url: /encodings/cl100k_base.tiktoken (Caused by NameResolutionError("HTTPSConnection(host='openaipublic.blob.core.windows.net', port=443): Failed to resolve 'openaipublic.blob.core.windows.net' ([Errno -3] Temporary failure in name resolution)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/env/lib/python3.11/site-packages/langroid/parsing/parser.py", line 139, in __init__
+    self.tokenizer = tiktoken.encoding_for_model(config.token_encoding_model)
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/tiktoken/model.py", line 114, in encoding_for_model
+    return get_encoding(encoding_name_for_model(model_name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/tiktoken/registry.py", line 86, in get_encoding
+    enc = Encoding(**constructor())
+                     ^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/tiktoken_ext/openai_public.py", line 76, in cl100k_base
+    mergeable_ranks = load_tiktoken_bpe(
+                      ^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/tiktoken/load.py", line 161, in load_tiktoken_bpe
+    contents = read_file_cached(tiktoken_bpe_file, expected_hash)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/tiktoken/load.py", line 66, in read_file_cached
+    contents = read_file(blobpath)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/tiktoken/load.py", line 17, in read_file
+    resp = requests.get(blobpath)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/requests/adapters.py", line 729, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='openaipublic.blob.core.windows.net', port=443): Max retries exceeded with url: /encodings/cl100k_base.tiktoken (Caused by NameResolutionError("HTTPSConnection(host='openaipublic.blob.core.windows.net', port=443): Failed to resolve 'openaipublic.blob.core.windows.net' ([Errno -3] Temporary failure in name resolution)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/tmp/env/lib/python3.11/site-packages/urllib3/connection.py", line 239, in _new_conn
+    sock = connection.create_connection(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.11/socket.py", line 974, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno -3] Temporary failure in name resolution
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/env/lib/python3.11/site-packages/urllib3/connectionpool.py", line 793, in urlopen
+    response = self._make_request(
+               ^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/urllib3/connectionpool.py", line 494, in _make_request
+    raise new_e
+  File "/tmp/env/lib/python3.11/site-packages/urllib3/connectionpool.py", line 470, in _make_request
+    self._validate_conn(conn)
+  File "/tmp/env/lib/python3.11/site-packages/urllib3/connectionpool.py", line 1125, in _validate_conn
+    conn.connect()
+  File "/tmp/env/lib/python3.11/site-packages/urllib3/connection.py", line 827, in connect
+    self.sock = sock = self._new_conn()
+                       ^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/urllib3/connection.py", line 246, in _new_conn
+    raise NameResolutionError(self.host, self, e) from e
+urllib3.exceptions.NameResolutionError: HTTPSConnection(host='openaipublic.blob.core.windows.net', port=443): Failed to resolve 'openaipublic.blob.core.windows.net' ([Errno -3] Temporary failure in name resolution)
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/tmp/env/lib/python3.11/site-packages/requests/adapters.py", line 696, in send
+    resp = conn.urlopen(
+           ^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/urllib3/connectionpool.py", line 847, in urlopen
+    retries = retries.increment(
+              ^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/urllib3/util/retry.py", line 555, in increment
+    raise MaxRetryError(_pool, url, reason) from reason  # type: ignore[arg-type]
+    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='openaipublic.blob.core.windows.net', port=443): Max retries exceeded with url: /encodings/cl100k_base.tiktoken (Caused by NameResolutionError("HTTPSConnection(host='openaipublic.blob.core.windows.net', port=443): Failed to resolve 'openaipublic.blob.core.windows.net' ([Errno -3] Temporary failure in name resolution)"))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/probe.py", line 4, in <module>
+    from langroid.mytypes import Document
+  File "/tmp/env/lib/python3.11/site-packages/langroid/__init__.py", line 8, in <module>
+    from . import parsing
+  File "/tmp/env/lib/python3.11/site-packages/langroid/parsing/__init__.py", line 7, in <module>
+    from . import repo_loader
+  File "/tmp/env/lib/python3.11/site-packages/langroid/parsing/repo_loader.py", line 103, in <module>
+    class RepoLoader:
+  File "/tmp/env/lib/python3.11/site-packages/langroid/parsing/repo_loader.py", line 511, in RepoLoader
+    parser: Parser = Parser(ParsingConfig()),
+                     ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/langroid/parsing/parser.py", line 141, in __init__
+    self.tokenizer = tiktoken.encoding_for_model("text-embedding-3-small")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/tiktoken/model.py", line 114, in encoding_for_model
+    return get_encoding(encoding_name_for_model(model_name))
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/tiktoken/registry.py", line 86, in get_encoding
+    enc = Encoding(**constructor())
+                     ^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/tiktoken_ext/openai_public.py", line 76, in cl100k_base
+    mergeable_ranks = load_tiktoken_bpe(
+                      ^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/tiktoken/load.py", line 161, in load_tiktoken_bpe
+    contents = read_file_cached(tiktoken_bpe_file, expected_hash)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/tiktoken/load.py", line 66, in read_file_cached
+    contents = read_file(blobpath)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/tiktoken/load.py", line 17, in read_file
+    resp = requests.get(blobpath)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/requests/api.py", line 87, in get
+    return request("get", url, params=params, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/requests/api.py", line 71, in request
+    return session.request(method=method, url=url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/requests/sessions.py", line 651, in request
+    resp = self.send(prep, **send_kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/requests/sessions.py", line 784, in send
+    r = adapter.send(request, **kwargs)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/env/lib/python3.11/site-packages/requests/adapters.py", line 729, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='openaipublic.blob.core.windows.net', port=443): Max retries exceeded with url: /encodings/cl100k_base.tiktoken (Caused by NameResolutionError("HTTPSConnection(host='openaipublic.blob.core.windows.net', port=443): Failed to resolve 'openaipublic.blob.core.windows.net' ([Errno -3] Temporary failure in name resolution)"))

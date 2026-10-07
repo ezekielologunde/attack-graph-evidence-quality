@@ -1,0 +1,89 @@
+Collecting wordops==3.20.0
+  Downloading wordops-3.20.0-py3-none-any.whl.metadata (11 kB)
+Collecting cement==2.10.14 (from wordops==3.20.0)
+  Downloading cement-2.10.14-py3-none-any.whl.metadata (3.5 kB)
+Collecting pystache (from wordops==3.20.0)
+  Downloading pystache-0.6.8-py3-none-any.whl.metadata (14 kB)
+Collecting pynginxconfig (from wordops==3.20.0)
+  Downloading pynginxconfig-0.3.4.tar.gz (3.4 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting PyMySQL>=1.0.2 (from wordops==3.20.0)
+  Downloading pymysql-1.2.3-py3-none-any.whl.metadata (4.2 kB)
+Collecting psutil (from wordops==3.20.0)
+  Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl.metadata (22 kB)
+Collecting sh (from wordops==3.20.0)
+  Downloading sh-2.4.0-py3-none-any.whl.metadata (3.8 kB)
+Collecting SQLAlchemy==1.4.52 (from wordops==3.20.0)
+  Downloading SQLAlchemy-1.4.52-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (10 kB)
+Collecting requests (from wordops==3.20.0)
+  Downloading requests-2.34.2-py3-none-any.whl.metadata (4.8 kB)
+Collecting distro (from wordops==3.20.0)
+  Downloading distro-1.9.0-py3-none-any.whl.metadata (6.8 kB)
+Collecting argcomplete (from wordops==3.20.0)
+  Downloading argcomplete-3.7.2-py3-none-any.whl.metadata (16 kB)
+Collecting colorlog (from wordops==3.20.0)
+  Downloading colorlog-6.12.0-py3-none-any.whl.metadata (11 kB)
+Collecting greenlet!=0.4.17 (from SQLAlchemy==1.4.52->wordops==3.20.0)
+  Downloading greenlet-3.5.6-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
+Collecting charset_normalizer<4,>=2 (from requests->wordops==3.20.0)
+  Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl.metadata (46 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.4/46.4 kB 4.1 MB/s eta 0:00:00
+Collecting idna<4,>=2.5 (from requests->wordops==3.20.0)
+  Downloading idna-3.20-py3-none-any.whl.metadata (7.2 kB)
+Collecting urllib3<3,>=1.26 (from requests->wordops==3.20.0)
+  Downloading urllib3-2.8.0-py3-none-any.whl.metadata (7.4 kB)
+Collecting certifi>=2023.5.7 (from requests->wordops==3.20.0)
+  Downloading certifi-2026.7.22-py3-none-any.whl.metadata (2.5 kB)
+Downloading wordops-3.20.0-py3-none-any.whl (227 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 227.7/227.7 kB 4.2 MB/s eta 0:00:00
+Downloading cement-2.10.14-py3-none-any.whl (345 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 345.2/345.2 kB 11.9 MB/s eta 0:00:00
+Downloading SQLAlchemy-1.4.52-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl (1.6 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.6/1.6 MB 11.6 MB/s eta 0:00:00
+Downloading pymysql-1.2.3-py3-none-any.whl (46 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.7/46.7 kB 12.9 MB/s eta 0:00:00
+Downloading argcomplete-3.7.2-py3-none-any.whl (43 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.3/43.3 kB 168.7 MB/s eta 0:00:00
+Downloading colorlog-6.12.0-py3-none-any.whl (12 kB)
+Downloading distro-1.9.0-py3-none-any.whl (20 kB)
+Downloading psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl (155 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 155.6/155.6 kB 13.4 MB/s eta 0:00:00
+Downloading pystache-0.6.8-py3-none-any.whl (82 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 82.1/82.1 kB 11.1 MB/s eta 0:00:00
+Downloading requests-2.34.2-py3-none-any.whl (73 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 73.1/73.1 kB 12.5 MB/s eta 0:00:00
+Downloading sh-2.4.0-py3-none-any.whl (48 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.6/48.6 kB 13.0 MB/s eta 0:00:00
+Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 137.0/137.0 kB 15.7 MB/s eta 0:00:00
+Downloading charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl (269 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 270.0/270.0 kB 12.7 MB/s eta 0:00:00
+Downloading greenlet-3.5.6-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (624 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 624.4/624.4 kB 15.4 MB/s eta 0:00:00
+Downloading idna-3.20-py3-none-any.whl (69 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.6/69.6 kB 14.8 MB/s eta 0:00:00
+Downloading urllib3-2.8.0-py3-none-any.whl (135 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 135.7/135.7 kB 26.0 MB/s eta 0:00:00
+Saved /wheels/wordops-3.20.0-py3-none-any.whl
+Saved /wheels/cement-2.10.14-py3-none-any.whl
+Saved /wheels/SQLAlchemy-1.4.52-cp311-cp311-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Saved /wheels/pymysql-1.2.3-py3-none-any.whl
+Saved /wheels/argcomplete-3.7.2-py3-none-any.whl
+Saved /wheels/colorlog-6.12.0-py3-none-any.whl
+Saved /wheels/distro-1.9.0-py3-none-any.whl
+Saved /wheels/psutil-7.2.2-cp36-abi3-manylinux2010_x86_64.manylinux_2_12_x86_64.manylinux_2_28_x86_64.whl
+Saved /wheels/pystache-0.6.8-py3-none-any.whl
+Saved /wheels/requests-2.34.2-py3-none-any.whl
+Saved /wheels/sh-2.4.0-py3-none-any.whl
+Saved /wheels/certifi-2026.7.22-py3-none-any.whl
+Saved /wheels/charset_normalizer-3.5.2-cp311-cp311-manylinux2014_x86_64.manylinux_2_17_x86_64.manylinux_2_28_x86_64.whl
+Saved /wheels/greenlet-3.5.6-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
+Saved /wheels/idna-3.20-py3-none-any.whl
+Saved /wheels/urllib3-2.8.0-py3-none-any.whl
+Building wheels for collected packages: pynginxconfig
+  Building wheel for pynginxconfig (setup.py): started
+  Building wheel for pynginxconfig (setup.py): finished with status 'done'
+  Created wheel for pynginxconfig: filename=pynginxconfig-0.3.4-py3-none-any.whl size=4094 sha256=5f9cf381dc920ffa050304fab5b07f726d434b847f966d344bbe36e56010d113
+  Stored in directory: /tmp/pip-ephem-wheel-cache-x1inf3g1/wheels/3b/e3/df/97ffa6c0e346bdda7026d6f0598cc4b0b660bc13fc3d230b7b
+Successfully built pynginxconfig

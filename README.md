@@ -1,58 +1,55 @@
-# Provenance-aware attack-graph decisions
+# When Verification Helps
 
-[Public-evidence protocol v0.5](protocol/public-evidence-v0.5.md): contribution narrowed to failure boundaries and a bounded public-artifact audit. Fixed screening and probe gates specified; new collection has not started.
+**Failure Boundaries of Structural Remediation Decisions Under Imperfect Evidence**
 
-[Validation secondary analysis](analysis/validation-v0.4-secondary/Results.md): all ten policies compared; gains largely reflect verification rather than lineage correction, two dependence-approximation harms identified, and numerical query ties disclosed. Reproduce with `python -B src/analyze_validation.py`.
+Ezekiel Ologunde, Independent Researcher. Author email: ologunde@bu.edu. No corresponding-author designation.
 
-[Portfolio roadmap and current-project completion checklist](protocol/portfolio-roadmap-2026-10-07.md): finish this attack-graph study before starting the next AI cybersecurity project.
+The scoped experiments and complete manuscript are available for author review. No journal submission, acceptance, operational superiority, or new VOI algorithm is claimed.
 
-[ASA-X CPU handoff](hpc/README.md): preflight confirmed express queue limits and system Python 3.9.21. CPU smoke job 97283 and frozen validation job 97288 completed on ASA-X. GPU execution remains unverified.
+## Paper and reproducibility
 
-[Actual scanner comparison](analysis/scanner-comparison-v0.1/Results.md): OSV-Scanner and Trivy agree on the focal CVE across two manifest versions and expose a shared GitHub advisory source. Raw output and offline comparison code are preserved; no accuracy or performance ranking is claimed.
+- [Complete manuscript and Overleaf package](paper/README.md)
+- [Reproducibility instructions](paper/REPRODUCIBILITY.md)
+- [Claim/evidence map](paper/CLAIM_EVIDENCE.md)
+- [Submission status](paper/SUBMISSION_CHECKLIST.md)
 
-[Offline behavior feasibility check](analysis/requests-behavior-v0.1/Results.md): 16 API-level cases distinguish Requests 2.30.0 and 2.31.0 header handling without sending requests. This is a narrow behavioral oracle, not an end-to-end exploit or scanner benchmark.
+## Main findings
 
-[Public-artifact feasibility audit](analysis/public-artifact-audit-v0.1/Results.md): one shared advisory lineage and two Requests wheel identities verified. Subsequent scanner and narrow offline behavior checks are linked above; broad independent affectedness labels and operational costs remain unmeasured.
+- Frozen synthetic validation: **96 cases, 960 policy evaluations**, zero execution failures, run on ASA-X.
+- Lineage/age verification versus immediate action: **27 lower-loss cases, 69 ties, zero higher-loss cases**.
+- Incremental mean-loss advantage over naive verification: **0.00025**. Most gains reflect ordinary verification, not demonstrated provenance-aware superiority.
+- Independence approximation harms two constructed cases: loss **2.60 to 2.78**.
+- Independent rational scoring checks all 960 saved decisions, with maximum floating-point discrepancy about **1.33e-15**.
+- Fixed public sample: **20 advisory/package pairs**, all with explicit GitHub source attribution. This is expected from GHSA selection, not independent corroboration.
+- First-six feasibility: **four confirmed narrow checks**, **one excluded case**, **one unsupported fixture**. All 24 failed probe-container runs remain in the record, as do separate preparation failures.
 
-[Alternative directions and selection, 7 October 2026](protocol/alternative-directions-2026-10-07.md): six candidate pivots compared. Preferred next step is a public-artifact feasibility audit of shared advisory provenance and decision-relevant verification; novelty remains provisional.
+[Synthetic analysis](analysis/validation-v0.4-secondary/Results.md) | [Final public results](analysis/public-evidence-final/Results.md) | [Literature positioning](protocol/manuscript-scope-and-literature-v1.md)
 
-**Latest:** [integrated evidence model v0.3](analysis/integrated-v0.3/Results.md) evaluates 144 designed cases; 26 tests pass. Run `python src/evidence_graph.py`. A [96-case prospective validation grid](protocol/validation-v0.4.json) completed on ASA-X: 96 cases and 960 policy rows, with no execution failures. See [validation results](analysis/validation-v0.4/Results.md). This finite model validation is not the main empirical study.
-
-**Status: exact synthetic feasibility pilot completed.** Three public NASim scenario fixtures are pinned with their license and hashes. Nine designed model cases have been evaluated by exact enumeration. No live experiments, validated novelty, production outcome dataset, or final paper are claimed.
-
-**Dependency extension v0.2:** 18 additional designed calculations cover three shared-path graphs, three joint state distributions and two verification costs. [Results and limitations](analysis/shared-paths-v0.2/Results.md). These are development cases, not held-out validation. All 18 unit tests pass. Run `python src/shared_paths.py` to regenerate the versioned results and hash manifest. The original nine-case pilot remains unchanged.
-
-- [Initial novelty audit](protocol/novelty-audit-2026-10-06.md)
-- [Closest-paper comparison and study gates](protocol/closest-paper-review-v0.2.md): broad novelty claims rejected; a narrower evidence-lineage benchmark remains provisional.
-- [Full-text supplement](protocol/full-text-comparison-v0.3.md): Nguyen and CAPG-v2 methods inspected; structural reachability and finite-horizon attacker loss require separate evaluation. Broader novelty clearance and CAPG evaluator access remain open.
-- [Pilot design v0.1](protocol/pilot-design-v0.1.md)
-- [Data provenance](data/README.md)
-
-[Research protocol and prior-art leads](protocol/research-plan.md). This plan comes from the October 4, 2026 independent research portfolio. Its literature assessment must be refreshed before implementation and submission.
-
-## Research identity and publication route
-
-[Public behavior checks v0.5](analysis/public-evidence-v0.5-behavior/Results.md): Scrapy redirect middleware and certifi trust-bundle checks match their predefined expectations in three repetitions. Twelve Scrapy setup failures are retained alongside corrected results. Three other selected packages remain environment-blocked; one case is excluded by protocol. These narrow checks do not establish operational remediation effectiveness. Verify saved evidence with `python src/verify_public_behavior.py`.
-
-Author: **Ezekiel Ologunde**. Affiliation: **Independent Researcher**, with no institutional affiliation. Corresponding email is pending confirmation. Intended route: a suitable ACM journal, selected after assessing the completed contribution. No journal has accepted this work and no publisher metadata or DOI is assigned.
-
-## Repository workflow
-
-Keep research questions and hypotheses in `protocol/`; put code in `src/`, tests in `tests/`, and analyses in `analysis/`. Store redistributable datasets with provenance in `data/`, including source URL, retrieval date, version, license, SHA-256, schema, and role in the study. For restricted or large data, publish an acquisition script and manifest instead of copying files. Never commit credentials, private participant records, or copyrighted downloaded papers.
-
-Freeze each experimental plan and code revision before collection. Retain failed and excluded runs with reasons. Publish analysis and result artifacts as work progresses. Keep manuscript drafts in `paper/`, clearly versioned; deposit the author-permitted final paper after journal-policy review. A planned experiment is not a result, and public code is not peer-reviewed acceptance.
-
-Original work is intentionally unlicensed pending an author decision. Preserve applicable third-party notices. No dataset or final paper is claimed to exist merely because its directory is present.
-
-## Synthetic pilot
-
-[Results](analysis/Results.md) | [Implementation and limitations](protocol/pilot-implementation-notes.md) | [Case definitions](data/pilot-cases.json)
-
-Run with Python 3.11 or newer, standard library only:
+Run saved-evidence verification with Python 3.11 or newer:
 
 ```sh
 python -m unittest discover -s tests
-python src/pilot.py
+python src/verify_public_behavior.py
+python src/verify_rational_results.py
+python src/analyze_public_final.py
+python src/verify_release.py
 ```
 
-The pilot uses a two-path synthetic graph, not the NASim fixtures. Standard VOI improves the constructed cheap-verification case from 4.0 to 2.5 expected modeled loss, but correctly skips verification when expensive. Source-label errors defeat the provenance correction. These are analytical model expectations, not empirical attack frequencies. Original work remains unlicensed.
+These commands do not execute affected packages or contact targets. Re-executing package probes needs Docker, exact external artifacts and a deliberately versioned runner configuration; see the reproducibility guide.
+
+## Protocol and historical development
+
+Earlier reports are chronological records. Their pending statuses are superseded by the final results above, not silently rewritten.
+
+- [Frozen validation](protocol/validation-v0.4.json) and [ASA-X results](analysis/validation-v0.4/Results.md)
+- [Public protocol](protocol/public-evidence-v0.5.md), [selection](analysis/public-evidence-v0.5-selection/Results.md), and [source audit](analysis/public-evidence-v0.5-provenance/Results.md)
+- [Initial pilot](analysis/Results.md), [shared-path extension](analysis/shared-paths-v0.2/Results.md), and [integrated development model](analysis/integrated-v0.3/Results.md)
+- [Requests development check](analysis/requests-behavior-v0.1/Results.md) and [scanner comparison](analysis/scanner-comparison-v0.1/Results.md)
+- [Closest-work review](protocol/closest-paper-review-v0.2.md) and [full-text comparison](protocol/full-text-comparison-v0.3.md)
+- [HPC handoff](hpc/README.md), [portfolio roadmap](protocol/portfolio-roadmap-2026-10-07.md), and [completion workflow](protocol/research-workflow.md)
+
+## Rights and evidence boundaries
+
+Original work is intentionally unlicensed pending an author decision. Third-party notices remain separate. Large raw archives, third-party wheels, tokenizer data and downloaded papers are retained outside Git; acquisition references and hashes document their identities. Public endpoints do not guarantee permanent artifact availability.
+
+Synthetic probabilities and costs were designed, not inferred from CVSS or advisory counts. The public package checks do not calibrate graph decisions. The research contains no private participant data or live external attack targets. GitHub deposit, author approval, journal submission and acceptance are distinct states.

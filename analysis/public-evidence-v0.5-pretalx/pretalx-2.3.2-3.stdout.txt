@@ -1,0 +1,9 @@
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ [1m┏━━━━━━━━━━┓  pretalx v2.3.2[0m                                            ┃
+┃ ┃  ┌─·──╮  ┃  Settings:                                                 ┃
+┃ ┃  │  O │  ┃  Database:  :memory: (sqlite3)                             ┃
+┃ ┃  │ ┌──╯  ┃  Logging:   /tmp/pretalx-app/data/logs                     ┃
+┃ ┃  └─┘     ┃  Root dir:  /tmp/env/lib/python3.9/site-packages/pretalx   ┃
+┃ ┗━━━┯━┯━━━━┛  Python:    /tmp/env/bin/python                            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+{"version": "2.3.2", "observations": [{"label": "benign", "error": null, "file_exists": true, "expected_content": true}, {"label": "traversal", "error": "Path traversal detected, aborting.", "file_exists": false, "expected_content": false}], "probe_seconds": 3.1941881849998026, "peak_process_rss_kib": 69352, "cpu_seconds": 3.6081960000000004}

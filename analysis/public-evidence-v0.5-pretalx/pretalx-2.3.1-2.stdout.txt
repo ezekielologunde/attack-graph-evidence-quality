@@ -1,0 +1,9 @@
+┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+┃ [1m┏━━━━━━━━━━┓  pretalx v2.3.1[0m                                            ┃
+┃ ┃  ┌─·──╮  ┃  Settings:                                                 ┃
+┃ ┃  │  O │  ┃  Database:  :memory: (sqlite3)                             ┃
+┃ ┃  │ ┌──╯  ┃  Logging:   /tmp/pretalx-app/data/logs                     ┃
+┃ ┃  └─┘     ┃  Root dir:  /tmp/env/lib/python3.9/site-packages/pretalx   ┃
+┃ ┗━━━┯━┯━━━━┛  Python:    /tmp/env/bin/python                            ┃
+┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+{"version": "2.3.1", "observations": [{"label": "benign", "error": null, "file_exists": true, "expected_content": true}, {"label": "traversal", "error": null, "file_exists": true, "expected_content": true}], "probe_seconds": 1.7591747760016005, "peak_process_rss_kib": 69360, "cpu_seconds": 2.256598}

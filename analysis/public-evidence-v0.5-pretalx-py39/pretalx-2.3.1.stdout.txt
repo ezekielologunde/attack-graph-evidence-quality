@@ -1,0 +1,225 @@
+Collecting pretalx==2.3.1
+  Downloading pretalx-2.3.1-py3-none-any.whl (5.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.3/5.3 MB 12.7 MB/s eta 0:00:00
+Collecting publicsuffixlist~=0.7.0
+  Downloading publicsuffixlist-0.7.14-py2.py3-none-any.whl (95 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 95.6/95.6 kB 31.8 MB/s eta 0:00:00
+Collecting rules~=3.1.0
+  Downloading rules-3.1-py2.py3-none-any.whl (25 kB)
+Collecting django-i18nfield~=1.9.0
+  Downloading django_i18nfield-1.9.5-py3-none-any.whl (14 kB)
+Collecting cssutils~=2.3.0
+  Downloading cssutils-2.3.1-py3-none-any.whl (404 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 405.0/405.0 kB 17.9 MB/s eta 0:00:00
+Collecting django-csp~=3.7.0
+  Downloading django_csp-3.7-py2.py3-none-any.whl (17 kB)
+Collecting django-formset-js-improved==0.5.0.2
+  Downloading django-formset-js-improved-0.5.0.2.tar.gz (13 kB)
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting libsass~=0.21.0
+  Downloading libsass-0.21.0-cp36-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.whl (9.4 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 9.4/9.4 MB 19.6 MB/s eta 0:00:00
+Collecting urlman~=2.0.1
+  Downloading urlman-2.0.3-py2.py3-none-any.whl (11 kB)
+Collecting whitenoise~=5.3.0
+  Downloading whitenoise-5.3.0-py2.py3-none-any.whl (19 kB)
+Collecting inlinestyler~=0.2.0
+  Downloading inlinestyler-0.2.5-py2.py3-none-any.whl (17 kB)
+Collecting djangorestframework~=3.13.0
+  Downloading djangorestframework-3.13.1-py3-none-any.whl (958 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 958.3/958.3 kB 17.2 MB/s eta 0:00:00
+Collecting bleach~=4.1.0
+  Downloading bleach-4.1.0-py2.py3-none-any.whl (157 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 157.9/157.9 kB 21.7 MB/s eta 0:00:00
+Collecting django-compressor~=3.1.0
+  Downloading django_compressor-3.1-py2.py3-none-any.whl (149 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 149.2/149.2 kB 42.0 MB/s eta 0:00:00
+Collecting django-countries~=7.0
+  Downloading django_countries-7.6.1-py3-none-any.whl (864 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 864.5/864.5 kB 17.8 MB/s eta 0:00:00
+Collecting pytz
+  Downloading pytz-2026.5-py2.py3-none-any.whl (506 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 506.3/506.3 kB 17.2 MB/s eta 0:00:00
+Collecting reportlab~=3.5.0
+  Downloading reportlab-3.5.68-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (2.6 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.6/2.6 MB 20.5 MB/s eta 0:00:00
+Collecting django-formtools~=2.3.0
+  Downloading django_formtools-2.3-py3-none-any.whl (148 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 148.9/148.9 kB 23.0 MB/s eta 0:00:00
+Collecting django-context-decorator
+  Downloading django_context_decorator-1.6.1-py3-none-any.whl (3.2 kB)
+Collecting Django~=3.2.0
+  Downloading Django-3.2.25-py3-none-any.whl (7.9 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 7.9/7.9 MB 16.0 MB/s eta 0:00:00
+Collecting django-filter==21.1
+  Downloading django_filter-21.1-py3-none-any.whl (81 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 81.4/81.4 kB 44.9 MB/s eta 0:00:00
+Collecting zxcvbn~=4.4.0
+  Downloading zxcvbn-4.4.27-py2.py3-none-any.whl (408 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 408.0/408.0 kB 13.4 MB/s eta 0:00:00
+Collecting beautifulsoup4~=4.10.0
+  Downloading beautifulsoup4-4.10.0-py3-none-any.whl (97 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.4/97.4 kB 49.4 MB/s eta 0:00:00
+Collecting django-libsass~=0.8
+  Downloading django_libsass-0.9-py3-none-any.whl (6.6 kB)
+Collecting requests~=2.26.0
+  Downloading requests-2.26.0-py2.py3-none-any.whl (62 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 62.3/62.3 kB 223.2 MB/s eta 0:00:00
+Collecting Pillow~=8.4.0
+  Downloading Pillow-8.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 18.0 MB/s eta 0:00:00
+Collecting django-scopes~=1.2.0
+  Downloading django_scopes-1.2.0.post1-py3-none-any.whl (16 kB)
+Collecting qrcode~=7.0
+  Downloading qrcode-7.4.2-py3-none-any.whl (46 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.2/46.2 kB 104.1 MB/s eta 0:00:00
+Collecting vobject~=0.9.0
+  Downloading vobject-0.9.9-py2.py3-none-any.whl (47 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.5/47.5 kB 47.3 MB/s eta 0:00:00
+Collecting Markdown==3.3.4
+  Downloading Markdown-3.3.4-py3-none-any.whl (97 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 97.6/97.6 kB 20.8 MB/s eta 0:00:00
+Collecting defusedcsv~=1.1.0
+  Downloading defusedcsv-1.1.0-py3-none-any.whl (7.5 kB)
+Collecting celery~=4.4.0
+  Downloading celery-4.4.7-py2.py3-none-any.whl (427 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 427.6/427.6 kB 11.8 MB/s eta 0:00:00
+Collecting python-dateutil~=2.8.0
+  Downloading python_dateutil-2.8.2-py2.py3-none-any.whl (247 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 247.7/247.7 kB 19.8 MB/s eta 0:00:00
+Collecting django-hierarkey~=1.0.0
+  Downloading django_hierarkey-1.0.4-py3-none-any.whl (12 kB)
+Collecting csscompressor~=0.9.0
+  Downloading csscompressor-0.9.5.tar.gz (237 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 237.8/237.8 kB 23.7 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting django-bootstrap4~=3.0.0
+  Downloading django_bootstrap4-3.0.1-py3-none-any.whl (24 kB)
+Collecting django-jquery-js
+  Downloading django-jquery-js-3.1.1.tar.gz (111 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 111.9/111.9 kB 42.4 MB/s eta 0:00:00
+  Preparing metadata (setup.py): started
+  Preparing metadata (setup.py): finished with status 'done'
+Collecting soupsieve>1.2
+  Downloading soupsieve-2.8.4-py3-none-any.whl (37 kB)
+Collecting six>=1.9.0
+  Downloading six-1.17.0-py2.py3-none-any.whl (11 kB)
+Collecting packaging
+  Downloading packaging-26.3-py3-none-any.whl (129 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 130.0/130.0 kB 47.5 MB/s eta 0:00:00
+Collecting webencodings
+  Downloading webencodings-0.5.1-py2.py3-none-any.whl (11 kB)
+Collecting kombu<4.7,>=4.6.10
+  Downloading kombu-4.6.11-py2.py3-none-any.whl (184 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 184.4/184.4 kB 23.5 MB/s eta 0:00:00
+Collecting vine==1.3.0
+  Downloading vine-1.3.0-py2.py3-none-any.whl (14 kB)
+Collecting billiard<4.0,>=3.6.3.0
+  Downloading billiard-3.6.4.0-py3-none-any.whl (89 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 89.5/89.5 kB 45.4 MB/s eta 0:00:00
+Collecting sqlparse>=0.2.2
+  Downloading sqlparse-0.5.5-py3-none-any.whl (46 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.1/46.1 kB 233.4 MB/s eta 0:00:00
+Collecting asgiref<4,>=3.3.2
+  Downloading asgiref-3.11.1-py3-none-any.whl (24 kB)
+Collecting rjsmin==1.2.0
+  Downloading rjsmin-1.2.0-cp39-cp39-manylinux2014_x86_64.whl (47 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 47.5/47.5 kB 49.4 MB/s eta 0:00:00
+Collecting django-appconf>=1.0.3
+  Downloading django_appconf-1.2.0-py3-none-any.whl (6.5 kB)
+Collecting rcssmin==1.1.0
+  Downloading rcssmin-1.1.0-cp39-cp39-manylinux1_x86_64.whl (43 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 43.4/43.4 kB 275.7 MB/s eta 0:00:00
+Collecting typing-extensions
+  Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 45.6/45.6 kB 63.3 MB/s eta 0:00:00
+Collecting lxml
+  Downloading lxml-6.1.3-cp39-cp39-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl (5.3 MB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 5.3/5.3 MB 20.6 MB/s eta 0:00:00
+Collecting pypng
+  Downloading pypng-0.20220715.0-py3-none-any.whl (58 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 58.1/58.1 kB 26.3 MB/s eta 0:00:00
+Collecting charset-normalizer~=2.0.0
+  Downloading charset_normalizer-2.0.12-py3-none-any.whl (39 kB)
+Collecting certifi>=2017.4.17
+  Downloading certifi-2026.7.22-py3-none-any.whl (136 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 137.0/137.0 kB 48.5 MB/s eta 0:00:00
+Collecting idna<4,>=2.5
+  Downloading idna-3.20-py3-none-any.whl (69 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 69.6/69.6 kB 51.8 MB/s eta 0:00:00
+Collecting urllib3<1.27,>=1.21.1
+  Downloading urllib3-1.26.20-py2.py3-none-any.whl (144 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 144.2/144.2 kB 35.8 MB/s eta 0:00:00
+Collecting amqp<2.7,>=2.6.0
+  Downloading amqp-2.6.1-py2.py3-none-any.whl (48 kB)
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 48.0/48.0 kB 45.0 MB/s eta 0:00:00
+Saved /wheels/pretalx-2.3.1-py3-none-any.whl
+Saved /wheels/django_filter-21.1-py3-none-any.whl
+Saved /wheels/Markdown-3.3.4-py3-none-any.whl
+Saved /wheels/beautifulsoup4-4.10.0-py3-none-any.whl
+Saved /wheels/bleach-4.1.0-py2.py3-none-any.whl
+Saved /wheels/celery-4.4.7-py2.py3-none-any.whl
+Saved /wheels/vine-1.3.0-py2.py3-none-any.whl
+Saved /wheels/cssutils-2.3.1-py3-none-any.whl
+Saved /wheels/defusedcsv-1.1.0-py3-none-any.whl
+Saved /wheels/Django-3.2.25-py3-none-any.whl
+Saved /wheels/django_bootstrap4-3.0.1-py3-none-any.whl
+Saved /wheels/django_compressor-3.1-py2.py3-none-any.whl
+Saved /wheels/rcssmin-1.1.0-cp39-cp39-manylinux1_x86_64.whl
+Saved /wheels/rjsmin-1.2.0-cp39-cp39-manylinux2014_x86_64.whl
+Saved /wheels/django_countries-7.6.1-py3-none-any.whl
+Saved /wheels/django_csp-3.7-py2.py3-none-any.whl
+Saved /wheels/django_formtools-2.3-py3-none-any.whl
+Saved /wheels/django_hierarkey-1.0.4-py3-none-any.whl
+Saved /wheels/django_i18nfield-1.9.5-py3-none-any.whl
+Saved /wheels/django_libsass-0.9-py3-none-any.whl
+Saved /wheels/django_scopes-1.2.0.post1-py3-none-any.whl
+Saved /wheels/djangorestframework-3.13.1-py3-none-any.whl
+Saved /wheels/inlinestyler-0.2.5-py2.py3-none-any.whl
+Saved /wheels/libsass-0.21.0-cp36-abi3-manylinux_2_5_x86_64.manylinux1_x86_64.whl
+Saved /wheels/Pillow-8.4.0-cp39-cp39-manylinux_2_17_x86_64.manylinux2014_x86_64.whl
+Saved /wheels/publicsuffixlist-0.7.14-py2.py3-none-any.whl
+Saved /wheels/python_dateutil-2.8.2-py2.py3-none-any.whl
+Saved /wheels/pytz-2026.5-py2.py3-none-any.whl
+Saved /wheels/qrcode-7.4.2-py3-none-any.whl
+Saved /wheels/reportlab-3.5.68-cp39-cp39-manylinux_2_12_x86_64.manylinux2010_x86_64.whl
+Saved /wheels/requests-2.26.0-py2.py3-none-any.whl
+Saved /wheels/rules-3.1-py2.py3-none-any.whl
+Saved /wheels/urlman-2.0.3-py2.py3-none-any.whl
+Saved /wheels/vobject-0.9.9-py2.py3-none-any.whl
+Saved /wheels/whitenoise-5.3.0-py2.py3-none-any.whl
+Saved /wheels/zxcvbn-4.4.27-py2.py3-none-any.whl
+Saved /wheels/django_context_decorator-1.6.1-py3-none-any.whl
+Saved /wheels/asgiref-3.11.1-py3-none-any.whl
+Saved /wheels/billiard-3.6.4.0-py3-none-any.whl
+Saved /wheels/certifi-2026.7.22-py3-none-any.whl
+Saved /wheels/charset_normalizer-2.0.12-py3-none-any.whl
+Saved /wheels/django_appconf-1.2.0-py3-none-any.whl
+Saved /wheels/idna-3.20-py3-none-any.whl
+Saved /wheels/kombu-4.6.11-py2.py3-none-any.whl
+Saved /wheels/six-1.17.0-py2.py3-none-any.whl
+Saved /wheels/soupsieve-2.8.4-py3-none-any.whl
+Saved /wheels/sqlparse-0.5.5-py3-none-any.whl
+Saved /wheels/typing_extensions-4.16.0-py3-none-any.whl
+Saved /wheels/urllib3-1.26.20-py2.py3-none-any.whl
+Saved /wheels/lxml-6.1.3-cp39-cp39-manylinux_2_26_x86_64.manylinux_2_28_x86_64.whl
+Saved /wheels/packaging-26.3-py3-none-any.whl
+Saved /wheels/pypng-0.20220715.0-py3-none-any.whl
+Saved /wheels/webencodings-0.5.1-py2.py3-none-any.whl
+Saved /wheels/amqp-2.6.1-py2.py3-none-any.whl
+Building wheels for collected packages: django-formset-js-improved, csscompressor, django-jquery-js
+  Building wheel for django-formset-js-improved (setup.py): started
+  Building wheel for django-formset-js-improved (setup.py): finished with status 'done'
+  Created wheel for django-formset-js-improved: filename=django_formset_js_improved-0.5.0.2-py3-none-any.whl size=13962 sha256=f1e64ff03c8d8af56611048365404776e393cd1c11a14b10ad450548205b1479
+  Stored in directory: /tmp/pip-ephem-wheel-cache-u16xrs2i/wheels/67/88/7c/e10ce52233d9a978b33d274f59b8cc3a1901b2e3519838c200
+  Building wheel for csscompressor (setup.py): started
+  Building wheel for csscompressor (setup.py): finished with status 'done'
+  Created wheel for csscompressor: filename=csscompressor-0.9.5-py3-none-any.whl size=240408 sha256=a2559ecb03939935a46168d00d95914cd0650221dde7d35cab382104870d70f5
+  Stored in directory: /tmp/pip-ephem-wheel-cache-u16xrs2i/wheels/47/c0/f0/85803447e6f2a5840141b4dd5149b8399cc68d6c6a1668c20f
+  Building wheel for django-jquery-js (setup.py): started
+  Building wheel for django-jquery-js (setup.py): finished with status 'done'
+  Created wheel for django-jquery-js: filename=django_jquery_js-3.1.1-py3-none-any.whl size=113202 sha256=64f6d13fca8a7521e3d0bde60904277f38d39dfd5a12570675cc90e16e0a28c5
+  Stored in directory: /tmp/pip-ephem-wheel-cache-u16xrs2i/wheels/e8/1b/e8/bcc860181cc525f9970d65162de241be48691e25276083c4ac
+Successfully built django-formset-js-improved csscompressor django-jquery-js
