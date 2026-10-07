@@ -1,16 +1,18 @@
 # Provenance-aware attack-graph decisions
 
-[ASA-X CPU handoff](hpc/README.md): preflight confirmed express queue limits and system Python 3.9.21. A one-CPU smoke job is prepared; no cluster job has been submitted by this chat.
+[Portfolio roadmap and current-project completion checklist](protocol/portfolio-roadmap-2026-10-07.md): finish this attack-graph study before starting the next AI cybersecurity project.
+
+[ASA-X CPU handoff](hpc/README.md): preflight confirmed express queue limits and system Python 3.9.21. CPU smoke job 97283 and frozen validation job 97288 completed on ASA-X. GPU execution remains unverified.
 
 [Actual scanner comparison](analysis/scanner-comparison-v0.1/Results.md): OSV-Scanner and Trivy agree on the focal CVE across two manifest versions and expose a shared GitHub advisory source. Raw output and offline comparison code are preserved; no accuracy or performance ranking is claimed.
 
 [Offline behavior feasibility check](analysis/requests-behavior-v0.1/Results.md): 16 API-level cases distinguish Requests 2.30.0 and 2.31.0 header handling without sending requests. This is a narrow behavioral oracle, not an end-to-end exploit or scanner benchmark.
 
-[Public-artifact feasibility audit](analysis/public-artifact-audit-v0.1/Results.md): one shared advisory lineage and two Requests wheel identities verified. Independent affectedness labels, scanner comparisons and operational costs remain unmeasured.
+[Public-artifact feasibility audit](analysis/public-artifact-audit-v0.1/Results.md): one shared advisory lineage and two Requests wheel identities verified. Subsequent scanner and narrow offline behavior checks are linked above; broad independent affectedness labels and operational costs remain unmeasured.
 
 [Alternative directions and selection, 7 October 2026](protocol/alternative-directions-2026-10-07.md): six candidate pivots compared. Preferred next step is a public-artifact feasibility audit of shared advisory provenance and decision-relevant verification; novelty remains provisional.
 
-**Latest:** [integrated evidence model v0.3](analysis/integrated-v0.3/Results.md) evaluates 144 designed cases; 26 tests pass. Run `python src/evidence_graph.py`. A [96-case prospective validation grid](protocol/validation-v0.4.json) is specified and sealed but has not been executed. This finite model validation is not the main empirical study.
+**Latest:** [integrated evidence model v0.3](analysis/integrated-v0.3/Results.md) evaluates 144 designed cases; 26 tests pass. Run `python src/evidence_graph.py`. A [96-case prospective validation grid](protocol/validation-v0.4.json) completed on ASA-X: 96 cases and 960 policy rows, with no execution failures. See [validation results](analysis/validation-v0.4/Results.md). This finite model validation is not the main empirical study.
 
 **Status: exact synthetic feasibility pilot completed.** Three public NASim scenario fixtures are pinned with their license and hashes. Nine designed model cases have been evaluated by exact enumeration. No live experiments, validated novelty, production outcome dataset, or final paper are claimed.
 
