@@ -23,3 +23,6 @@ analysis/scanner-comparison-v0.1/** -text
 data/scanner-inputs-v0.1/** -text
 src/run_scanner_comparison.py -text
 src/analyze_scanner_comparison.py -text
+hpc/*.sh text eol=lf
+hpc/*.pbs text eol=lf
+hpc/*.py text eol=lf

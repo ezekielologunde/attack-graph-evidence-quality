@@ -1,5 +1,7 @@
 # Provenance-aware attack-graph decisions
 
+[ASA-X CPU handoff](hpc/README.md): portable smoke-test runner and PBS body prepared. Queue resources and Python module require site confirmation; no cluster job has been submitted.
+
 [Actual scanner comparison](analysis/scanner-comparison-v0.1/Results.md): OSV-Scanner and Trivy agree on the focal CVE across two manifest versions and expose a shared GitHub advisory source. Raw output and offline comparison code are preserved; no accuracy or performance ranking is claimed.
 
 [Offline behavior feasibility check](analysis/requests-behavior-v0.1/Results.md): 16 API-level cases distinguish Requests 2.30.0 and 2.31.0 header handling without sending requests. This is a narrow behavioral oracle, not an end-to-end exploit or scanner benchmark.
